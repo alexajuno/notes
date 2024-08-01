@@ -187,3 +187,5 @@
 ### Sống như khiêu vũ
 
 ### Lời nói dối cuộc đời lớn nhất
+
+Thực sự đọc chương cuối vẫn còn nhiều điều mình chưa hiểu và chưa ngấm được hết, mặc dù đó là cốt lõi giải thích cho mọi thứ. Vẫn còn cần đọc lại và nghiền ngẫm, cũng như thực hành rất lâu nữa
