@@ -9,7 +9,7 @@
 ### Creating new branch
 
 - git branch &lt;branch-name&gt;
-  
+
 ### Switch Branches
 
 - git checkout &lt;branch-name&gt;
@@ -19,7 +19,7 @@
 ### Branching
 
 - git checkout -b &lt;branch-name&gt;
-- git merge after switching to the branch you want to merge 
+- git merge after switching to the branch you want to merge
 
 ### Basic merging
 
@@ -32,10 +32,14 @@
 ## 3.3 Branch Management
 
 - git branch [-v]
-- git branch --move git branch --move bad-branch-name corrected-branch-name
+- git branch --move bad-branch-name corrected-branch-name
 - git push --set-upstream origin corrected-branch-name
 - git push origin --delete bad-branch-name
 
 ## 3.4 Branching workflow
 
-- 
+## 3.5 Remote Branches
+
+
+
+
