@@ -45,3 +45,24 @@
 - The hidden return is becoming more important
     - How do I stand out from my competitors? Not intelligence. It's communication, empathy, and the most important one, flexibility
     
+## 11. Reasonable > Rational
+
+## 12. Surprise!
+
+- Don't rely on the history too much
+- Failure of imagination
+- The future might not be anything we have ever known
+
+## 13. Room for Errors
+
+- It's like the story of casinos
+
+## 14. You'll change
+
+## 15. Nothing's free
+
+## 16. You and me
+
+## 17. The Seduction of Pessimism
+
+## 18. When you'll believe anything
