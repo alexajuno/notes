@@ -4,53 +4,32 @@
 
 ### Introduction
 
-#### What is Prisma ORM?
+### What is Prisma ORM?
 
-- Consisting of: Client, Migrate, Studio
-- Client can be used in any Node.js and TypeScript backend
+- Introspecting a database
+- Relation in the Prisma Client
 
-##### How does Prisma ORM work?
+### Why Prisma ORM?
 
-- Prisma schema
-  - Data defined on Prisma-level
-- Scheme data model
-  - functions: represent a table or a collection (in MongoDB) and provide foundation for data queries
-  - getting a data model: 
-    - introspecting???
-    - After defining, you can generate Prisma Client
-- Prisma Client quick guide
+- Skipped, read later on
 
-##### Typical Prisma ORM workflows
+### Should you use Prisma ORM? 
 
-- Prisma Migrate
-- SQL migrations and introspection (skip)
+- Discuss pros and cons
+- TLDR, Prisma provide higher level programming and abstraction
 
-#### Why Prisma ORM?
+### Data Modeling
 
-##### TLDR
+## Prisma Schema
 
-- Thinking in objects
-- And so many more that I didn't read =)
+### Overview
 
-#### Should you use Prisma ORM?
+- Prisma Schema Language
 
-#### Data Modeling
+## Prisma Client
 
-##### What is data modeling?
 
-##### Data modeling without Prisma
 
-- On database level
-- On Application level
-- ORMs
 
-##### With Prisma
 
-### Prisma ORM in your stack
-
-#### REST
-
-#### *GraphQL
-
-#### Fullstack
 
