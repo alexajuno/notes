@@ -1,4 +1,0 @@
-# Streaming
-
-## What is streaming?
-
