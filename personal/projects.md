@@ -1,12 +1,18 @@
 # Projects
 
-## Planning (1) 
+## Planning (1)
 
-## Work Projects (4)
+## Work Projects (8)
 
-### Home of Pianists (4)
+### Home of Pianists (1)
 
-## Web development knowledge (4)
+### Software Engineering (2)
+
+### Google Project Management Course (1)
+
+### Google Cyber Security Course (1)
+
+### React (3)
 
 ## Books (2)
 

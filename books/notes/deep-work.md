@@ -40,6 +40,47 @@ grim
     - Reason 1: Downtime aids insights
     - Reason 2: Downtime helps recharging
     - Reason 3: 
+- Execute deep work
+    - Discipline 1: Focus on Wildly Important
+    - Discipline 2: Act on the Lead measures
+    - Discipline 3: Keep a Compelling Scoreboard
+    - Discipline 4: Create a Cadence of Accountability
+        He mean weekly review
+
+### Rule 2: Embrace Boredom
+
+- Constantly switching between deep work and high stimuli things is not good.
+- Set certain time blocks for Internet use. 
+    - Point 1: This work even if you use a lot of Internet for work
+    - Point 2: Other than specified blocks for Internet, don't use it
+    - Point 3: Scheduling your internet use both at home and office
+- Some techniques
+    - Work like Teddy Roosevelt
+    - Productive meditation
+    - Memorizing techniques
+
+### Rule 3: Quit Social Media
+
+- Social media benefits are random and come with serious negativity
+- Identify the core factors that determine success and happiness in your life. Adopt a tool if its positive impacts outweight the negativity
+- The Craftsman Approach to Tool Selection
+- The law of vital few
+- Quit social media
+- Don't use Internet for entertainment
+
+### Rule 4: Drain the Shallows
+
+- Shallows are unavoidable but try to confine it 
+- Schedule every minute of your day
+- Quantify the depth of every activity
+- Ask your boss for a shallow work budget
+- Finish your work by five thirty
+- Become hard to reach
+
+### Conclusion
+
+
+
 
 
 
