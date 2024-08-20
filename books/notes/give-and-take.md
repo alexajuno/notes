@@ -21,9 +21,24 @@
 
 ## 3 The Ripple Effect
 
+- Geogre Meyer was weird, poor but later succeeded
+- Using intelligence to amplify other capabilities
+- Research on creativity, and concluded that the more creative an individual, the more self-centric they are
+- On the example of Meyer, the author concluded that givers can be as creative as takers
+- Story of Frank Lloyd Wright and surgeons study, then concluded that we need others for creativity and productivity
+- Putting the group's goals and missions first, rather than self-interest
+- Givers having high credit for what they've done
+- The responsibility bias in relationships. People oftens give themselves higher credit than other and the story of Jonas Salk
+- Perspective gap: people often underestimate others' feelings
+
 - Even with the most talented minds, they have to collaborate to yield the best result
 - responsibility bias
     - paying more attention at others contribution
+
+## 4 Finding the Diamond in the Rough
+
+- I think this chapter is about putting believe in people will make them better.
+- 
 
 
 
