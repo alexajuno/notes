@@ -38,7 +38,15 @@
 ## 4 Finding the Diamond in the Rough
 
 - I think this chapter is about putting believe in people will make them better.
-- 
+- Some stories about givers seeing through others' potential
+- A research about bloomers not having higher IQ than others
+- I'm sorry, I'm getting bored of this chapter
+
+## 5 The Power of Powerless Communication
+
+I don't know, I'm getting bored of this book
+Sorry, I don't buy in the book, skipped the rest
+In the end, it's better to give more, that's all
 
 
 

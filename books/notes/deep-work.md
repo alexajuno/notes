@@ -21,6 +21,16 @@ grim
 ### Chapter 1: Deep work is valuable
 
 - I'm so sleepy at the moment, even though I slept quite well last night, so I can't absorb this part since it's a bit bore to me so yeah.
+- Machines automate tasks, so highly-skilled workers become more valuable
+- The superstar effect = winner takes all
+- It's important in modern world that we can master hard things quickly and produce concrete values to the world
+- There are jobs that doesn't require deep work. There are people who doesn't need deep work to make it to success
+
+### Chapter 2: Deep work is Rare
+
+- In a world of distractions with shallow busyness, it's hard to get deep work
+
+### Chapter 3: Deep Work is Meaningful
 
 ## Part 2: The Rules
 
