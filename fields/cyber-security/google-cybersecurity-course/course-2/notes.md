@@ -57,6 +57,14 @@
     - Firewall
     - Network
 - SIEM dashboards
+    - What is a dashboard
+- The future of SIEM tools
+    - Cloud-hosted vs cloud-native?
+- Leading SIEM tools
+    - Types: self-hosted, cloud-hosted, hybrid
+    - Splunk Enterprise/Cloud
+    - Chronicle
 
+## Module 4: Playbooks
 
         
