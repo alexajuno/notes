@@ -11,11 +11,14 @@
 - [] Terms of Service, Privacy Policy, Cookies Policy
 - [] React Native
 - [] Vim's marks
+- [] Windows VPN
+- [] Todoist
 - [x] [OCD](https://www.msdmanuals.com/home/mental-health-disorders/obsessive-compulsive-and-related-disorders/obsessive-compulsive-disorder-ocd?query=obsessive-compulsive%20disorder%20(ocd)#Symptoms_v11723132)
 
 ## Questions
 
 - [] How can I create a personalized LLMs
+- [] How to make money as a software engineer
 
 ## Todos
 

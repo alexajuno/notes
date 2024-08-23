@@ -4,18 +4,12 @@
 
 ## Work Projects (8)
 
-### Home of Pianists (1)
+### Home of Pianists (5)
 
-### Software Engineering (2)
-
-### Google Project Management Course (1)
-
-### Google Cyber Security Course (1)
-
-### React (3)
+### Google Cyber Security Course (3)
 
 ## Books (2)
 
-## Random knowledge domains (1)
+## Random knowledge domains (2)
 
-## Daily questions (1)
+## Daily questions (2)

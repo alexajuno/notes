@@ -56,6 +56,7 @@
 - Types of logs
     - Firewall
     - Network
+    - Server
 - SIEM dashboards
     - What is a dashboard
 - The future of SIEM tools
@@ -66,5 +67,26 @@
     - Chronicle
 
 ## Module 4: Playbooks
+
+### Phases of an incident response
+
+- What is a playbook?
+- Types playbook
+    - Incident response
+- Six phases
+    - Preparation
+    - Detection and analysis
+    - Containment
+    - Eradication and recovery
+    - Post incident activity
+    - Coordination
+- Updates on playbooks
+    - Regularly
+- Incident and vulnerability response playbooks
+
+### Incident Response
+
+- SIEM tools display an alert -> playbook: assess -> contain -> resolve -> post-incident (coordinate)
+- How SIEM tools related to playbooks?
 
         
