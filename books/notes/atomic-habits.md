@@ -193,7 +193,7 @@
 #### How to reprogram your brain to enjoy hard habits
 
 - Have to -> get to
-- Change your perception and wire the hard habits with enjoyment 
+- Change your perception and wire the hard habits with enjoyment
 - Using motivation ritual can help you get into "focus mode"
 
 ## The Third Law: Make it Easy
@@ -205,31 +205,60 @@
 
 #### How long does it take to form a new habit?
 
-- 
+- Habits create physical changes in our brain
 
-#### The Habit Line?
+#### The Habit Line
+
+- It's a curve that indicates how repetition over time can increase automaticity and up to a point called "habit line", it becomes a habit
 
 #### Walking 10 minutes per day
 
-- Something about frequency create habit, not the amount of time
+- Frequency matters more than time
 
 ### 12. The Law of Least Effort
 
-#### The shape of human behavior?
+#### The shape of human behavior
 
 - Probably mean that people lean to easy action
+- Our real motivation is being lazy and to do what is convenient
+- We are capable of doing hard things, but there are good and bad days. And the idea is to prepare for bad days when we don't have the amount of will energy to overcome the hardship.
 
 #### How to achieve more with less effort
 
-- Probably about
+- Practice env design
+  - Make the action to form the habit you want as easy as possible
 
 #### Prime the environment for future use
 
-### 13. How to stop procrastinating
+- Increase or decrease the friction for actions
+
+### 13. How to stop procrastinating by using the two-minutes rules
+
+- Every day, the are handful of moments that deliver an outsized impact
 
 #### Decisive moment
 
+- Haha. The best time stop is when you are going good (on an action)
+- Just start at a really small point (two-minute rule)
+
 ### 14. How to make good habits inevitable and bad habits impossible
+
+- Some stories about automating an action
+
+## The 4th law: Make it Satisfying
+
+### 15. The Cardinal Rule of Behavior Change
+
+- Satisfaction affect the rate of repeating an action
+
+#### The mismatch between immediate and delayed rewards
+
+- We are living in a delayed-return env
+- But we enjoy instant gratification
+
+#### How to turn instant gratification to your advantage
+
+- I've skimmed through and haven't put much attention this part but something was about putting the result more obviously.
 
 ### 16. How to Stick with Good Habits every day
 

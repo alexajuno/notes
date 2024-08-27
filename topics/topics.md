@@ -1,13 +1,17 @@
-## Topics
+# Topic
 
+## Topics
+- [] About Coffee
 - [] NextJS Testing
-    - [] Unit Testing
-        - [] Testing Library
-            - [] Getting Started
-            - [] React Testing Library
-        - [] Vitest
+  - [] Unit Testing
+    - [] Testing Library
+      - [] Getting Started
+      - [] React Testing Library
+    - [] Vitest
 - [] System Design
 - [] Organization Management
+  - [] Project Management
+    - [] Google Project Management Course
 - [] Software Engineering
 - [] Open-source projects
 - [] Software development ethics
@@ -15,12 +19,17 @@
 - [] Pair Programming
 - [] Terms of Service, Privacy Policy, Cookies Policy
 - [] React Native
+- [] 7 Habits of Highly Effective People
+  - [] Reinforce my identity, my core values
+- [] PHP
+  - [] PHP role in web development and looking at basic PHP structure
+- [] Operating Systems
 - [x] Vim's marks
 - [x] Todoist
 - [x] About Google Fiber
 - [x] Windows VPN
 - [x] Software licenses
-- [x] [OCD](https://www.msdmanuals.com/home/mental-health-disorders/obsessive-compulsive-and-related-disorders/obsessive-compulsive-disorder-ocd?query=obsessive-compulsive%20disorder%20(ocd)#Symptoms_v11723132)
+- [x] [OCD](<https://www.msdmanuals.com/home/mental-health-disorders/obsessive-compulsive-and-related-disorders/obsessive-compulsive-disorder-ocd?query=obsessive-compulsive%20disorder%20(ocd)#Symptoms_v11723132>)
 
 ## Questions
 

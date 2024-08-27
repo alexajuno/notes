@@ -82,4 +82,69 @@
   - Forward proxy server
   - Reverse proxy server
 - Virtual networks and privacy
-  -
+
+## Module 3: Secure against network intrusion
+
+### Intrusions
+
+- Network interception attacks
+  - Packet sniffing
+- Backdoor attack
+  - DoS attack
+- Possible impacts
+
+### Denial of Service
+
+- Flood network server with traffic
+- DDoS
+- SYN flood attack
+- ICMP flood attack
+- Ping of death
+- Network protocol analyzers
+  - tcpdump
+- Real life DDoS attack
+
+### Network attack tactics and defense
+
+- Packet and packet sniffing
+- Passive and active packet sniffing
+- How to defense
+  - SSL/TLS
+  - VPNs
+
+#### IP Spoofing
+
+- On-path attack
+- Replay attack
+- Smurf attack
+- How to defense
+
+## Module 4: Security Hardening
+
+### Intro
+
+- What is security hardening, attack surface, pen test?
+
+### OS hardening
+
+- What is an OS?
+- Why insecure OS can lead to the whole network being compromised?
+- Regular and once-time tasks
+
+  - Patch updates
+  - Baseline configuration/image
+  - Hardware and software disposal
+  - Strong password policy
+  - MFA
+
+- Brute-force attack
+  - Simple bf
+  - Dictionary attack
+- Assessing vulnerabilities
+  - Virtual Machines
+  - Sandbox env
+- Preventing measures
+    - Salting and hashing
+    - MFA and 2FA
+    - CAPTCHA and reCAPTCHA
+    - Password policies
