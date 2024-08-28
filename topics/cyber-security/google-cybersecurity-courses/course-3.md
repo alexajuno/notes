@@ -15,7 +15,7 @@
 
 - Packet
   - Header (ip/mac/protocol number?)
-- Bandwith
+- Bandwidth
 - Packet sniffing
 - TCP/IP
   - TCP?
@@ -148,3 +148,52 @@
     - MFA and 2FA
     - CAPTCHA and reCAPTCHA
     - Password policies
+
+### Network hardening
+
+#### Practices
+
+- Regular tasks
+    - Firewall rules maintenance
+    - Network log analysis with SIEM tools
+    - Patch updates
+    - Server backups
+- One-time tasks
+    - Port filtering
+    - Subnetting
+    - Communication Encryption
+
+#### Network security applications
+
+- Firewall
+- Intrusion Detection System
+- Intrusion Prevention System
+- Full packet capture devices
+- Security Information and Event Management Tools
+
+### Cloud hardening
+
+- Security considerations
+    - Identity Access Management
+        - Loose user role configuration
+    - Configuration
+        - Configure each move and step on cloud carefully
+    - Attack surface
+        - CSPs often defer more secure network than the tranditional on-premises network
+    - Zero-day attacks
+    - Visibility and tracking
+    - Things change fast in cloud
+        - CSPs change fast with up-to-date technology advancements
+- Shared responsibility model
+
+#### Cryptography and cloud security
+
+- Cloud security hardening
+    - IAM
+    - Hypervisors????
+    - Baselining
+- Cryptography in the cloud
+- Cryptography erasure
+- Key Management
+    - TPM
+    - CloudHSM

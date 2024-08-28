@@ -1,7 +1,7 @@
 # Topic
 
 ## Topics
-- [] About Coffee
+- [x] About Coffee
 - [] NextJS Testing
   - [] Unit Testing
     - [] Testing Library
@@ -44,5 +44,7 @@
 
 - [] Plan for the upcoming year
 - [] Job searching
-- [] Habit Scorecard
-- [] Viết CV
+  - [] Jobs platform
+- [x] Habit Scorecard
+- [] Writing CV
+- [] Plan for the upcoming semester in college
