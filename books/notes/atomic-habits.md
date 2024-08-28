@@ -262,10 +262,78 @@
 
 ### 16. How to Stick with Good Habits every day
 
-#### Habits tracking
+#### How to keep your habits on track
 
-### 17. Accountability Partner
+- Why habit tracking?
+  - don't break the chain
+  - benefits
+    - obvious
+      - we think we act better than we do
+      - researches've shown that tracking habits help
+    - attractive
+      - we see the progresses
+    - satisfying
+      - the x-crossing is satisfying
+- After [current habit], I will [track the habit]
+
+#### How to recover quickly when your habits break down
+
+- Simple rule: never miss twice
+- The first rule of compounding: "never interrupt it unnecessarily"
+
+#### Knowing when (and when not) to track a habit
+
+- Choosing wrong measurement (esp. by numbers) can lead to wrong behaviors
+- Goodhart's Law: when a measure becomes a target, it ceases to be a good measure
+
+### 17. How an accountability partner can change everything
+
+- Increase punishment or unsatisfying feeling on bad behaviors
+
+#### The Habit Contract
+
+- An example of social contract: sit belts
+- Sign a contract with accountability with others
 
 ## Advanced Tactics
 
 ### 18. The Truth about Talents
+
+- The secret to increase your odds of success is to choose the right field of competition
+  - People are born with different abilities
+  - Genes can't easily be changed
+  - Genes don't determine your destiny. It determines your opportunity fields
+
+#### How your personality influences your habits
+
+- Your genes are behind every habits
+- Five spectrum of behaviors
+  - Openness to experience
+  - Conscientiousness
+  - Extroversion
+  - Agreebleness
+  - Neuroticism
+- Choose the habits that suit you and work for your personality
+- Habits need to be enjoyable if they are going to stick
+
+#### How to find a game where the odds are in your favor
+
+- Explore/exploit trade-off
+- Specialization: create your own game
+
+#### How to get the most out of your genes
+
+### 19. The Goldilocks Rule: How to stay motivated in Life and Work
+
+- Neither too hard or too easy. Just right.
+
+#### How to stay focused when you get bored working on your goals
+
+- variable rewards: we enjoy novelty, not boredom created by habits
+- You have to fall in love with boredom
+
+### 20. The downside of Creating Good Habits
+
+- You get into mindless autopilot and let feedbacks and mistakes slide
+- Research've shown that once you've reached a certain mastery, your performance can be declined over time. But minor dip doesn't affect that. Just good enough to go.
+- For elite level, you need: habits + deliberate practice = mastery
