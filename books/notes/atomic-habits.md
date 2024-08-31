@@ -337,3 +337,21 @@
 - You get into mindless autopilot and let feedbacks and mistakes slide
 - Research've shown that once you've reached a certain mastery, your performance can be declined over time. But minor dip doesn't affect that. Just good enough to go.
 - For elite level, you need: habits + deliberate practice = mastery
+
+#### How to review your habits and make adjustments
+
+- A basketball team with high expectations wasn't successful
+- The coach of this team created a program for player's performance tracking
+- Something about basketball that I don't understand but it's about many aspects of basketball, not only statistic measures like scores
+- the reflections were made weekly, yearly
+- So this part is about advanced tactics, so yeah, beside forming habits, you have to fine-tuning them
+
+- I haven't understood this part. I mean it's about reflection but I don't understand how it solves the problem stated above
+
+#### How to break the beliefs that hold you back
+
+- Don't let any single aspect of your identity overwhelm you, becauses it will make you having less adaptability to new challenges and improvements
+- At this point, I don't think it's about clinging to one aspect of identity but it's about choosing the core values and core identity that having high adaptability to life
+- Oh, continue reading and the author shared the same idea I mentioned above
+
+## Conclusion
