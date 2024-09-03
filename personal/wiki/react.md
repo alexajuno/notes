@@ -5,3 +5,4 @@
 - [x] Deeply nested state? 
 - [] useReducer
 - [] context
+- [] Component's Lifecycle

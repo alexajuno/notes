@@ -51,8 +51,25 @@
 ## The Seven Habits - An Overview
 
 - Quick introduction to habit
+
 ### Habits defined
-- 
+ 
+### The Maturity Continuum
+
+- from dependant to independant to interdependant
+
+### Effectiveness Defined
+
+- P/PC balance
+
+### Three Kinds of Assets
+
+- Physical, financial and human
+- Each one has an example with p/pc
+
+### Organizational PC
+
+- An example about an org
 
 ## Part I: Private Victory
 

@@ -2,6 +2,7 @@
 
 ## Topics
 
+- [] Oil (esp. for eating)
 - [] NextJS Testing
   - [] Unit Testing
     - [] Testing Library
@@ -24,6 +25,7 @@
 - [] PHP
   - [] PHP role in web development and looking at basic PHP structure
 - [] Operating Systems
+- [] End-to-end encryption
 - [x] About Coffee
 - [x] Vim's marks
 - [x] Todoist
@@ -37,10 +39,10 @@
 - [] How can I create a personalized LLMs?
 - [] How to make money as a software engineer?
 - [] How do phones connect with computers via USB ports?
-- [] React component lifecycle?
-- [] What are the best actions to do before bed? Does reading affect our sleeps?
+- [x] What are the best actions to do before bed? Does reading affect our sleeps?
 - [] People talking so much about being success, but what is it? Does success even matter?
-- [] Why Windows Explorer doesn't display a folder's size
+- [x] Why Windows Explorer doesn't display a folder's size
+  - I haven't known why but it's seem they won't do that. I'll use folder properties in details pane
 
 ## Todos
 
@@ -54,6 +56,7 @@
 - [] Plan for the upcoming year
 - [] Job searching
   - [] Jobs platform
+- [] Bank account: suitable bank, security, division
 
 ### Long-term
 
