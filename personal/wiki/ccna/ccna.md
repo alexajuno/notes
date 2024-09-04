@@ -119,3 +119,54 @@
   - show interface g0/0
   - show interface description
 
+## Switch Interfaces
+
+- Switches ain't applied `shutdown` command by default 
+- `show interface status`
+- interface range
+- LAN Hubs
+- half/full duplex
+- CSMA/CD
+- So many things that I hardly can remember
+  - speed/duplex autonegotiation
+  - interface errors
+    - runt
+    - giant
+    - CRC
+    - frame: incorrect format
+
+## IPv4 Header
+
+- Version: of IP (v4, v6): 4 bits
+- Internet Header Length: 4 bits. Measured in 4 bytes increment. 5 <= x <= 15
+- Differentiated Services Code Point: 6 bits
+  - used for Quality of Service
+  - Prioritize delay-sensitive data
+- Explicit Congestion Notification: 2 bits
+- Total Length: 16 bits
+  - total length: L3 Header + L4 Segment
+  - Measured in bytes
+- Identification field: 16 bits
+  - for fragments of packet
+  - packets are fragmented if larger than MTU (~1500 bytes)
+  - fragments are reassembled by the receiving host
+- Flags field: 3 bits: 0 &lt;Don't Fragment&gt; &lt;More Fragment&gt;
+- Fragment Offset: 13 bits
+- Time To Live: 8 bits
+  - Decrease by 1 each time the packet reach a router
+- Protocol: 8 bits
+  - TCP: 6
+  - UDP: 17
+  - ICMP: 1
+  - OSPF: 89
+- Header Checksum field: 16 bits
+- Source, Destination IP Address field
+- Options: 0-320 bits. Rarely used
+
+## Routing Fundamentals
+
+- What is routing?
+- Methods
+  - Dynamic Routing
+  - Static Routing
+  - 

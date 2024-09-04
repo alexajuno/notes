@@ -2,7 +2,7 @@
 
 ## Topics
 
-- [] Oil (esp. for eating)
+- [x] Oil (esp. for eating)
 - [] NextJS Testing
   - [] Unit Testing
     - [] Testing Library
@@ -26,6 +26,8 @@
   - [] PHP role in web development and looking at basic PHP structure
 - [] Operating Systems
 - [] End-to-end encryption
+- [] Session (in computing)?
+- [] Marriage and family rules?
 - [x] About Coffee
 - [x] Vim's marks
 - [x] Todoist
@@ -53,6 +55,7 @@
 
 ### Medium-term
 
+- [] Building personal brand
 - [] Plan for the upcoming year
 - [] Job searching
   - [] Jobs platform

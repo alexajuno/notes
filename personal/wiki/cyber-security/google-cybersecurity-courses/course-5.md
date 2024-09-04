@@ -21,19 +21,21 @@
 - Information and data, what are the differences?
 - States of data: in use, in transit, at rest
 - InfoSec
+
 #### The emergence of cloud security
-  - Cloud is developing fast
-  - Cloud-based services
-    - SaaS
-    - PaaS
-    - IaaS
-    - I haven't understood what the differences are
-  - Cloud security
-    - Challenges
-      - Misconfiguration
-      - Cloud-native breaches
-      - Access monitoring difficulties
-      - Meeting regulatory standards
+
+- Cloud is developing fast
+- Cloud-based services
+  - SaaS
+  - PaaS
+  - IaaS
+  - I haven't understood what the differences are
+- Cloud security
+  - Challenges
+    - Misconfiguration
+    - Cloud-native breaches
+    - Access monitoring difficulties
+    - Meeting regulatory standards
 
 ### Risk and asset security
 
@@ -77,8 +79,8 @@
 - Legally protected information
   - Types of information must be protect by default
     - Personal Identifiable Information: can be use to locate or contact someone
-    - Protected Health Information: 
-    - Sensitive PII  
+    - Protected Health Information:
+    - Sensitive PII
 
 #### Information Privacy: Regulations and Compliance
 
@@ -91,7 +93,7 @@
   - Payment Card Industry Data Security Standard
     - financial industry
   - Health Insurance Portability and Accountability Act
-    - About health 
+    - About health
 - Security Assessments and audits
 
 ### Encryption methods
@@ -144,4 +146,172 @@
   - Authentication: who are you?
     - Factors: knowledge, ownership, characteristic
     - Single Sign-On + MFA
-  - 
+
+#### SSO and MFA
+
+- SSO
+  - benefits: improves ux, lower costs, improve overall security
+  - password fatigue
+  - how it works
+    - uses third-party services to prove user to be
+    - protocols: LDAP, SAML
+  - limitations: all eggs in a singel basket
+- MFA
+
+#### Authorization mechanisms
+
+- two principles
+  - separation of duties
+  - principles of least privilege
+- HTTP basic auth and OAuth
+- API Token
+
+#### Audit
+
+- access log
+- session
+  - session cookies
+  - sessionID
+  - session hijackingo
+
+#### Identity and Access Management
+
+- user provision/deprovision
+- granting authorization
+  - Mandatory Access Control
+  - Discretionary Access Control
+  - Role-based Access Control
+- Access Control Technologies
+  - Security is more about combining a bunch of tools. It's important to configure them to provide a secure env
+
+## Module 3: Vulnerabilites in system
+
+### Flaws in a system
+
+#### Vulnerabilities
+
+- Vulnerability management: identify, consider potential exploits, prepare defenses, evaluate them
+- zero-day exploit
+
+#### Defense in-depth strategy
+
+- Five layers
+  - Perimeter
+  - Network
+  - End point
+  - Application
+  - Data
+
+#### Common vulnerabilites and exposures
+
+- CVE list
+  - criteria: independent of other issues, recognized as a potential risk, submitted with supporting evidence, only affect one codebase
+- CVE Numbering Authority
+- NIST National Vulnerabilities Database
+  - CVSS Score
+- The OWASP Top 10
+  - Common vulnerabilites
+    - Broken access control
+    - Cryptographic failures
+    - Injection
+
+#### Open Source Intelligence
+
+- OSINT
+- Information vs intelligence
+- Intelligence improve decision-making
+- Tools
+  - VirusTotal
+  - MITRE ATT&CK
+  - OSINT Framework
+  - Have I been pwned
+
+### Identify system vulnerabilities
+
+#### Vulnerabilities Assessment
+
+- steps: identification, analysis, risk assessment, remediation
+
+#### Approaches to vulnerability scanning
+
+- Vulnerability scanner
+  - scanning can cause issues even it meant to be non-intrusive
+- Performing scans
+  - External and internal scans: simulate attacks
+  - Authenticated vs non
+  - Limited vs comprehensive
+
+#### The Importance of updates
+
+- Patching gaps in security
+- Common update strategies: auto and manual
+- End-of-life software
+- patches vs updates vs upgrades
+
+#### Penetration testing
+
+- Learning from varied perspectives
+- Pen test strategies
+  - Open-box testing
+  - Closed-box testing
+  - Partial knowledge testing/gray-box testing
+- Become a pen tester
+
+### Cyberattackers mindset
+
+#### Protect all entry points
+
+- Analyze attack surface: both physical and digital
+- Security hardening
+
+#### Attacker mindset
+
+- Being prepared for everything
+- Simulating threats
+  - blue and red teams exercises
+- Scanning for trouble
+
+#### Types of threat actors
+
+- Threat actors
+  - categories: competitors, state actors, criminal syndicates, insider threats, shadow IT
+  - types of hackers: 
+- Advanced persistent threats
+- Access points
+- Capture the Flags (CTF)
+
+#### Pathway through defenses
+
+- Attack vectors
+- practicing attacker mindset
+  - identify a target
+  - determine how the target can be accessed
+  - evaluate attack vectors that can be exploit
+  - find the tools and methods
+  - note: step 2 to 4 kinda similar I would say
+- Defending
+  - Educating users
+  - Principles of least privilege
+  - security controls and tools
+  - building a diverse security team
+
+#### Fortify against brute force attacks
+
+- reverse brute-force attack
+- credential stuffing
+- Tools
+  - Aircrack-ng
+  - Hashcat
+  - John the ripper
+  - Ophcrack
+  - THC Hydra
+- Prevention measures
+  - hashing and salting
+  - MFA
+  - CAPTCHA
+  - Password policies
+
+- USB Baiting
+
+- Note: I haven't fully understood the 5 layers of defense in depth
+
