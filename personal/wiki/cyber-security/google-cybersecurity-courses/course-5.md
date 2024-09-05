@@ -315,3 +315,73 @@
 
 - Note: I haven't fully understood the 5 layers of defense in depth
 
+## Module 4: Threats to Assets Security
+
+### Social Engineering
+
+- Exploits human errors
+- Steps: Prepare(? isn't anything has to be prepared), Establish trust, persuasion tactics (? isn't this the same as the above step), disconnect
+- Defenses
+  - Implement managerial controls
+  - Stay informed of trends
+  - Sharing your knowledge
+- Signs
+  - Baiting
+  - Phising
+  - Quid pro quo
+  - Tailgating/piggybacking
+  - Watering hole
+- Encouraging caution
+  - Stay alert
+  - Be cautious
+  - Control curiosity
+
+#### Phising
+
+- Phishing kit
+  - Mallicious attachment
+  - Fake data-collection forms
+  - Fradulent web links
+  - Smishing
+  - Vishing
+
+### Malware
+
+- Types
+  - Virus: causes damage
+  - Worm: duplicate and spread
+  - Trojan horse: appears as legitimate software
+  - Ransomware
+  - Spyware: steal info
+  - Fileless
+  - Scareware
+  - Rootkits: dropper + loader
+  - Botnet
+- Cryptojacking
+
+### Web based exploits
+
+- Cross-site scripting
+  - Types
+    - Reflected XSS
+    - Stored XSS
+- Databases 
+  - SQL Injection
+    - Types
+      - In-band: most common, using the same communication channel
+      - out-of-band: very uncommon
+      - Inferential
+    - Prevention
+      - Prepared statement 
+      - Input sanitization
+      - Input validation
+
+### Threat Modeling
+
+- Usually performed by professionals
+- Steps: I don't bother to remember lol
+- PASTA
+  - Define the scope
+    - business and security objectives
+    - technical scope
+- and various frameworks

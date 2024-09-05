@@ -28,6 +28,8 @@
 - [] End-to-end encryption
 - [] Session (in computing)?
 - [] Marriage and family rules?
+- [] Documentation tools for software development
+- [x] Cursor AI
 - [x] About Coffee
 - [x] Vim's marks
 - [x] Todoist
@@ -52,6 +54,8 @@
 
 - [] Plan for the upcoming semester in college
 - [] Writing CV
+- [] Prepare to find mentors
+- [] AI Coding Assistant
 
 ### Medium-term
 
