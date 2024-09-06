@@ -2,7 +2,7 @@
 
 ## Geolocation
 
-- [] Leaflet
+- [x] Leaflet + React
 
 ## Custom Sign In page
 

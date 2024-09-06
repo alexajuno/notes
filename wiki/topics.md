@@ -30,6 +30,8 @@
 - [] Marriage and family rules?
 - [] Documentation tools for software development
 - [] Shadcn + V0 Vercel
+- [] Redux
+- [] React Query
 - [x] Cursor AI
 - [x] About Coffee
 - [x] Vim's marks
