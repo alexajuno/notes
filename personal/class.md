@@ -1,0 +1,7 @@
+Ubuntu {
+  unlockSudo()
+}
+
+Google {
+  openGoogleAccount()
+}

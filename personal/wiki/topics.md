@@ -29,6 +29,7 @@
 - [] Session (in computing)?
 - [] Marriage and family rules?
 - [] Documentation tools for software development
+- [] Shadcn + V0 Vercel
 - [x] Cursor AI
 - [x] About Coffee
 - [x] Vim's marks
