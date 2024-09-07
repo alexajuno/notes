@@ -51,6 +51,7 @@
 - [] People talking so much about being success, but what is it? Does success even matter?
 - [x] Why Windows Explorer doesn't display a folder's size
   - I haven't known why but it's seem they won't do that. I'll use folder properties in details pane
+- [] About being a successful technician and businessman. I mean if we only work as a technician, we can't thrive. We also need to do business.
 
 ## Todos
 

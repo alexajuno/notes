@@ -2,6 +2,21 @@
 
 ## 1 Good Returns
 
+- A story of an investor and entrepreneur, the investor failed to sign a contract with the entrepreneur
+- Emphasize the importance of the way we approach relationships in success
+- Definition of givers, takers and matchers
+- The approach varies between types of relationships
+- (Research shown that?) givers at the bottom of success ladder
+- On the long run, the investor was success with his reciprocate style
+- Takers generate enemy. Givers have people cheering for their success
+- Talk about giving in politics. Story of Abraham Lincoln
+- Two stories shown that even though giving seem disadvantageous at first, but in the long run, it paid off
+- Story of students in a medical school. In the end, we work in an interdependant environment.
+- (Research results shown that?) givers have different set of values. And the author stated that people tends to avoid showing themselves as givers (maybe because of being vulnerable)
+- Note: I think this is similar to win-win and win-lose perspective mentioned in Covey's 7 habits
+- Understanding what makes giving both so powerful and dangerous is the main point of this book
+- Author also stated about spotting takers just by looking at signs. Note: but I'm kinda disagree with point of view. We hardly can understand a person until we spent time with them or finding out about them
+
 - So far, it's giving that yeilds the most results for the society
 - Givers when dealing with takers?
 

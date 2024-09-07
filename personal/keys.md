@@ -9,3 +9,8 @@ Google {
 Goodbudget {
   openGoodbudgetAccount()
 }
+
+WifiRouter {
+  unlockRouterAdmin(): admin access
+  unlockWifiRouter(): wifi password
+}
