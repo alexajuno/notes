@@ -2,7 +2,6 @@
 
 ## Topics
 
-- [x] Oil (esp. for eating)
 - [] NextJS Testing
   - [] Unit Testing
     - [] Testing Library
@@ -32,6 +31,8 @@
 - [] Shadcn + V0 Vercel
 - [] Redux
 - [] React Query
+- [] Slack
+- [x] Oil (esp. for eating)
 - [x] Cursor AI
 - [x] About Coffee
 - [x] Vim's marks
