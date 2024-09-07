@@ -5,3 +5,7 @@ Ubuntu {
 Google {
   openGoogleAccount()
 }
+
+Goodbudget {
+  openGoodbudgetAccount()
+}

@@ -77,3 +77,8 @@
 
 ### Stay informed about AI
 
+### Learn from AI Innovation
+
+- Always think how to implement AI to your work
+
+### Continue your AI journey
