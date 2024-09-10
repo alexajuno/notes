@@ -1,0 +1,4 @@
+- Roll call every lecture
+- Assessment
+  - mid-term: assignment + project
+  - final-term: multi-choice test

@@ -2,6 +2,17 @@
 
 ## Topics
 
+- [] Software Engineer Roadmap
+  - [] System Design and Architecture
+  - [] Software Lifecycle and Project Management
+  - [] Testing and Quality Assurance
+  - [] Software Maintenance and Versioning
+  - [] Problem-solving and Critical Thinking
+    - [] Algorithms and Data Structures
+    - [] Design Patterns
+    - [] Complex Analysis ?
+  - [] Security and Best Practices
+  - [] 
 - [] NextJS Testing
   - [] Unit Testing
     - [] Testing Library

@@ -1,5 +1,9 @@
 # Home of Pianists
 
+## Software Engineer
+
+- [] Apply software engineering knowledge to this project
+
 ## Geolocation
 
 - [x] Leaflet + React

@@ -89,3 +89,41 @@
 ### Packet Inspection
 
 #### tcpdump
+
+## Module 3: Incident Investigation and Response
+
+### Incident detection and verification
+
+#### Detection and Analysis phase
+
+- detection by tools
+- analysis include investigate and validate alerts
+- challenges
+  - impossible to detect everything
+  - high volumes of alerts
+
+- incident detection methods
+  - Threat hunting
+  - Threat intelligence: information gathered from resources like
+    - industry reports
+    - government advisories
+    - Threat data feeds
+    - Threat intelligence platform to centralize large amount of data from intelligence
+  - Cyber deception
+    - Honeypots
+
+#### Indicators of compromise
+
+- Indicators of attack
+- Pyramid of pain
+
+#### Analyze IoC
+
+- Adding context by using threat intelligence can help with IoC
+- The power of Croudsourcing
+  - Information Sharing and Analysis Centers
+  - Open-source Intelligence
+  - VirusTotal: data you submitted will be public  
+- Other tools
+  - MalwareBazaar: malware samples
+  - Some free web-based files and sites scanners
