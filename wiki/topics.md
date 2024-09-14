@@ -12,7 +12,6 @@
     - [] Design Patterns
     - [] Complex Analysis ?
   - [] Security and Best Practices
-  - [] 
 - [] NextJS Testing
   - [] Unit Testing
     - [] Testing Library
@@ -20,9 +19,9 @@
       - [] React Testing Library
     - [] Vitest
 - [] System Design
-- [] Organization Management
-  - [] Project Management
-    - [] Google Project Management Course
+  - [] Review System Analysis and Design class material
+- [] Project Management
+  - [] Google Project Management Course
 - [] Software Engineering
 - [] Open-source projects
 - [] Software development ethics
@@ -39,10 +38,11 @@
 - [] Session (in computing)?
 - [] Marriage and family rules?
 - [] Documentation tools for software development
-- [] Shadcn + V0 Vercel
 - [] Redux
 - [] React Query
 - [] Slack
+- [] Paracetamol 500mg
+- [x] Shadcn + V0 Vercel
 - [x] Oil (esp. for eating)
 - [x] Cursor AI
 - [x] About Coffee
@@ -58,8 +58,8 @@
 - [] How can I create a personalized LLMs?
 - [] How to make money as a software engineer?
 - [] How do phones connect with computers via USB ports?
-- [x] What are the best actions to do before bed? Does reading affect our sleeps?
 - [] People talking so much about being success, but what is it? Does success even matter?
+- [x] What are the best actions to do before bed? Does reading affect our sleeps?
 - [x] Why Windows Explorer doesn't display a folder's size
   - I haven't known why but it's seem they won't do that. I'll use folder properties in details pane
 - [] About being a successful technician and businessman. I mean if we only work as a technician, we can't thrive. We also need to do business.
@@ -69,9 +69,10 @@
 ### Short-term
 
 - [] Plan for the upcoming semester in college
-- [] Writing CV
 - [] Prepare to find mentors
 - [] AI Coding Assistant
+- [] Contact Prf. Le Tan Hung for final project.
+- [x] Writing CV
 
 ### Medium-term
 
@@ -82,7 +83,4 @@
 - [] Bank account: suitable bank, security, division
 
 ### Long-term
-
-### Finished
-
-- [x] Habit Scorecard
+- [] Organization Management

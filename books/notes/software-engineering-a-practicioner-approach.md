@@ -63,6 +63,32 @@
 
 ### 1.6 Software Myths
 
+- Management's Myth
+- Customer's myth
+- practicioner's myth
+
+## Part 1: The Software Process
+
+### Chapter 2: Process Models
+
+#### 2.1 A Generic Process Model
+
+- framework activity -> actions -> tasks
+- types of process flow: linear, iterative, evolutionary, parallel
+
+##### 2.1.1 Defining a framework activity
+
+##### 2.1.2 Identifying a task set
+
+##### 2.1.3 Process Patterns
+
+- It's like a playbook in cybersecurity
+
+#### 2.2 Process Assessment and Improvement
+
+- Some standards for software assessment
+
+#### 2.3 Prescriptive Process Models
 
 
 

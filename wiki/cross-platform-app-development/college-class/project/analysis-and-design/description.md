@@ -1,2 +1,4 @@
-- Desktop application (for Windows and Mac)
+- Mobile application
+- Project's report
+  - [] Structure?
   
