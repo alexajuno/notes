@@ -27,5 +27,9 @@
     - Software Design
 - It seems that this class will having both software design (with diagrams) and construction (coding + unit tests)
 
+## Lecture 2: Requirement Modeling with Use case diagram
+
+- Sorry, I'm too lazy to read
+
 
   

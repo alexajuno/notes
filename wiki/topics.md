@@ -2,22 +2,6 @@
 
 ## Topics
 
-- [] Software Engineer Roadmap
-  - [] System Design and Architecture
-  - [] Software Lifecycle and Project Management
-  - [] Testing and Quality Assurance
-  - [] Software Maintenance and Versioning
-  - [] Problem-solving and Critical Thinking
-    - [] Algorithms and Data Structures
-    - [] Design Patterns
-    - [] Complex Analysis ?
-  - [] Security and Best Practices
-- [] NextJS Testing
-  - [] Unit Testing
-    - [] Testing Library
-      - [] Getting Started
-      - [] React Testing Library
-    - [] Vitest
 - [] System Design
   - [] Review System Analysis and Design class material
 - [] Project Management
@@ -26,22 +10,20 @@
 - [] Open-source projects
 - [] Software development ethics
 - [] Advertisements and its ethics
-- [] Pair Programming
-- [] Terms of Service, Privacy Policy, Cookies Policy
 - [] React Native
-- [] 7 Habits of Highly Effective People
-  - [] Reinforce my identity, my core values
-- [] PHP
-  - [] PHP role in web development and looking at basic PHP structure
+- [] PHP role in web development and looking at basic PHP structure
 - [] Operating Systems
-- [] End-to-end encryption
-- [] Session (in computing)?
-- [] Marriage and family rules?
+- [] Session (in computing)
+- [] Marriage and family rules
 - [] Documentation tools for software development
 - [] Redux
 - [] React Query
-- [] Slack
-- [] Paracetamol 500mg
+- [x] Pair Programming
+- [x] End-to-end encryption
+- [x] Terms of Service, Privacy Policy, Cookies Policy
+- [x] Slack
+- [x] Paracetamol 500mg
+- [x] 7 Habits of Highly Effective People
 - [x] Shadcn + V0 Vercel
 - [x] Oil (esp. for eating)
 - [x] Cursor AI
@@ -68,10 +50,10 @@
 
 ### Short-term
 
-- [] Plan for the upcoming semester in college
-- [] Prepare to find mentors
-- [] AI Coding Assistant
+- [] Find mentors
 - [] Contact Prf. Le Tan Hung for final project.
+- [] Axioms of life
+- [] Practice Pair Programming with someone
 - [x] Writing CV
 
 ### Medium-term
@@ -81,6 +63,22 @@
 - [] Job searching
   - [] Jobs platform
 - [] Bank account: suitable bank, security, division
+- [] Software Engineer Roadmap
+  - [] System Design and Architecture
+  - [] Software Lifecycle and Project Management
+  - [] Testing and Quality Assurance
+  - [] Software Maintenance and Versioning
+  - [] Problem-solving and Critical Thinking
+    - [] Algorithms and Data Structures
+    - [] Design Patterns
+    - [] Complex Analysis ?
+  - [] Security and Best Practices
+- [] NextJS Testing
+  - [] Unit Testing
+    - [] Testing Library
+      - [] Getting Started
+      - [] React Testing Library
+    - [] Vitest
 
 ### Long-term
 - [] Organization Management

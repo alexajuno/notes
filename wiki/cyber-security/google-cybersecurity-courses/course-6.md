@@ -127,3 +127,50 @@
 - Other tools
   - MalwareBazaar: malware samples
   - Some free web-based files and sites scanners
+
+### Create and use documentation
+
+- Benefits: transparent, standardized, clear
+- Chain of custody: documeting incidents - transparency
+- Playbook: automatical level
+
+### Response and Recovery
+
+- Triage: manage resources
+  - Process: receive and assess, assign priority, collect and analyze
+- Containment, eradication and recovery
+- Business continuity plan
+  - differs from disaster recovery plan
+  - site resilience
+
+### Post-incident activities
+
+- Final report: I'll reference to the format later
+
+## Module 4: Network traffic and logs using IDS and SIEM tools
+
+### Log Overview
+
+- log, log analysis, log types: system, network, app, etc.
+- Log management: what to log, overlogging, log retention, log protection
+- variations
+  - syslog
+  - json
+  - xml
+  - csv
+  - cef (common event format)
+
+### IDS Overview
+
+- Telemetry
+- Signature/Abnomaly analysis
+- Detection Signature
+  - action to take
+  - header: like packet's header
+- Suricata
+  - signature/rule config
+  - eve json
+
+### SIEM Tools Overview
+
+- 

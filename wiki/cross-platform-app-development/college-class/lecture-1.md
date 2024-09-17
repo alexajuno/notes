@@ -6,3 +6,9 @@
 - Có nhắc đến một số thị trường
   - Trung Quốc, Nga khép kín
   - Hình như Đức không dùng mxh
+
+## 2. UX
+
+- Hum, I will learn the Google Course for this.
+
+## 3. Thiết kế trải nghiệm
