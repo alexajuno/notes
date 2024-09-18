@@ -1,16 +1,4 @@
-# Plan
-
-## Technical Skills
-
-### Flutter
-
-## Leadership
-
-## Project Management
-
-### Trello
-
-### Kickoff meeting
+# Kickoff Meeting
 
 Before the Kickoff Meeting:
 
@@ -73,21 +61,3 @@ Additional Tips:
     Lead by Example: Demonstrate best practices in coding, communication, and problem-solving.
     Celebrate Achievements: Recognize and celebrate milestones and successes to keep the team motivated.
     Stay Organized: Keep track of tasks, deadlines, and deliverables to ensure the project stays on track.
-
-### Process
-
-#### Project Scope
-
-- functional analysis
-- use cases
-
-#### Planning
-
-- Timeline
-- Feature Priority
-- Roles and Responsibilities
-
-### Agile Methodology
-
-### Kanban
-

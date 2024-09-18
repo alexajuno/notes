@@ -14,3 +14,5 @@
 
 - No implicit type casting
 - Underscore for long numbers
+
+- Too lazy for this. Will learn by doing.

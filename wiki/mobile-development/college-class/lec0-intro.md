@@ -4,7 +4,7 @@
 - Kotlin
   - Using official documentation
 - Assessment
-  - mid-term: assignments + project
+  - mid-term: on-site assignments + test
   - final test: multiple choices
 
 ## Resources
