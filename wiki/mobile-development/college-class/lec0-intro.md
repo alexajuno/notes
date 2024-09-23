@@ -4,8 +4,10 @@
 - Kotlin
   - Using official documentation
 - Assessment
-  - mid-term: on-site assignments + test
-  - final test: multiple choices
+  - mid-term: in-class assignments + test
+    - The exam format isn't decided yet. May be multiple choices or paper test
+    - There are assignments in class or homeworks
+  - final test: multiple choice questions on MOOC
 
 ## Resources
 
