@@ -1,5 +1,11 @@
 # Software Design and Construction
 
+## Info
+
+- No lap in lecture session
+- assignments (in class and homeworks)
+- No roll call
+
 ## Lecture 1: Software Development Process/Introduction
 
 - System vs application software
@@ -30,6 +36,15 @@
 ## Lecture 2: Requirement Modeling with Use case diagram
 
 - Sorry, I'm too lazy to read
+
+- Requirements
+  - SRS document structure
+  - Use case (maybe activity) diagrams
+  - Glossary (explain keywords), supplementary materials (non-functional requirements and non-captured use cases), etc.
+- Design = diagrams lol (Software Design Diagrams)
+  - Methods to design: we would want to learn about how to make UML digrams
+  
+## Lecture 3: Software Construction- 
 
 
   

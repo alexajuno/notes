@@ -74,6 +74,7 @@
 #### Learning Process
 
 - Must be present in class
+- We may want to learn Redux - a project manager
 
 #### Final exam
 
@@ -99,6 +100,10 @@
 ### Internship
 
 - I'm struggling, honestly.
+
+- First round
+  - [x] Pixta
+  - [ ] 
 
 #### Personal project
 

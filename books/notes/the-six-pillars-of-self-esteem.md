@@ -22,4 +22,12 @@
   - The next part is the observance in all aspects of life: love, workplace, 
   - We tend to feel like "at home" with people who resemble the same level of self-esteem as our own
   - Some people struggle with "happiness anxiety"
-  - 
+  - It's a basic need that help us survive
+  - Even though we don't have good self-esteem, we still can achieve our goals, but it won't be fulfilling and happy
+  - Even though it doesn't immediately solve all problems of our lives, it will help us to achieve our goals
+  - In modern world, we need higher education, many life styles. So each individual is required to have higher self-esteem
+
+### 2. The Meaning of Self-Esteem
+
+- Two part of self-esteem: self-efficacy and self-respect
+
