@@ -9,12 +9,15 @@
 
 ## 2. Software Quality
 
-- Five views of quality => def of sq
+- What is software quality
+  - There are many views
+  - Standard definition by IEEE: meet its specifications
 - sqa problems
 
 ## 3. Software Quality Model
 
-- Factor - Criteria - Metrics
+- Consists of the following components: Factor - Criteria - Metrics
+- note: V-shaped model shared between classes
 
 ### Standard Models
 
