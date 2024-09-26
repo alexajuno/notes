@@ -14,11 +14,11 @@
 
 - Solo presentation
 - Open topic (related to project management)
-- Using Powerpoint
+- Using Powerpoint - need to learn how to use it
 
 - Steps
-  - [ ] Choose a topic
-  - [ ] Make a draft
+  - [x] Choose a topic
+  - [x] Make a draft
   - [ ] Present
 
 #### Final exam
@@ -61,6 +61,8 @@
 
 ##### Learn Figma
 
+- [ ] [Figma For Beginners](https://help.figma.com/hc/en-us/sections/4405269443991-Figma-for-beginners-4-parts)
+
 #### Final exam
 
 - I don't remember anything about the final exam, or even it's been mentioned by the teacher. I should ask the teacher about it.
@@ -101,9 +103,26 @@
 
 - I'm struggling, honestly.
 
+- Removed companies
+  - SotaTek
+  - VCCorp
+  - VTI
+
 - First round
+  - [ ] Infratech
+  - [ ] Công ty TNHH Công Nghệ Pip Việt Nam
+  - [ ] Công ty cổ phần thanh toán Hưng Hà
+  - [ ] TovChain
+  - [ ] RikkeiSoft
+  - [ ] Công ty Cổ phần An ninh mạng CyStack
+  - [ ] Công ty Cổ phần Công Nghệ Sapo
+  - [ ] VNIST
+  - [ ] EVNICT: Công ty Viễn thông điện lực và công nghệ thông tin - Chi nhánh Tập đoàn Điện lực Việt Nam
+  - [ ] Công ty TNHH Phần mềm FPT
+  - [ ] Công ty cổ phần Intrust
   - [x] Pixta
-  - [ ] 
+  - [x] Qikify
+
 
 #### Personal project
 

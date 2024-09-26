@@ -2,7 +2,7 @@
 
 ## HCI
 
-- What is HCI?
+- What is HCI? interdisciplinary
 - Why does HCI matter: affect business results
 - History of HCI: this is a new concept
 - Có khá nhiều cách nói về việc một HCI Design như thế nào là tốt. Mình chỉ suy nghĩ đơn giản là thấy tốt thì tốt thui =)
@@ -28,4 +28,5 @@
 ## IS Examples
 
 - Compare ISD and SE
+- Development Process of ISD and SE, how they are different?
 

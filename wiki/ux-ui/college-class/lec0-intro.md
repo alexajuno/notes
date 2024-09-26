@@ -1,5 +1,7 @@
 # HCI and UX/UI
 
+- Roll call the whole class integrated with review questions on previous lecture
+
 ## Human-computer interaction
 
 - Some theories that I don't remember lol: something about HCI stages, the domains of knowledge that HCI research on, basic way of finding out UX rules (I think it's testing and collecting user feedbacks)
