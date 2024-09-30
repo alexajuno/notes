@@ -13,7 +13,7 @@
   - Fill, Stroke
   - Alignment and Text
   - Group layer
-  - Library: from Figma community
+  - Libraries: from Figma community
   - Constraints
 
 ### 2. Creating Designs

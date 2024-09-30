@@ -44,7 +44,8 @@
 - Design = diagrams lol (Software Design Diagrams)
   - Methods to design: we would want to learn about how to make UML digrams
   
-## Lecture 3: Software Construction- 
+## Lecture 3: Software Construction 
 
-
+- Interaction diagram (I'm too lazy to listen)
+  - Mentioned something related to alternative flows
   

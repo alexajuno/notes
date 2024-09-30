@@ -1,11 +1,5 @@
 # Plan
 
-- Total resources: 672 hours
-
-## Planning (25 hours)
-
-- 15 min each day
-
 ## College
 
 ### IT Project Management
@@ -36,7 +30,7 @@
 - It will be a project but I'm not sure if he has any suitable topic for me
 
 - Steps
-  - [ ] Choose a topic
+  - [x] Choose a topic
     - Questions
       - Does it suitable to be a final project?
       - Can it be fit into 3 months and the result required for project 3?
@@ -83,10 +77,6 @@
 
 #### Process
 
-- Many assignments (may take hours per week to complete)
-- There is a project but the teacher hasn't talked about it in detail
-- I want to read the book Software Engineering: A Practitioner's Approach too
-
 #### Final exam
 
 ### Software Quality Assurance
@@ -100,45 +90,20 @@
 
 ### Internship
 
-- Removed companies
-  - SotaTek
-  - VCCorp
-  - VTI
+#### Application
 
-- First round
-  - [ ] Infratech
-  - [ ] Công ty TNHH Công Nghệ Pip Việt Nam
-  - [ ] Công ty cổ phần thanh toán Hưng Hà
-  - [ ] TovChain
-  - [ ] RikkeiSoft
-  - [ ] Công ty Cổ phần An ninh mạng CyStack
-  - [ ] Công ty Cổ phần Công Nghệ Sapo
-  - [ ] VNIST
-  - [ ] EVNICT: Công ty Viễn thông điện lực và công nghệ thông tin - Chi nhánh Tập đoàn Điện lực Việt Nam
-  - [ ] Công ty TNHH Phần mềm FPT
-  - [ ] Công ty cổ phần Intrust
-  - [x] Pixta
-  - [x] Qikify
-
+- [ ] Infratech
+- [ ] Công ty TNHH Công Nghệ Pip Việt Nam
+- [ ] Công ty cổ phần thanh toán Hưng Hà
+- [ ] TovChain
+- [ ] RikkeiSoft
+- [ ] Công ty Cổ phần An ninh mạng CyStack
+- [ ] Công ty Cổ phần Công Nghệ Sapo
+- [ ] VNIST
+- [ ] EVNICT: Công ty Viễn thông điện lực và công nghệ thông tin - Chi nhánh Tập đoàn Điện lực Việt Nam
+- [ ] Công ty TNHH Phần mềm FPT
+- [ ] Công ty cổ phần Intrust
+- [x] Pixta
+- [x] Qikify
 
 #### Personal project
-
-#### Portfolio/Resume/CV
-
-#### Networking
-
-##### Find mentors
-
-##### Peers
-
-### Work
-
-- No intern, no job lol
-
-## Hobbies
-
-### Google Cybersecurity Course
-
-
-
-
