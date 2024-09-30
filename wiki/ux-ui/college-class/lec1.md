@@ -29,4 +29,5 @@
 
 - Compare ISD and SE
 - Development Process of ISD and SE, how they are different?
+  - in UX/UI, you have many prototypes
 

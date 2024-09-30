@@ -40,7 +40,6 @@
     - Questions
       - Does it suitable to be a final project?
       - Can it be fit into 3 months and the result required for project 3?
-      - 
   - [ ] Make a draft
   - [ ] Present
 
@@ -101,8 +100,6 @@
 
 ### Internship
 
-- I'm struggling, honestly.
-
 - Removed companies
   - SotaTek
   - VCCorp
@@ -126,8 +123,6 @@
 
 #### Personal project
 
-- To showcase my skill
-
 #### Portfolio/Resume/CV
 
 #### Networking
@@ -139,3 +134,11 @@
 ### Work
 
 - No intern, no job lol
+
+## Hobbies
+
+### Google Cybersecurity Course
+
+
+
+

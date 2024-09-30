@@ -1,5 +1,0 @@
-# Regulation
-
-## Theorems
-
-## Statements

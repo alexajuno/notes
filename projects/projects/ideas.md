@@ -36,28 +36,7 @@
 
 ## Đề xuất Dự án: Nền tảng Giáo dục Cá nhân hóa và Khuyến khích Tính Chủ động
 
-**1. Tổng quan:**
 
-Dự án này hướng tới việc xây dựng một nền tảng giáo dục trực tuyến nhằm giải quyết vấn đề lớp học đông đúc và sự khác biệt về tốc độ tiếp thu của học sinh trong các trường công lập tại Việt Nam. Nền tảng sẽ tập trung vào việc cá nhân hóa trải nghiệm học tập, khuyến khích tính chủ động và tạo môi trường tương tác giữa giáo viên và học sinh.
-
-**2. Vấn đề:**
-
-* Lớp học đông đúc khiến việc dạy và học kém hiệu quả.
-* Học sinh có tốc độ tiếp thu khác nhau, khó theo kịp bài giảng trên lớp.
-* Thiếu cơ hội để học sinh tương tác, đặt câu hỏi và nhận phản hồi từ giáo viên.
-
-**3. Giải pháp:**
-
-* Cung cấp kho học liệu đa dạng bao gồm tài liệu và video bài giảng (tập trung vào nội dung sách giáo khoa).
-* Hệ thống câu hỏi đi kèm bài giảng giúp học sinh tự kiểm tra kiến thức.
-* Cho phép học sinh lựa chọn giáo viên phù hợp với nhu cầu và phong cách học tập của mình.
-* Tạo nền tảng trao đổi để học sinh đặt câu hỏi và nhận sự hỗ trợ từ giáo viên và bạn bè.
-* Khuyến khích tính chủ động và khả năng tự học của học sinh.
-
-**4. Đối tượng người dùng:**
-
-* Học sinh các trường công lập tại Việt Nam.
-* Giáo viên các trường công lập.
 
 **5. Tính năng chính:**
 
