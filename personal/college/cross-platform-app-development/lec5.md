@@ -1,0 +1,21 @@
+# Lecture 5: Cloud Computing
+
+- Study an use case named Domus
+- Architecture decisions
+  - Network arc: c/s or p2p (less feasible)
+  - Development framework: agile/scrum
+  - push notification?
+  - web api: [soap vs restful](https://www.soapui.org/learn/api/soap-vs-rest-api/)
+  - offline/back online
+  - data synchronization
+  - Security (too big to discuss here, just a factor)
+  - Maintenance/Upgrade
+    - Crashes/bugs report
+    - User survey
+    - App rating
+- General Data Protection Regulation: some users' rights with their data
+- Cost estimation for cloud computing 
+  - Some factors and formulus
+- Benefits
+  - I would like to find out more about this on Internet: "How to make money from apps?"
+  - Small talk about payment methods
