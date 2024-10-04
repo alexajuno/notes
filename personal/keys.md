@@ -14,3 +14,7 @@ WifiRouter {
   unlockRouterAdmin(): admin access
   unlockWifiRouter(): wifi password
 }
+
+Laptop {
+  openLaptop()
+}

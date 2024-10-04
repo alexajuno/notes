@@ -57,3 +57,33 @@
 - The next parts would be about six practices to increase self-esteem of ourselves
 
 ### 6. The Practice of Living Consciously
+
+- Talking about the way we treat our consciousness. If we betray it, acting things against it, then our self-esteem will be affected.
+- But one thing to discuss here is that there is no single truth, I mean if it's something not that obvious, then what we discuss here isn't that clear.
+- Possible Misunderstanding
+  - Automation of our brains is necessary, and we don't need to think about everything.
+  - Being conscious to something mean we may not focus on other things, and that's our choices
+- Being responsible toward reality: active, take joy of our own intelligence, reaching toward facts, etc.
+- So many good wills, but I hardly can remember, and the fundamental characteristic of them is living consciously.
+- A note on Addictions: to avoid pain, we may use addictions to avoid thinking about our pain, but that's not a good way.
+- Consciousness and the body: they are connected (of course)
+- Sentence completions: The homework the author've promised in the beginning of the book
+  - Living consciously to me means living towards the truth, no avoidance. Just the truth and our predefined values and meanings of life, then acting toward that.
+  - If I bring 5 percent more awareness to my activities today, I would have finished a lot of things
+  - If I pay more attention to how I deal with people today, but today I haven't seen anyone
+  - If I bring 5 percent more awareness to my most important relationships today, I would have called my family
+  - Oh, when trying to finish the last sentence, I realized that this exercise is for the morning time - beginning of a day.
+  - So you have to reflect on this daily, this is a good thing.
+  - About the "5 percent" rule, I think it's kinda religious but yeah, the author must mean that a very little change everyday. For the real number, we don't have any measures
+- We also discuss about areas that we seldomly focus on and it's bad now, so that we should pay more attention to it.
+
+### 7. The Practice of Self-Acceptance
+
+- Three levels of self-acceptance:
+  - First level: kinda for very low self-esteem people, acknowledging our existence.
+  - Second level: accept myself: my thoughts, my feelings, my body, my life, my limitations, my imperfections
+  - Third level: the idea of compassion, of being a friend to myself
+- It seems like each part has a personal example of the author. 
+
+### 8. The Practice of Self-Responsibility
+
