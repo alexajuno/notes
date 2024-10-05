@@ -43,6 +43,7 @@
 
 ## Topics
 
+- [ ] PMBOK Guide
 - [ ] Leadership
 - [ ] System Design
   - [ ] Review System Analysis and Design class material
