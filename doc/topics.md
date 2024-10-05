@@ -45,6 +45,7 @@
 ## Topics
 
 - [ ] ChatGPT 4o with Canvas
+- [ ] Process Patterns for myself
 - [ ] Relationships Management
 - [ ] Communication Skills
 - [ ] Invite friends to personal projects
@@ -91,7 +92,9 @@
 - [ ] How to make money as a software engineer?
 - [ ] How do phones connect with computers via USB ports?
 - [ ] People talking so much about being success, but what is it? Does success even matter?
-- [ ] About integrating many apps into a single one. Can it be a faster way to achieve the final result?
+- [x] About integrating many apps into a single one. Can it be a faster way to achieve the final result?
+  - I listened to the discussion of a lecturer and a college student about an iea of a super app for college students. The lecturer said that it's not a good idea as the APIs are limited and the description or the requirements are not clear.
+  - I think it needs to be like many apps of the same company like Microsoft 365 products.
 - [ ] About being a successful technician and businessman. I mean if we only work as a technician, we can't thrive. We also need to do business.
 - [ ] How to attack or abuse a low self-esteem person?
 - [x] What are the best actions to do before bed? Does reading affect our sleeps?

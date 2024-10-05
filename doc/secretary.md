@@ -24,6 +24,8 @@
 
 - [ ] JAMC
   - [ ] Week 1
+    - [ ] Requirements gathering
+      - [ ] Survey for the problem understanding, understanding stakeholders' wants and needs
     - [ ] Design system architecture and tech stack
 - Notes
   - [ ] Understand about the achitectural decisions: why choose microservices? alternative options and trade-offs?
@@ -43,7 +45,7 @@
 
 - [ ] Clean Code - Robert C. Martin
 - [ ] Head First Design Patterns - O'Reilly
-- [ ] Software Architecture in Practice 
+- [ ] Software Architecture in Practice
 - [ ] Clean Architecture: A Craftsman's Guide to Software Structure and Design
 
 ### Home of Pianists
@@ -51,3 +53,4 @@
 - [ ] Sign up and JWT Credentials Authentication with Auth.js
 - [ ] Mock/Seed data
 
+## [Topics](topics.md)
