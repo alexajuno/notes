@@ -83,7 +83,22 @@
   - First level: kinda for very low self-esteem people, acknowledging our existence.
   - Second level: accept myself: my thoughts, my feelings, my body, my life, my limitations, my imperfections
   - Third level: the idea of compassion, of being a friend to myself
+- An exercise: look at yourself in the mirror and accept yourself as a whole
 - It seems like each part has a personal example of the author. 
+- The good thing I've learnt here is accept my thoughts and feelings
+- One funny trick would be if you doesn't accept the experience, you can start at accepting the refusal of the experience instead lol
 
 ### 8. The Practice of Self-Responsibility
+
+- In short, I'm responsible for everything in my life except things out of control
+- Then we can discuss in detail of each aspects: achievements, choices, level of consciousness, etc.
+- Uhm the rest is kinda random ideas.
+  - you should have productive purposes before being responsible for those, kinda ok
+  - responsible for ourselves mean we should think independently and make decisions, not blindly follow others. Sometimes we don't even realize that we're following others unconsciously
+  - Don't ask people to act against their interests and perception
+
+### 9. The Practice of Self-Assertiveness
+
+- What is self-assertiveness? Self-assertiveness means honoring my wants, needs, and values and seeking appropriate forms of their expression in reality.
+
 

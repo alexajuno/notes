@@ -38,15 +38,19 @@
     - [ ] Vitest
 
 ### Long-term
+
 - [ ] Organization Management
 - [ ] Programme
 
 ## Topics
 
+- [ ] ChatGPT 4o with Canvas
+- [ ] Relationships Management
+- [ ] Communication Skills
+- [ ] Invite friends to personal projects
 - [ ] PMBOK Guide
 - [ ] Leadership
 - [ ] System Design
-  - [ ] Review System Analysis and Design class material
 - [ ] Project Management
   - [ ] Google Project Management Course
 - [ ] Software Engineering
@@ -93,3 +97,4 @@
 - [x] What are the best actions to do before bed? Does reading affect our sleeps?
 - [x] Why Windows Explorer doesn't display a folder's size
   - I haven't known why but it's seem they won't do that. I'll use folder properties in details pane
+- [ ] I want to study about software architecture. What is the roadmap?

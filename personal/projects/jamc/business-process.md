@@ -67,5 +67,3 @@ High school teachers who upload course content, manage student progress, and ear
 - Teachers have flexibility in how they structure their courses, but they must follow the official curriculum.
 - AI is integrated to manage course recommendations, filter questions, and enhance the student learning experience.
 - No live sessions are needed, as offline interaction already occurs in the classroom.
-
-Does this revised summary capture everything, or is there a specific area you feel is missing?

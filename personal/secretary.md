@@ -25,6 +25,8 @@
 - [ ] JAMC
   - [ ] Week 1
     - [ ] Design system architecture and tech stack
+- Notes
+  - [ ] Understand about the achitectural decisions: why choose microservices? alternative options and trade-offs?
 
 ### UX/UI
 
@@ -36,4 +38,16 @@
 ### Internship
 
 - [ ] Get to know the company and the project/requirements
+
+### Software Architecture
+
+- [ ] Clean Code - Robert C. Martin
+- [ ] Head First Design Patterns - O'Reilly
+- [ ] Software Architecture in Practice 
+- [ ] Clean Architecture: A Craftsman's Guide to Software Structure and Design
+
+### Home of Pianists
+
+- [ ] Sign up and JWT Credentials Authentication with Auth.js
+- [ ] Mock/Seed data
 
