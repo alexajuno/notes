@@ -2,9 +2,13 @@
 
 ## Projects
 
-### IT Project Management
+### [IT Project Management](/college/it-project-management/index.md)
 
-- [ ] Complete the presentation
+- [ ] Presentation
+  - [x] Make the presentation content
+  - [x] Make the slides
+  - [ ] Record a video
+  - [ ] Send to the lecturer
 
 ### Google Project Management Courses
 
@@ -19,6 +23,7 @@
     - [ ] Checkout code of my teammates
       - [ ] Dung Luu: feature 1.5, 1.12
       - [ ] Dung Nguyen: feature on pull request #5
+    - [ ] Wrap reusable code to widgets
 
 ### Project III
 

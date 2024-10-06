@@ -58,26 +58,10 @@
 - **Challenges:**
   - Acknowledge potential challenges like resistance to change, the need for strong collaboration, and the importance of a skilled Scrum Master.
 
-### **7. Scrum in Practice**
-
-- **Case Study or Example**
-  - If possible, share a real-world example of a successful Scrum project (even a simplified one).
-- **Visuals:**
-  - Use images or diagrams to illustrate Scrum processes and workflows (e.g., a Scrum board or burndown chart).
-
-### **8. Conclusion**
+### **7. Conclusion**
 
 - **Summarize** the key points about Scrum's framework and benefits.
 - **Emphasize** its adaptability and effectiveness for modern project management.
-- **Offer** to answer any questions.
-
-### **Tips for an Engaging Presentation:**
-
-- **Use visuals:** Images, diagrams, and even short videos can break up the text and enhance understanding.
-- **Interactive elements:** Include a quick quiz or poll to involve your classmates.
-- **Real-world examples:** Relate Scrum to projects they might be familiar with or interested in.
-- **Practice your delivery:** A confident and enthusiastic presentation style goes a long way.
-- **Be prepared for questions:** Anticipate common questions and have thoughtful answers ready.
 
 ## **Full Presentation**
 
@@ -207,13 +191,6 @@ Here’s a quick comparison of Scrum and traditional Waterfall project managemen
 - **Resistance to change**: Teams may struggle with the shift to an agile mindset.
 - **Collaboration**: Strong communication and teamwork are essential, which can be challenging.
 - **Skilled Scrum Master**: A good Scrum Master is critical for keeping the team focused and removing obstacles.
-
----
-
-### **Scrum in Practice**
-
-Let’s look at a simple **example** of Scrum in action:
-Imagine a software development team working on a mobile app. Using Scrum, they break down the project into smaller features, prioritize them in the Product Backlog, and work in 2-week sprints. After each sprint, they present a functional part of the app to stakeholders for feedback. This allows them to adjust quickly to any changes or requests, delivering the final product faster and with better quality.
 
 ---
 

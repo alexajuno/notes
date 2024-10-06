@@ -1,6 +1,6 @@
 # Course 2: Project Initiation
 
-## Module 1: Goals, Scope and Criteria
+## Module 1: Fundamentals
 
 ### Understanding the key components of project initiation
 
@@ -15,4 +15,10 @@
   - Stakeholders
   - Resources: budget, time, materials, people, equipment, etc.
 - Project charter
--
+
+## Module 2: Goals, scope and success criteria
+
+### Identify project goals
+
+- Using SMART method
+- Objectives + Key Results
