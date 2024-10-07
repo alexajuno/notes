@@ -22,3 +22,9 @@
 
 - Using SMART method
 - Objectives + Key Results
+
+### Project scope
+
+- Scope requires management - but why do I feel like scope is similar to requirements or something like that? Ah goals.
+- Scope creep
+- Triad for scope management: scope, cost, time

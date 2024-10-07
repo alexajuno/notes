@@ -13,6 +13,8 @@
 ### Google Project Management Courses
 
 - [ ] Complete course 2: Project Initiation
+  - [ ] Module 1
+  - [ ] Module 2
 
 ### Cross-platform App Development
 
@@ -28,13 +30,15 @@
 ### Project III
 
 - [ ] JAMC
-  - [ ] Week 1
-    - [ ] Requirements gathering
-      - [ ] Survey for the problem understanding, understanding stakeholders' wants and needs
-    - [ ] Design system architecture and tech stack
+  - [ ] Project Management and Software Engineering: to manage changes and risks
+  - [ ] Requirements gathering
+    - [ ] Survey for the problem understanding, understanding stakeholders' wants and needs
+  - [ ] Design system architecture and tech stack
+  - [ ] [UX/UI Design](/doc/projects/ui-design.md)
 - Notes
   - [ ] Understand about the achitectural decisions: why choose microservices? alternative options and trade-offs?
-
+  - [ ] Database design
+    - [ ] Mermaid diagrams
 ### UX/UI
 
 - [ ] Learn Figma

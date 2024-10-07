@@ -36,7 +36,7 @@ Before diving into the architecture design, it's crucial to identify the key obj
 
 ### **1. High-Level Overview**
 
-We will adopt a **microservices architecture** to handle the complexity and scalability requirements of the JAMC project. This approach allows independent development, deployment, and scaling of services.
+We will adopt a **monolith architecture** in the beginning and then gradually transition to **microservices architecture** to handle the complexity and scalability requirements of the JAMC project. This approach allows independent development, deployment, and scaling of services. We also want a **Serverless** architecture to handle the scalability requirements.
 
 ### **2. System Components**
 
@@ -54,7 +54,7 @@ We will adopt a **microservices architecture** to handle the complexity and scal
 
 1. **User Service**
 
-   - **Responsibilities**: User registration, authentication (OAuth 2.0, JWT), profile management.
+   - **Responsibilities**: User registration, authentication (OAuth 2.0, Database session management), profile management.
    - **Database**: User accounts, profiles, roles (students, teachers).
 
 2. **Classroom Service**
@@ -124,8 +124,8 @@ We will adopt a **microservices architecture** to handle the complexity and scal
 
 #### **D. Data Layer**
 
-- **Relational Databases**: PostgreSQL or MySQL for structured data (users, courses).
-- **NoSQL Databases**: MongoDB or Cassandra for unstructured data (logs, analytics).
+- **Relational Databases**: PostgreSQL for structured data (users, courses).
+- **NoSQL Databases**: MongoDB for unstructured data (logs, analytics).
 - **Data Warehouses**: For AI training data and analytics.
 
 #### **E. Infrastructure Layer**

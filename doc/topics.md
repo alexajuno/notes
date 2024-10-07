@@ -61,9 +61,10 @@
 - [ ] React Native
 - [ ] PHP role in web development and looking at basic PHP structure
 - [ ] Operating Systems
-- [ ] Session (in computing)
+- [x] Session (in computing) [here](https://en.wikipedia.org/wiki/Session_(computer_science))
 - [ ] Marriage and family rules
-- [ ] Documentation tools for software development
+- [x] Documentation tools for software development
+  - I think I'll use markdown files and diagram tools like Mermaid, and mostly let AIs do the work. Beside that, there are tools for certain documents like Swagger for API.
 - [ ] Redux
 - [ ] React Query
 - [ ] GitHub Actions
@@ -100,4 +101,5 @@
 - [x] What are the best actions to do before bed? Does reading affect our sleeps?
 - [x] Why Windows Explorer doesn't display a folder's size
   - I haven't known why but it's seem they won't do that. I'll use folder properties in details pane
-- [ ] I want to study about software architecture. What is the roadmap?
+- [x] I want to study about software architecture. What is the roadmap?
+- [ ] Fullstack framework vs separate frontend and backend frameworks? Pros and cons?
