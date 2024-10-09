@@ -1,4 +1,4 @@
-# Business Process
+# Business Logic of JAMC
 
 ## 1. Target Users
 
@@ -25,7 +25,6 @@ High school teachers who upload course content, manage student progress, and ear
 **Personalized Learning**
 
 - Students progress at their own pace, but they need to follow school milestones (e.g., complete certain modules by a specific week).
-- No live sessions: The platform will skip live sessions as teachers already interact with students offline during class hours.
 - Self-Assessment for Students: Allow students to assess their own learning pace through quick check-ins or quizzes. If a student feels they are falling behind, they can voluntarily flag themselves for additional support or resources before the teacher steps in.
 - AI-based content suggestions help students stay on track based on their progress, learning habits, and engagement.
 
