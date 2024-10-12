@@ -14,7 +14,7 @@
 
 - [ ] Complete course 2: Project Initiation
   - [x] Module 1
-  - [ ] Module 2
+  - [x] Module 2
 
 ### Cross-platform App Development
 
@@ -54,7 +54,7 @@
 ### Internship
 
 - [x] Get to know the company and the project/requirements
-  - The info is too simple and so the benefit
+  - The info is too simple and so the benefit, just nothing to work with. So hard
 
 ### Software Architecture
 

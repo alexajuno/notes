@@ -2,7 +2,6 @@
 
 ## 1. Black box testing
 
-- What
 - Some basic characteristics (predictable)
   - abstract away the code, focusing on designing good test cases
 - Note: Teacher noted about white box testing lecture being time-consuming to draw and we should print the slides
@@ -24,7 +23,14 @@
 ## 4. Decision Table Technique
 
 - A bit stunned and haven't understood what's going on lol
+- I've understood a bit more but it's kinda clunky I must say (maybe we would want to write this for others but for myself, I guess I won't use it)
 
 ## 5. State Transition Testing
+
+- Similar to state machine diagram but here we need to design test cases based on that diagram.
+- We need test cases in situations like: move through all states, move through all transitions.
+- This part doesn't have any exercise so I'm not sure how to understand it better and how to apply it.
+
+
 
 

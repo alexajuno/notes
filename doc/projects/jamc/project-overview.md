@@ -1,221 +1,175 @@
-# Project Overview
+# **Project Overview**
 
-## **1. Tổng quan:**
+## **1. Introduction**
 
-Dự án này hướng tới việc xây dựng một nền tảng giáo dục trực tuyến nhằm giải quyết những thách thức trong giáo dục công lập tại Việt Nam, bao gồm việc quản lý lớp học đông đúc và sự khác biệt về tốc độ tiếp thu và khuyến khích tương tác của từng học sinh. Thông qua việc cá nhân hóa trải nghiệm học tập, nền tảng sẽ giúp học sinh chủ động hơn trong việc học, theo sát tiến độ của riêng mình, tương tác và đặt câu hỏi tích cực hơn. Đồng thời, nền tảng cũng sẽ tạo điều kiện cho việc tương tác chặt chẽ giữa giáo viên và học sinh, mang đến một môi trường học tập linh hoạt và hiệu quả hơn, sử dụng công nghệ để tối ưu hóa khả năng tiếp thu của học sinh.
+This project aims to build an online educational platform that addresses the challenges faced in Vietnam's public education system, such as managing large classrooms, accommodating different learning paces, and encouraging student interaction. By personalizing the learning experience, the platform empowers students to take control of their education, follow their own learning pace, and engage more actively with their teachers and peers. It also facilitates close interaction between teachers and students, providing a flexible and efficient learning environment enhanced by technology to optimize student comprehension.
 
-## **2. Vấn đề:**
+## **2. Problem Statement**
 
-- Lớp học đông đúc không chỉ khiến giáo viên khó theo sát từng học sinh mà còn làm giảm khả năng tương tác trực tiếp, dẫn đến việc nhiều học sinh cảm thấy khó hiểu bài giảng.
-- Sự khác biệt về tốc độ tiếp thu khiến một số học sinh không kịp nắm bắt kiến thức, trong khi những học sinh khác lại cảm thấy chán nản vì phải chờ đợi.
-- Thiếu cơ hội tương tác có thể khiến học sinh e dè trong việc đặt câu hỏi, từ đó dẫn đến việc học không sâu và thiếu sự kiểm tra thực sự về mức độ hiểu bài của học sinh.
+- **Overcrowded Classrooms**: Teachers find it difficult to give individual attention, leading to students struggling to grasp lessons.
+- **Diverse Learning Paces**: Some students fall behind, while others become disengaged due to the varying speeds at which students learn.
+- **Lack of Interaction**: Students may hesitate to ask questions in class, resulting in shallow understanding and insufficient assessment of their comprehension.
 
-## **3. Giải pháp:**
+## **3. Solution**
 
-- Nền tảng sẽ cung cấp một kho học liệu đa dạng được xây dựng dựa trên nội dung sách giáo khoa, đi kèm với các video bài giảng chi tiết được giảng dạy bởi những giáo viên có kinh nghiệm.
-- Mỗi bài giảng sẽ có hệ thống câu hỏi đi kèm nhằm giúp học sinh tự đánh giá kiến thức ngay sau khi học xong.
-- Học sinh có thể lựa chọn giáo viên theo sở thích cá nhân, phong cách giảng dạy, hoặc thậm chí theo năng lực chuyên môn trong các môn học cụ thể.
-- Nền tảng sẽ tích hợp các công cụ tương tác như diễn đàn, bảng hỏi-đáp và hệ thống chat để học sinh có thể trao đổi không chỉ với giáo viên mà còn với các bạn học, thúc đẩy quá trình học tập theo nhóm.
-- Chức năng đề xuất câu hỏi sẽ giúp lọc ra những câu hỏi quan trọng để đưa đến giáo viên, tối ưu hóa thời gian phản hồi và đảm bảo rằng mọi thắc mắc của học sinh đều được giải quyết kịp thời.
+The platform provides a comprehensive online learning environment that mirrors the real-time classroom experience and enhances it through personalization and technology.
 
-## **4. Đối tượng người dùng:**
+- **Personalized Learning Paths**: Students learn at their own pace, with the system tracking progress and providing recommendations.
+- **AI Integration**: Artificial Intelligence filters student questions, prioritizes them for teacher responses, and recommends courses based on student progress and ratings.
+- **Interactive Tools**: Features like discussion boards, Q&A sections, and chat systems facilitate collaboration between students and teachers.
+- **Credit Point System**: Encourages student engagement by rewarding participation, which also serves as a formative assessment tool for teachers.
+- **Teacher Empowerment**: Teachers can manage online classes, monitor student progress, and earn additional income by offering courses to students outside their regular classes.
 
-- Học sinh tại các trường công lập sẽ có khả năng học tập theo tốc độ của riêng mình, truy cập vào nguồn tài liệu chất lượng bất cứ lúc nào, bất cứ nơi đâu. Điều này đặc biệt có lợi cho các em có nhu cầu học thêm hoặc củng cố kiến thức sau giờ học chính thức.
-- Giáo viên có thể quản lý các lớp học online, nhận câu hỏi từ học sinh và cung cấp phản hồi một cách hiệu quả hơn thông qua hệ thống được cá nhân hóa. Nền tảng cũng tạo điều kiện cho giáo viên xây dựng các khóa học trực tuyến để tăng cường thu nhập ngoài giờ dạy chính.
+## **4. Target Users**
 
-## **5. Tính năng chính:**
+- **Students**: Public school students who can learn at their own pace, access quality resources anytime, and receive personalized support.
+- **Teachers**: Educators who can manage online classes, provide timely feedback, and expand their reach to more students while earning additional income.
 
-### **Key Features**:
+## **5. Key Features and Workflow**
 
-1. **User Registration & Profiles**:
+### **1. User Registration and Onboarding**
 
-   - **Teachers and Students** can sign up using email, social accounts, or school-issued credentials.
-   - **Student Profiles** include a dashboard displaying their learning progress, completed lessons, quiz scores, and earned credit points.
-   - **Teacher Profiles** provide tools for course creation, tracking student performance, and responding to student inquiries.
+#### **Teacher Registration and Class Linking**
 
-2. **Course Creation and Management**:
+- **Registration**: Teachers sign up using their email or school-issued credentials.
+- **Class Creation**:
+  - Teachers create their **online classes**, corresponding to their real-world classes.
+  - Each class is assigned a **unique class code** for students to enroll.
+- **Class Management**:
+  - Teachers control enrollment and monitor student progress within these online classes.
 
-   - **Teachers** can create comprehensive courses consisting of:
-     - **Video lessons** that cover different subjects.
-     - **Supplementary materials**, such as PDFs or external resources.
-     - **Quizzes** with automatically generated results for immediate feedback.
+#### **Student Registration and Class Enrollment**
 
-3. **Interactive Q&A System**:
+- **Registration**: Students sign up using email, social accounts, or school credentials.
+- **Class Enrollment**:
+  - Students enter the **class code** provided by their teacher to join the class.
+  - **Verification**: Students are placed in a **pending state** until the teacher verifies them to ensure only legitimate students gain access.
+  - Teachers receive notifications to approve or reject enrollment requests.
 
-   - Students can ask questions during or after the lessons via a Q&A section.
-   - **Credit Point System**: Students earn credits for:
-     - Asking insightful or high-quality questions (as determined by teacher or peer upvotes).
-     - Answering peers' questions effectively.
-   - Teachers and peers can upvote good questions, and once a certain number of upvotes is reached, the student gains credit points.
-   - Teachers can highlight the most relevant questions and mark them as “resolved” after answering.
+#### **Unified Classroom Experience**
 
-4. **Credit Points System**:
-   - **Purpose**: Encourage active participation and thoughtful questions from students.
-   - **How it works**:
-     - **Good questions** earn credit points based on upvotes and teacher approval.
-     - Credit points accumulate and appear on the student's profile.
-     - Points may unlock achievements, badges, or extra learning content.
-     - Teachers use the credit points as a **formative assessment tool** to evaluate student engagement and critical thinking.
-5. **Teacher Dashboard & Student Analytics**:
-   - Teachers can track student performance via an analytics dashboard, which includes:
-     - Quiz scores and assignment completion.
-     - Engagement metrics (number of questions asked, credit points earned).
-     - Heatmaps showing student activity and participation levels.
-6. **Progress Tracking & Feedback**:
+- **Synchronized Learning**: Once verified, students follow the class schedule set by the teacher, ensuring alignment between online and offline learning.
+- **Personalization**: Students receive tailored recommendations and resources based on their individual progress.
 
-   - Students can monitor their progress in each course via:
-     - Lesson completion status.
-     - Quiz results and overall grades.
-     - Credit points earned and achievements unlocked.
-   - Teachers can provide individualized feedback, and students can receive automatic feedback from quizzes.
+### **2. Course Enrollment**
 
-7. **Interactive Discussion Boards**:
+- **Automatic Access**:
+  - **Free Access**: Students have automatic access to courses offered by their own teachers.
+- **Optional Paid Access**:
+  - Students can enroll in courses from other teachers, using ratings and AI recommendations to guide their choices.
+  - **Payment**: Enrollment in these courses requires payment.
+- **AI Recommendations**:
+  - The system suggests courses based on student preferences, performance, and course ratings.
 
-   - Create **topic-specific forums** where students can discuss subjects, ask questions, or collaborate on assignments.
-   - Teachers or moderators can curate and manage the discussions.
-   - **Credit points** could also be awarded for valuable contributions on discussion boards, providing another avenue for student recognition.
+### **3. Course Content and Progression**
 
-8. **Notifications**:
+- **Self-Paced Learning**:
+  - Students access course materials, including video lessons, supplementary materials, and quizzes.
+  - They progress at their own pace while adhering to **milestones** aligned with the school schedule.
+- **Progress Tracking**:
+  - The platform tracks lesson completion, quiz results, and overall engagement.
+- **AI-Driven Flagging**:
+  - Students who significantly deviate from the class pace are flagged:
+    - **Slower Learners**: May need additional support.
+    - **Faster Learners**: May benefit from advanced materials.
 
-   - Push notifications alert students when:
-     - A new lesson is available.
-     - Their questions receive answers or upvotes.
-     - They earn credit points or achievements.
+### **4. Student Grouping for Collaborative Learning**
 
-9. **Certificates & Badges**:
-   - Upon completing courses or earning a certain amount of credit points, students receive **certificates** or **badges** that appear on their profile.
-   - These badges serve as rewards for both participation (credit points) and academic achievement.
+- **Dynamic Grouping**:
+  - Students are grouped based on learning pace to foster peer-to-peer support.
+  - **Mixed Groups**: Combine faster and slower learners to encourage collaboration.
+- **Teacher Intervention**:
+  - Teachers receive notifications about flagged students and can provide targeted assistance.
 
-### **App Workflow**:
+### **5. Interactive Q&A System and AI Filtering**
 
-1. **Student Registration & Onboarding**:
+- **Question Submission**:
+  - Students can ask questions related to lessons at any time.
+- **AI Filtering**:
+  - AI prioritizes and filters questions to highlight the most relevant or common ones for teacher attention.
+- **Credit Points for Engagement**:
+  - Students earn credit points when their questions are upvoted by peers or approved by teachers.
 
-   - Students sign up and create profiles.
-   - They can either browse available courses or are enrolled in specific courses by their teacher.
+### **6. Credit Point System**
 
-2. **Course Participation**:
+- **Purpose**:
+  - Encourage active participation and quality contributions from students.
+- **Earning Points**:
+  - **High-Quality Questions**: Points awarded based on upvotes and teacher recognition.
+  - **Peer Support**: Points for answering classmates' questions effectively.
+  - **Milestones**: Additional points for completing lessons and quizzes promptly.
+- **Rewards and Recognition**:
+  - Accumulated points unlock achievements, badges, or access to extra content.
+- **Formative Assessment**:
+  - Teachers use credit points to gauge student engagement and understanding.
 
-   - The student selects a course and starts watching the lessons or reading materials.
-   - After completing lessons, the student can take quizzes to test understanding and ask questions in the Q&A section.
+### **7. Rating System for Courses and Teachers**
 
-3. **Engagement via Q&A and Credit Points**:
+- **Student Feedback**:
+  - Students rate courses after completion, providing feedback on content quality and teaching effectiveness.
+- **AI-Driven Rankings**:
+  - AI aggregates ratings to rank courses and teachers.
+  - **Visibility**:
+    - Highly-rated courses are recommended more often.
+    - Lower-rated courses receive feedback for improvement.
 
-   - As students ask questions, they can be upvoted by peers or approved by teachers.
-   - High-quality questions earn credit points, which are displayed in the student’s profile.
-   - The teacher responds to key questions, marking them as resolved, and provides additional insights.
+### **8. Teacher Dashboard and Analytics**
 
-4. **Teacher Assessment & Feedback**:
+- **Comprehensive Overview**:
+  - Teachers have access to dashboards displaying:
+    - Student progress and completion rates.
+    - Engagement metrics like credit points earned and participation levels.
+    - Lists of flagged students needing attention.
+- **Data-Driven Decisions**:
+  - Teachers can tailor their teaching strategies based on analytics.
 
-   - Teachers track student performance based on:
-     - Quiz results.
-     - Quality and frequency of questions asked.
-     - Credit points earned.
-   - Teachers use the credit point system as part of their overall assessment of student engagement and effort.
+### **9. Progress Review and Certifications**
 
-5. **Progress Review**:
+- **Student Dashboards**:
+  - Students view their own progress, including completed lessons, quiz scores, and earned credit points.
+- **Certificates and Badges**:
+  - Upon reaching milestones or completing courses, students earn certificates and badges displayed on their profiles.
 
-   - Students can view their earned credits, grades, and overall progress in the dashboard.
-   - Feedback from teachers and credits earned for Q&A participation encourage continued learning and engagement.
+### **10. Revenue Model for Teachers**
 
-6. **Rewards and Motivation**:
-   - As students gather more credit points, they unlock **badges, achievements**, and potential rewards like access to special content.
-   - This gamified system provides continuous motivation for active participation.
+- **Income Opportunities**:
+  - Teachers earn revenue by offering courses to students outside their official classes.
+- **Incentivized Quality**:
+  - High-quality courses attract more paid enrollments.
+- **Revenue Sharing**:
+  - The platform may implement a subscription model with revenue distributed based on student engagement and course ratings.
 
-### **Teacher's Perspective**:
+## **6. Additional Features**
 
-- Teachers gain a powerful tool for identifying **active participants** and **motivated learners**.
-- They can focus on students who need more support based on their engagement and credit points, ensuring personalized learning paths.
+### **Interactive Discussion Boards**
 
-## **6. Discussion**
+- **Collaborative Spaces**:
+  - Topic-specific forums for students to discuss subjects and collaborate on assignments.
+- **Moderation**:
+  - Teachers or appointed moderators oversee discussions to maintain quality.
 
-### **1. Problem Understanding**:
+### **Notifications System**
 
-- **Is the core problem clearly defined?**
+- **Timely Alerts**:
+  - Students receive notifications for new lessons, responses to questions, and earned achievements.
+- **Engagement Reminders**:
+  - Reminders for upcoming milestones or if they are falling behind.
 
-  - Do you fully understand the issues students and teachers face in traditional learning environments?
-  - Have you explored whether the lack of interaction and personalized learning is the primary pain point for both students and teachers?
+## **7. Technology and AI Integration**
 
-- **Are there any other underlying problems that haven’t been addressed?**
-  - For example, how will this platform handle technical literacy? What if students/teachers aren’t comfortable using the platform?
+- **Artificial Intelligence**:
+  - **Question Prioritization**: AI filters and ranks student questions.
+  - **Course Recommendations**: Personalized suggestions based on learning patterns.
+  - **Progress Analysis**: Identifies students who are ahead or behind.
 
-### **2. User Personas and Their Needs**:
+## **8. Business Logic Summary**
 
-- **Who are the primary users?**
+- **Personalized Learning**: The platform adapts to individual student needs while keeping the class synchronized with the curriculum.
+- **Enhanced Engagement**: Interactive features and the credit point system motivate students to participate actively.
+- **Quality Assurance**: Ratings and feedback loops ensure that teachers continuously improve their course offerings.
+- **Teacher Empowerment**: Tools and analytics enable teachers to manage their classes effectively and extend their reach.
+- **Revenue Streams**: Teachers have opportunities to increase their income by offering high-quality courses to a broader audience.
 
-  - You’ve defined students and teachers, but what about other potential users like school administrators or parents? How do their roles fit into the platform?
+## **9. Conclusion**
 
-- **What are the specific needs of each user type?**
-  - Are students more focused on flexibility, while teachers are looking for better engagement? Are the tools provided meeting each user’s specific needs?
-  - How will this platform engage students who are less motivated? How will it assist teachers in managing student diversity (in terms of ability and learning pace)?
-
-### **3. Business Logic for Personalized Learning**:
-
-- **How will the platform adjust to the different learning paces of students?**
-
-  - Will there be some adaptive learning technology that tracks student progress and suggests new content or exercises based on their performance?
-  - How do students get feedback or support if they are falling behind? Are there recommendations for additional study resources?
-
-- **How personalized is the interaction between teacher and student?**
-  - Will teachers have access to detailed analytics of each student’s progress, enabling them to provide personalized feedback?
-  - Will the system suggest interventions if a student is struggling? If so, how are these interventions determined?
-
-### **4. Interaction and Engagement**:
-
-- **How will the platform encourage consistent interaction?**
-
-  - Will there be any **incentive mechanisms** for students to engage, beyond the credit points? For example, could there be additional rewards or recognition for students who actively participate or help others?
-
-- **How can teachers manage interaction effectively?**
-  - With a potentially large number of students, how will the teacher prioritize which questions to answer?
-  - Can the system categorize or highlight critical questions automatically?
-
-### **5. Assessment and Feedback Loop**:
-
-- **How will student progress be assessed beyond quizzes?**
-
-  - Will the platform offer other forms of assessment like project-based assignments, peer reviews, or teacher-led evaluations?
-
-- **How will feedback be delivered?**
-  - Will feedback be provided only through automated systems (like quiz results), or will there be manual teacher feedback on open-ended assignments?
-
-### **6. Monetization and Sustainability**:
-
-- **How will this platform generate revenue?**
-
-  - Will students pay for access to premium features or personalized content?
-  - Will there be a subscription model for schools or teachers?
-  - If the platform is free, how will you maintain and scale it financially?
-
-- **What are the incentives for teachers?**
-  - Will they be compensated for their time on the platform? How will the platform encourage high-quality teachers to join and contribute?
-
-### **7. Scaling and Adaptation**:
-
-- **How will the platform scale with a large number of users?**
-  - As more students and teachers join, can the platform continue to provide personalized learning experiences without slowing down?
-- **Can the platform adapt to other educational contexts or levels?**
-  - For instance, could it be used in higher education or even in corporate training environments?
-
-### **8. Student and Teacher Autonomy**:
-
-- **How much autonomy do students and teachers have?**
-  - Will students have freedom to choose the courses they want, or will there be recommendations/mandatory courses?
-  - How much control will teachers have over the content they create? Can they make changes to courses dynamically based on student performance?
-
-### **9. Success Metrics**:
-
-- **How will the success of the platform be measured?**
-  - Will you track student progress, course completion rates, or engagement metrics (e.g., number of questions asked)?
-  - How will you measure **learning outcomes** and **student satisfaction**?
-
-### **10. Long-Term Vision**:
-
-- **How will the platform evolve over time?**
-  - What are the future features or improvements that could be added as the platform grows (e.g., AI-driven tutoring, collaborative projects, or VR learning environments)?
-  - How do you envision this platform in 2-3 years? Will it focus on K-12 education only, or will it expand to other educational sectors?
-
----
-
-By answering these questions, you’ll gain a deeper understanding of your **business logic**, user needs, and how your platform should be structured to meet those needs effectively. This will help refine your overall solution and ensure that every feature aligns with solving the core problem.
-
-Which specific questions resonate with you the most, and would you like to explore them further?
+This educational platform bridges the gap between traditional classroom challenges and modern technological solutions. By personalizing learning experiences, fostering collaboration, and integrating AI-driven tools, it aims to enhance the educational outcomes for students and provide valuable resources and opportunities for teachers.

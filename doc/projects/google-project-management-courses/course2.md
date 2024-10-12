@@ -37,3 +37,18 @@
 - Success criteria
   - We need docs to measure the success of a project and communicate it to stakeholders and customers
 
+## Module 3: Working effectively with stakeholders
+
+### Exploring project team roles and responsibilities
+
+- Accessiblity: permanent or temporary disabilities
+- Choosing a project team: know who to assign, who fit wit the project. 
+  - They can be trained on time, still bring great benefits and not delay the project.
+  - Sometimes we can't choose, so that we need to bring the best out of them.
+  - We would want people who are interested in the project, who are motivated, who are committed to the project.
+  - How many members should we have?
+- Project roles
+  - Limited human resources requires multiple roles to be performed by the same person.
+  - Some roles: team members, customers (different from users), stakeholders, sponsors (?), project manager, etc.
+  
+ 

@@ -22,6 +22,11 @@
     - I wonder about the administrator role here because we may need to build a lot of things for this administration. I guess currently we will opt this out
 
 - **Post-Registration Actions**:
+  - Onboarding flow including:
+    - Welcome page: greet the user and explain what to do next
+    - Confirm the user's role (if they registered via OAuth)
+    - Collect additional information: 
+      - 
   - Create a class and receive a unique class code.
     - How do we generate a unique class code?
   - Set up their profile, including a profile picture, bio, and teaching subjects.

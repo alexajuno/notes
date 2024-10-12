@@ -113,13 +113,35 @@
 
 - Prototyping approach: build a prototype of the system to test the feasibility and then develop it fully
   - Some problems with this approach:
-    - I would say that people might have misunderstandings about the real product with the prototype
+    - People might have misunderstandings about the real product with the prototype
 - Spiral model: it seems like the prototype with multiple cycles
   - This model focuses on risk management
   - I haven't understood this but this model requires an risk assessment expertise to convince the customer that this spiral approach is controllable
   - Oh, via an example, I understand it now. Because we will change the requirements each time, it's really hard to control the unexpected things might happen
 
 ##### 2.3.4 Concurrent models
+
+- This model only cares about the state of a project, not the activities.
+
+##### 2.3.5 A Final Word on Evolutionary Process Models
+
+- These models are suitable for a rapid changing requirements in software engineering
+- But project management and estimation techniques require a linear model
+- In the end, we need to find balance between these two: change management and arbiter
+
+#### 2.4 Specialized Process Models
+
+##### 2.4.1 Component-Based Development
+
+- Suitable for premade components of a system to be used in a project
+
+##### 2.4.2 The Formal Methods Model
+
+- Using rigorous mathematical notations
+- Pros: defect-free software
+- Cons: time-consuming
+
+##### 2.4.3 Aspect-Oriented Software Development
 
 
 
