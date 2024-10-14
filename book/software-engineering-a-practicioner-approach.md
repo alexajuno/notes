@@ -143,12 +143,37 @@
 
 ##### 2.4.3 Aspect-Oriented Software Development
 
+- I guess I've read about this new programming paradigm somewhere, in which we focus on the crosscutting concerns instead of the business logic with modules.
 
+#### 2.5 The Unified Process
 
+##### 2.5.1 History
 
+##### 2.5.2 Phases
 
+- From discussed five activities converting to phases: inception -> elaboration -> construction -> transition -> production. But I haven't understood what is the reason for this, maybe just another name
 
+#### 2.6 Personal and Team Process Models
 
+##### 2.6.1 Personal Software Process
 
+- Defines five framework activities
+- Noted from the author: this model hasn't been widely adopted
+
+##### 2.6.2 Team Software Process
+
+- Similar to personal software process but for teams
+
+#### 2.7 Process Technology
+
+- Some tools presented but I'm not sure if I'll use them
+
+#### 2.8 Product and Process
+
+- For this part, the conclusion is we should both creating high-level design and build prototypes to stay in the state between both product and process. We shouldn't focus on a single side.
+
+#### 2.9 Summary
+
+### Chapter 3: Agile Development
 
 

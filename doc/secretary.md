@@ -19,11 +19,8 @@
 ### Cross-platform App Development
 
 - [ ] Project: Learning Management System
-  - [ ] Week 3
+  - [ ] Week 6
     - [ ] Flutter Testing
-    - [ ] Checkout code of my teammates
-      - [ ] Dung Luu: feature 1.5, 1.12
-      - [x] Dung Nguyen: feature on pull request #5
     - [ ] Wrap reusable code to widgets
   - Flutter caching and itneraction with API
 
@@ -39,6 +36,7 @@
   - [ ] Database design
     - [ ] Mermaid diagrams
   - [ ] Privacy policy and Terms of Service
+    - [ ] Rules about data collections and uses in Vietnam, esp. for students under 18.
 
 ### Project III
 
@@ -116,6 +114,7 @@
 
 ## Topics
 
+- [ ] Understanding JWT Session Management Mechanism
 - [ ] Passkey technology
 - [ ] Backend roadmap
 - [ ] ChatGPT 4o with Canvas

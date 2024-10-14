@@ -2,8 +2,6 @@
 
 **Objective**: Enable teachers to create, manage, and update courses based on the official curriculum, allowing students to access high-quality educational content.
 
-**Why it's needed**: This functionality is essential for delivering structured learning experiences, enabling teachers to share their expertise, and providing students with access to consistent and comprehensive course materials.
-
 ## **Detailed Description**
 
 ### **For Teachers**

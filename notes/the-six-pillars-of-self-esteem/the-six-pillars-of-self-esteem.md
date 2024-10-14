@@ -100,5 +100,19 @@
 ### 9. The Practice of Self-Assertiveness
 
 - What is self-assertiveness? Self-assertiveness means honoring my wants, needs, and values and seeking appropriate forms of their expression in reality.
+- Actually I don't read this part carefully, because I've kinda grasped the idea. I mean I'm struggling with this assertiveness but I think I know what do I need to do.
 
+### 10. The Practice of Living Purposefully
+
+- I guess this is the next step after self-assertiveness, and it's like self-assertiveness + responsibility for our life. A short word for this part can be "proactive" and being purposeful on actions
+
+### 11. The Practice of Personal Integrity
+
+- I think this would relate to something else but I haven't figured it out yet.
+- In short, acting with your values, principles and judgments
+- Uhm yeah this idea is similar to living consciously, but one point I think can be concluded here that even though we can't know the truth for everything, at least we believe and accept our actions at those moments.
+- Talking a bit about guilt here, and I think it's a detailed part of the above conclusion. Honestly this part is nearly the same as the first two parts except being more specific.
+- Small reminder about reconsidering our deepest values and principles, because they are may misleading our lives.
+
+### 12. 
 

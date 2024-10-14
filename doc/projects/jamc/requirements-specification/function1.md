@@ -2,8 +2,6 @@
 
 **Objective**: Enable both teachers and students to register and create accounts, allowing them to access the platform's features.
 
-**Why it's needed**: User registration is essential for authentication, personalized experiences, and secure access to the platform's functionalities.
-
 ## **Detailed Description**
 
 ### **For Teachers**
@@ -25,10 +23,9 @@
   - Onboarding flow including:
     - Welcome page: greet the user and explain what to do next
     - Confirm the user's role (if they registered via OAuth)
-    - Collect additional information: 
-      - 
+    - Collect additional information 
   - Create a class and receive a unique class code.
-    - How do we generate a unique class code?
+    - How should we generate a unique class code?
   - Set up their profile, including a profile picture, bio, and teaching subjects.
     - How do we handle the profile picture? New URL, new image bytes is the best option for the following questions.
       - Whether to save the uploaded images (previous profile picture)

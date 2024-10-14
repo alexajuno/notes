@@ -1,4 +1,4 @@
-# Funtions Design in Detail
+# Requirements Specification
 
 ## [**Function 1: User Registration and Onboarding**](function1.md)
 
