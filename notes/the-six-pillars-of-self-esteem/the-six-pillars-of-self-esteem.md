@@ -114,5 +114,39 @@
 - Talking a bit about guilt here, and I think it's a detailed part of the above conclusion. Honestly this part is nearly the same as the first two parts except being more specific.
 - Small reminder about reconsidering our deepest values and principles, because they are may misleading our lives.
 
-### 12. 
+### 12. The Philosophy of Self-Esteem
+
+- Talking about some common perceptions of the world, or in a higher level can be called philosophy, that affect self-esteem
+- It's not. I was wrong. This part is like a summary for the above six practices
+- I haven't read carefully. If someday I feel like I'm having trouble with my self-esteem, I'll come back here
+
+## Part 3: External Influences: Self and Others
+
+### 13. Nurturing a Child's Self-Esteem
+
+- Quick intro about the childhood: dependent in parents and the social context
+- In short, if you want your child to held high self-esteem, you must have high self-esteem by yourself lol. With that core value, your actions will lead your child to have the same self-esteem.
+- Here discussing basic elements in nurturing a child: from simplest needs to the complex ones. 
+- I would say that I've grapsed the common theme of the book. I would try to skim fast to see any other ideas.
+
+### 14. Self-Esteem in Schools
+
+- Talking about the teacher's role in students' self-esteem.
+- Skipped
+
+### 15. Self-Esteem and Work
+
+- I'm guessing that this part will talk about the role of the manager
+- In the beginning is a long introduction about the evolution of working environment (I'm not sure which word to use, just changed a lot), and people haven't been ready for that in term of self-esteem.
+- This part discusses a lot about economics, industry. Well it's must be two-thirds of this part to convince the readers
+- A long part about behaviors of managers/leaders should be done. But I must say that this is the weak part of the book, talking too much about how the behaviors should look like but not talking more to straight to the points. Actually it's kinda like this book is covering too much topics, like how it would be if self-esteem is presented in different life aspects but I would say this part isn't good. The core itself is a good thing.
+
+### 16. Self-Esteem and Psychotherapy (Skipped)
+
+### 17. Self-Esteem and Culture (Skipped)
+
+### 18. Conclusion
+
+
+
 

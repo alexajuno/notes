@@ -18,10 +18,11 @@
 
 ### Cross-platform App Development
 
-- [ ] Project: Learning Management System
+- [ ] [Project: Learning Management System](/college/cross-platform-app-development/project/index.md)
   - [ ] Week 6
     - [ ] Flutter Testing
     - [ ] Wrap reusable code to widgets
+    - [ ] BLoC model and layers architecture
   - Flutter caching and itneraction with API
 
 ### JAMC
@@ -40,7 +41,7 @@
 
 ### Project III
 
-- [ ] [JAMC]
+- JAMC
 
 ### UX/UI
 
@@ -114,6 +115,7 @@
 
 ## Topics
 
+- [ ] An idea about the combination of psychology and software
 - [ ] Understanding JWT Session Management Mechanism
 - [ ] Passkey technology
 - [ ] Backend roadmap
@@ -122,6 +124,7 @@
 - [ ] Relationships Management
 - [ ] Communication Skills
 - [ ] Invite friends to personal projects
+  - One thing to do is present the project in an engaging way to make people want to join.
 - [ ] PMBOK Guide
 - [ ] Leadership
 - [ ] System Design

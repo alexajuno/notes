@@ -30,17 +30,32 @@
 - Touch
 - Movement
 
-## Information processing
-
 ### Human memory
 
-- long term memory, working memory, sensory memory
+- Information Processing Theory
+
+  - Types of memory: I feel that this part is relating to biology, I mean it's fun to know some but I wouldn't bother though, because to memorize these info, I need to dig deeper
+    - Sensory memory
+    - Working memory
+    - Long-term memory
+      - Two types of LTM: semantic, episodic
+      - activities
+        - Encryption
+        - Storage and forgotten
+        - Retrieval
+
 - How we forget things
 
-### Retrieval
+## Information processing - Retrieval
 
-## Reasoning
+- Two types: recall and recognition
+- A UX Principle: recognition over recall
+
+## Reasoning/Thinking
+
+- Some types of reasonings: logic, contradiction, induction
+- And many more theories that I don't bother to memorize
 
 ## Emotion
 
-
+- This is about psychology, about human errors, emotions, etc. that may relate to UX design but I don't bother either
