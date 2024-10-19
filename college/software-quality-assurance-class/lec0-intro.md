@@ -1,19 +1,11 @@
 # Introduction
 
 - mid-term: 
-  - test - on paper - may have multiple tests =0
+  - test - on paper - up to 5 tests.
+    - Highest grade of the tests will be used for the mid-term grade.
   - may have multi-choices questions
 - final-test:
   - paper test
   - content will be exercises
-- teacher requires active participation from students
-- This class seems really hard :V
-
-## Concepts
-
-- What is software?
-- What is software quality?
-
-## Nickname: Chú Voi Bé Bỏng
-
-- Trọng tâm thi vào testing black/white box
+- Teacher requires active participation from students
+- Focus on testing black/white box
