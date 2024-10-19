@@ -3,17 +3,21 @@
 ## Introduction
 
 - We often ignore our biases and only easily spot others flaws but not our own
+- Systematic errors = biases
 - The book is about human thinking process and decision-making and improve the ability to identify and understand errors of judgment and choice, in others and eventually in ourselves
 
 ### Origins
 
-- Talking about the story of the current research results of the author
+- Talking about the origins of the current research results of the author
+- They want to figure out the biases of researchers themselves - and the result is yes they do
 - There are some small stories about how human minds work
+- Even though the story about the research ain't particularly useful, I find it interesting
 - And the author won a Nobel Prize in behaviral economics
 
 ### Where we are now
 
 - Something about complex good decisions don't come from expertise
+- We tend to overestimate about our understanding of this world and underestimate the role of chance
 - Probably comparing cognitive thinking and intuition
 - Two systems in brain: auto and controlled
 
@@ -35,6 +39,7 @@
 
 ### Plot Synopsis
 
+- Summary the recurrent theme of the book is about the two systems
 - System 1 is automatic but calling System 2 when facing hard problems
 
 ### Conflict + Illusions

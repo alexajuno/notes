@@ -1,36 +1,56 @@
-### 1. **Giới hạn quyền tạo tags:**
-   - **Người dùng có điểm tín chỉ cao mới có quyền tạo tag mới**: Điều này sẽ khuyến khích chỉ những người dùng có uy tín, đã đóng góp tích cực cho cộng đồng mới được tạo tag mới. Những người dùng khác sẽ phải sử dụng các tag đã có sẵn.
-   - **Yêu cầu xác nhận từ giáo viên hoặc admin**: Khi người dùng muốn tạo tag mới, họ phải đề xuất tag đó và admin hoặc giáo viên sẽ duyệt yêu cầu. Điều này giúp kiểm soát số lượng tag mới được tạo ra và tránh sự trùng lặp không cần thiết.
+# Hệ thống quản lý tags
 
-### 2. **Tự động kiểm tra và gợi ý tag đã tồn tại:**
-   - Khi người dùng nhập tag mới, hệ thống sẽ **tự động gợi ý** các tag đã tồn tại dựa trên từ khóa mà họ nhập. Điều này giúp giảm thiểu việc tạo ra các tag tương tự nhau nhưng khác cách viết.
-   - **Từ điển tag**: Xây dựng một danh sách các tag phổ biến và đã được phê duyệt trước, và người dùng chỉ có thể chọn từ danh sách đó hoặc tạo tag mới theo quy định.
+## 1. Giới hạn quyền tạo tags
 
-### 3. **Giới hạn số lượng tags mà người dùng có thể tạo:**
-   - Đặt một **ngưỡng tối đa** cho số lượng tag mới mà người dùng có thể tạo trong một khoảng thời gian (ví dụ: mỗi người dùng chỉ được tạo 1-2 tag mới mỗi tuần). Điều này giúp kiểm soát số lượng tag phát sinh và ngăn việc tạo tràn lan.
+### Điểm tín chỉ và quyền tạo tag
+- Chỉ người dùng có điểm tín chỉ cao mới có quyền tạo tag mới
+- Khuyến khích những người dùng có uy tín, đã đóng góp tích cực cho cộng đồng
+- Những người dùng khác sẽ phải sử dụng các tag đã có sẵn
 
-### 4. **Tự động gộp tag trùng lặp hoặc sai:**
-   - **Quản lý tags trùng lặp**: Nếu hệ thống phát hiện nhiều tag tương tự (ví dụ: "Toán học" và "Math"), có thể thiết lập cơ chế **gộp tag** và thay thế tự động bằng một tag chuẩn duy nhất.
-   - **Sửa lỗi chính tả**: Hệ thống có thể tự động sửa các lỗi chính tả phổ biến trong tag hoặc cảnh báo người dùng nếu họ nhập một tag mới có thể là lỗi chính tả.
+### Quy trình xác nhận tag mới
+- Người dùng phải đề xuất tag mới
+- Admin hoặc giáo viên sẽ duyệt yêu cầu
+- Giúp kiểm soát số lượng tag mới và tránh trùng lặp
 
-### 5. **Theo dõi và xóa tag không được sử dụng:**
-   - Sau một thời gian, nếu một tag mới không được sử dụng trong bất kỳ câu hỏi nào, hệ thống có thể **tự động xóa** tag đó để giữ cho database gọn gàng.
+## 2. Tự động kiểm tra và gợi ý tag
 
-### Cơ chế tạo tag gợi ý:
-   - Khi người dùng nhập tag mới, nếu tag đó không tồn tại, hệ thống sẽ:
-     1. Gợi ý các tag tương tự đã tồn tại.
-     2. Kiểm tra quyền hạn của người dùng xem có đủ điểm tín chỉ hoặc quyền để tạo tag mới hay không.
-     3. Nếu được phép, cho phép tạo tag mới với một quy trình xác nhận.
+### Gợi ý tag tự động
+- Hệ thống tự động gợi ý các tag đã tồn tại dựa trên từ khóa nhập vào
+- Giúp giảm thiểu việc tạo ra các tag tương tự nhau
 
-### Cấu trúc bảng `tags`:
-   ```sql
-   CREATE TABLE tags (
-       id SERIAL PRIMARY KEY,
-       name VARCHAR(255) UNIQUE NOT NULL,
-       created_by INT REFERENCES users(id),
-       approved BOOLEAN DEFAULT FALSE -- Tag mới tạo cần được phê duyệt
-   );
-   ```
+### Từ điển tag
+- Xây dựng danh sách các tag phổ biến và đã được phê duyệt trước
+- Người dùng chỉ có thể chọn từ danh sách hoặc tạo tag mới theo quy định
 
-2. **Bảng `question_tags`**:
-- Không thay đổi so với bảng đã nêu trước đó, nhưng khi tag mới được tạo, nó sẽ có trạng thái **pending** hoặc **approved** tùy vào cơ chế kiểm soát.
+## 3. Giới hạn số lượng tags
+
+### Ngưỡng tạo tag
+- Đặt ngưỡng tối đa cho số lượng tag mới mỗi người dùng có thể tạo
+- Ví dụ: 1-2 tag mới mỗi tuần
+- Giúp kiểm soát số lượng tag phát sinh và ngăn việc tạo tràn lan
+
+## 4. Quản lý tag trùng lặp và sai
+
+### Gộp tag trùng lặp
+- Phát hiện và gộp các tag tương tự (ví dụ: "Toán học" và "Math")
+- Thay thế tự động bằng một tag chuẩn duy nhất
+
+### Sửa lỗi chính tả
+- Tự động sửa các lỗi chính tả phổ biến trong tag
+- Cảnh báo người dùng khi nhập tag mới có thể là lỗi chính tả
+
+## 5. Theo dõi và xóa tag không sử dụng
+
+### Xóa tag tự động
+- Theo dõi việc sử dụng các tag
+- Tự động xóa tag không được sử dụng sau một thời gian
+- Giữ cho database gọn gàng
+
+## Cơ chế tạo tag gợi ý
+
+### Quy trình gợi ý và tạo tag
+1. Gợi ý các tag tương tự đã tồn tại
+2. Kiểm tra quyền hạn của người dùng
+3. Cho phép tạo tag mới với quy trình xác nhận (nếu đủ điều kiện)
+
+## Cấu trúc cơ sở dữ liệu
