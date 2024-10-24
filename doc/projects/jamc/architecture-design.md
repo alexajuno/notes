@@ -70,7 +70,7 @@ We will adopt a **monolith architecture** in the beginning and then gradually tr
 4. **Content Delivery Service**
 
    - **Responsibilities**: Storage and delivery of videos and materials.
-   - **Technologies**: CDN, cloud storage (e.g., AWS S3, CloudFront).
+   - **Technologies**: CDN, cloud storage AWS S3.
 
 5. **Progress Tracking Service**
 
@@ -130,7 +130,7 @@ We will adopt a **monolith architecture** in the beginning and then gradually tr
 
 #### **E. Infrastructure Layer**
 
-- **Cloud Platform**: AWS, Azure, or Google Cloud Platform.
+- **Cloud Platform**: AWS and Google Cloud Platform.
 - **Containerization**: Docker for packaging microservices.
 - **Orchestration**: Kubernetes for service deployment and scaling.
 - **CI/CD Pipeline**: Jenkins, GitHub Actions for automated testing and deployment.
@@ -141,7 +141,7 @@ We will adopt a **monolith architecture** in the beginning and then gradually tr
 
 #### **A. User Service**
 
-- **Technologies**: Node.js with Express, Passport.js for authentication.
+- **Technologies**: Auth.js for authentication.
 - **Features**:
   - Secure password hashing (bcrypt).
   - Social login via OAuth providers (Google, Facebook).
@@ -345,19 +345,9 @@ We will adopt a **monolith architecture** in the beginning and then gradually tr
 
 ### **7. Technology Stack Summary**
 
-- **Front-End**:
+- **Framework**: Next.js.
 
-  - **Frameworks**: Next.js for web applications.
-
-- **Back-End**:
-
-  - **Languages**: Node.js (JavaScript/TypeScript), Python, or Java.
-  - **Frameworks**: Express.js
-
-- **Databases**:
-
-  - **Relational**: PostgreSQL or MySQL.
-  - **NoSQL**: MongoDB for unstructured data.
+- **Databases**: PostgreSQL.
 
 - **Testing**:
 
@@ -388,16 +378,16 @@ We will adopt a **monolith architecture** in the beginning and then gradually tr
 #### **Phase 1: Core Development with Next.js and Express.js**
 
 - **Set Up Next.js Project**
-        Initialize a new Next.js app.
-        Configure TypeScript if desired.
-        Set up basic pages and components.
+  Initialize a new Next.js app.
+  Configure TypeScript if desired.
+  Set up basic pages and components.
 
-    Develop Authentication Flow
-        Use Next.js API routes for login and signup pages.
-        Implement JWT authentication with HTTP-only cookies.
-        Integrate with the back-end User Service built with Express.js.
+  Develop Authentication Flow
+  Use Next.js API routes for login and signup pages.
+  Implement JWT authentication with HTTP-only cookies.
+  Integrate with the back-end User Service built with Express.js.
 
-    Build Core Features
+  Build Core Features
 
         Course Listing and Enrollment
             Fetch courses from the back-end Course Service.
@@ -407,52 +397,52 @@ We will adopt a **monolith architecture** in the beginning and then gradually tr
             Render lessons, videos, and materials.
             Use dynamic routes in Next.js for courses and lessons.
 
-    Set Up State Management
-        Implement global state management for user authentication status, enrolled courses, etc.
+  Set Up State Management
+  Implement global state management for user authentication status, enrolled courses, etc.
 
-    Develop Initial Back-End Services
-        User Service: Authentication, user profiles.
-        Course Service: Course data, lessons, materials.
+  Develop Initial Back-End Services
+  User Service: Authentication, user profiles.
+  Course Service: Course data, lessons, materials.
 
-    Database Setup
-        Use a relational database (PostgreSQL) for structured data.
-        Connect back-end services to the database.
+  Database Setup
+  Use a relational database (PostgreSQL) for structured data.
+  Connect back-end services to the database.
 
 #### **Phase 2: Expand Features**
 
 - **Implement Progress Tracking**
-        Build Progress Tracking Service.
-        Update front-end to display progress.
+  Build Progress Tracking Service.
+  Update front-end to display progress.
 
-    Add AI Recommendations
-        Integrate AI Recommendation Service.
-        Display personalized recommendations on the dashboard.
+  Add AI Recommendations
+  Integrate AI Recommendation Service.
+  Display personalized recommendations on the dashboard.
 
-    Develop Credit Points System
-        Implement Credit Points Service.
-        Show points and badges on user profiles.
+  Develop Credit Points System
+  Implement Credit Points Service.
+  Show points and badges on user profiles.
 
-    Enhance User Experience
-        Add responsive design elements.
-        Optimize for SEO where applicable.
+  Enhance User Experience
+  Add responsive design elements.
+  Optimize for SEO where applicable.
 
 #### **Phase 3: Advanced Features and Scaling**
 
 - **Microservices Transition**
-        Refactor back-end into distinct microservices.
-        Set up API Gateway if needed.
+  Refactor back-end into distinct microservices.
+  Set up API Gateway if needed.
 
-    - **Implement CI/CD Pipeline**
-        Use GitHub Actions or Jenkins for automated testing and deployment.
-        Containerize applications using Docker.
+  - **Implement CI/CD Pipeline**
+    Use GitHub Actions or Jenkins for automated testing and deployment.
+    Containerize applications using Docker.
 
-    - **Set Up Infrastructure**
-        Deploy applications to a cloud platform (AWS, Azure, GCP).
-        Use managed databases and storage services.
+  - **Set Up Infrastructure**
+    Deploy applications to a cloud platform (AWS, Azure, GCP).
+    Use managed databases and storage services.
 
-    - **Implement Security Best Practices**
-        Set up SSL/TLS certificates.
-        Conduct security audits and apply compliance measures.
+  - **Implement Security Best Practices**
+    Set up SSL/TLS certificates.
+    Conduct security audits and apply compliance measures.
 
 ### **8. Final Notes**
 
@@ -471,7 +461,3 @@ We will adopt a **monolith architecture** in the beginning and then gradually tr
 # **Conclusion**
 
 The proposed architecture addresses all the key objectives outlined in your business processes and flows. By leveraging a microservices architecture with integrated AI components, the system is designed for scalability, security, and flexibility. This architecture will support personalized learning experiences, efficient teacher workflows, and a robust platform for high-quality educational content.
-
----
-
-**Feel free to ask if you need further details on any specific component or aspect of the architecture!**
