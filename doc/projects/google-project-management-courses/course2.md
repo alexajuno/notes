@@ -51,4 +51,16 @@
   - Limited human resources requires multiple roles to be performed by the same person.
   - Some roles: team members, customers (different from users), stakeholders, sponsors (?), project manager, etc.
   
- 
+### Evaluating stakeholders
+
+- Understanding stakeholders' (interests and influences) x (low and high) power grid
+- Key stakeholders
+- Each level of stakeholders need different kind of communication
+- Stakeholder buy-in
+
+### Assigning project team roles and responsibilities
+
+- RACI Chart: Responsible, Accountable, Consulted, Informed
+  - Only one person is accountable for a task
+
+
