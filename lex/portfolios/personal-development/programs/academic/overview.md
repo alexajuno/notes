@@ -25,7 +25,7 @@ I perceive college as a business entity, offering a broad spectrum of courses th
 
 ## Key Projects
 
-### **Project 1: GPA Enhancement Initiative**
+### [ **Project 1: GPA Enhancement Initiative** ](/college/index.md)
 
 - **Description:**
   - Implement a structured study plan to improve grades in current and future courses.
