@@ -1,0 +1,28 @@
+@startuml class-creation-and-management-sequence-diagram
+
+actor Teacher
+participant "Class Creation Page" as ClassPage
+participant "API Routes" as APIRoutes
+participant "LMS Module" as LMSModule
+participant "Database" as Database
+
+Teacher -> ClassPage: Start Class Creation
+ClassPage -> Teacher: Request Class Details (Name, Schedule, Resources)
+Teacher --> ClassPage: Provide Class Details
+ClassPage -> APIRoutes: Submit Class Details
+APIRoutes -> LMSModule: Validate and Process Class Details
+
+alt Details Valid
+    LMSModule -> Database: Save Class Information
+    Database --> LMSModule: Confirmation
+    LMSModule --> APIRoutes: Success Response
+    APIRoutes --> ClassPage: Class Created Successfully
+    ClassPage --> Teacher: Class Created Successfully
+    LMSModule -> Teacher: Provide Feedback Dashboard
+else Details Invalid
+    LMSModule --> APIRoutes: Error Message
+    APIRoutes --> ClassPage: Error Message
+    ClassPage --> Teacher: Display Error Message
+end
+
+@enduml
