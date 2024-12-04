@@ -1,58 +1,72 @@
-@startuml use-case-diagram
-actor User
-actor Teacher
+@startuml
+left to right direction
+
+' Define abstract actor User
+actor User <<abstract>>
+
+' Define concrete actors
 actor Student
-actor QAParticipant
+actor Teacher
 actor Admin
 
-User <|-- Teacher
-User <|-- Student
-User <|-- Admin
+' Actors inherit from User
+Student --|> User
+Teacher --|> User
+Admin --|> User
 
-QAParticipant <|-- Teacher
-QAParticipant <|-- Student
+' Define common use cases for User
+usecase "Log In" as UC_Login
+usecase "Manage Profile" as UC_ManageProfile
 
-usecase "Register" as UC1
-usecase "Log In" as UC2
-usecase "Manage Profile" as UC3
+User --> UC_Login
+User --> UC_ManageProfile
 
-usecase "CRUD Class" as UC4
-usecase "CRUD Module" as UC5
-usecase "Monitor Progress" as UC6
+' Define Student use cases
+usecase "Enroll in Class" as UC_EnrollClass
+usecase "Access Class Content" as UC_AccessContent
+usecase "Submit Assignments" as UC_SubmitAssignments
+usecase "Participate in Q&A" as UC_QA_Student
 
-usecase "Enroll in Class" as UC7
-usecase "Access Class Content" as UC8
-usecase "Complete Assignment" as UC9
-usecase "View Progress" as UC10
+Student --> UC_EnrollClass
+Student --> UC_AccessContent
+Student --> UC_SubmitAssignments
+Student --> UC_QA_Student
 
-usecase "Participate in Q&A" as UC11
-usecase "Moderate Q&A Content" as UC12
-usecase "Manage Tags" as UC13
-usecase "Review Reports" as UC14
-usecase "Manage User Roles" as UC15
+' Relationships for Student use cases
+UC_EnrollClass .> UC_Login : <<include>>
+UC_AccessContent .> UC_EnrollClass : <<include>>
+UC_SubmitAssignments .> UC_AccessContent : <<include>>
+UC_QA_Student ._u.> UC_AccessContent : <<extend>>
 
-User --> UC1
-User --> UC2
-User --> UC3
+' Define Teacher use cases
+usecase "Create and Manage Classes" as UC_ManageClasses
+usecase "Create and Manage Modules" as UC_ManageModules
+usecase "Monitor Student Progress" as UC_MonitorProgress
+usecase "Participate in Q&A" as UC_QA_Teacher
 
-Teacher --> UC4
-Teacher --> UC5
-Teacher --> UC6
+Teacher --> UC_ManageClasses
+Teacher --> UC_ManageModules
+Teacher --> UC_MonitorProgress
+Teacher --> UC_QA_Teacher
 
-Student --> UC7
-Student --> UC8
-Student --> UC9
-Student --> UC10
+' Relationships for Teacher use cases
+UC_ManageModules .> UC_ManageClasses : <<include>>
+UC_QA_Teacher ._u.> UC_MonitorProgress : <<extend>>
 
-QAParticipant --> UC11
-Admin --> UC12
-Admin --> UC13
-Admin --> UC14
-Admin --> UC15
+' Define Admin use cases
+usecase "Manage Tags" as UC_ManageTags
+usecase "Moderate Q&A" as UC_ModerateQA
+usecase "Review Reports" as UC_ReviewReports
+usecase "Manage User Roles" as UC_ManageRoles
+usecase "Configure System Settings" as UC_ConfigureSettings
 
-UC1 <|-- UC2 : <<includes>>
-UC8 <|-- UC9 : <<includes>>
-UC4 <|-- UC5 : <<extends>>
-UC11 <|-- UC12 : <<extends>>
+Admin --> UC_ManageTags
+Admin --> UC_ModerateQA
+Admin --> UC_ReviewReports
+Admin --> UC_ManageRoles
+Admin --> UC_ConfigureSettings
+
+' Relationships for Admin use cases
+UC_ConfigureSettings .> UC_ManageRoles : <<include>>
 
 @enduml

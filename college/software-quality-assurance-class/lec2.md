@@ -3,7 +3,7 @@
 ## 2.1 Motivation 
 
 - Metrics to measure code quality
-- Many types, the following parts are just about code complexity
+- Many types, the following parts are just about code complexity used by a certain tools like TestwellCMTJava
 
 ## 2.2 Lines of code
 

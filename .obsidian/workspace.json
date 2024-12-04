@@ -1,0 +1,185 @@
+{
+  "main": {
+    "id": "3027fb356eb00a97",
+    "type": "split",
+    "children": [
+      {
+        "id": "f9006cd3ee70c9b6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4de1a5752fd408d0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "projects/jamc/docs/srs/Software Requirements Specification (SRS) for JAMC Project.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Software Requirements Specification (SRS) for JAMC Project"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0d09c23a2ca97e1d",
+    "type": "split",
+    "children": [
+      {
+        "id": "0b2ec65a83837798",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "acb398026b4dc447",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "fd6a6b26455e7a37",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "ef50d29d9feacbf2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "2bd630dbe70ebf42",
+    "type": "split",
+    "children": [
+      {
+        "id": "f53f9f13f9e212c0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4030c7265d739393",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "projects/jamc/docs/srs/Software Requirements Specification (SRS) for JAMC Project.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": true,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Software Requirements Specification (SRS) for JAMC Project"
+            }
+          },
+          {
+            "id": "48297ab622b12dae",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "projects/jamc/docs/srs/Software Requirements Specification (SRS) for JAMC Project.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Software Requirements Specification (SRS) for JAMC Project"
+            }
+          },
+          {
+            "id": "04365e84bfe4353d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "1faa9388be613c66",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "projects/jamc/docs/srs/Software Requirements Specification (SRS) for JAMC Project.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Software Requirements Specification (SRS) for JAMC Project"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "4de1a5752fd408d0",
+  "lastOpenFiles": [
+    "projects/jamc/docs/srs/Software Requirements Specification (SRS) for JAMC Project.pdf",
+    "projects/jamc/docs/srs/Software Requirements Specification (SRS) for JAMC Project_tmp.html",
+    "projects/jamc/docs/srs/diagrams/use-case-diagram.png",
+    "projects/jamc/docs/srs/Software Requirements Specification (SRS) for JAMC Project.md",
+    "book/The Code of The Extraordinary Mind.md",
+    "book/The 4-Hour Workweek.md",
+    "book/pdf/When Things Don't Go Your Way.pdf",
+    "book/pdf/Understanding Human Nature.pdf",
+    "book/pdf/UML@Classroom.pdf",
+    "book/pdf/toaz.info-2019-super-thinking-by-gabriel-weinberg-the-big-book-of-mental-models-peng-pr_69e9f2bde09bba140edfd0fc131161a3.pdf",
+    "book/pdf/Thinking Fast and Slow.pdf",
+    "book/pdf/The Six Pillars of Self-Esteem.pdf",
+    "book/pdf/The Seven Habits of Highly Effective People.pdf",
+    "book/pdf/The Rules of Love_ A Personal Code for Happier, More Fulfilling Relationships - PDF Room.pdf",
+    "book/pdf/The Psychology of Money.pdf",
+    "projects/jamc/README.md",
+    "projects/jamc/docs/srs/diagrams/admin-controls-activity-diagram.png"
+  ]
+}

@@ -1,0 +1,2 @@
+- Tests first (will display bunch of errors) - then write code
+- Suitable for large projects, server-side code (imo), unit tests (imo, because for more complex combination, like complex UI or intergration test, I don't think a bunch of errors initially would be nice)
