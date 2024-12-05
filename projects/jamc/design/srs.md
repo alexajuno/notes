@@ -185,6 +185,62 @@ This sequence diagram shows the interactions between teachers and the system dur
 
 This diagram illustrates the high-level architecture of the JAMC platform, including external services, databases, and the Next.js application.
 
+### **5.7 User Registration Diagrams**
+
+#### **5.7.1 User Registration Activity Diagram**
+
+![User Registration Activity Diagram](diagrams/user-registration-activity-diagram.png)
+
+This diagram illustrates the flow of activities during user registration, including email verification and role selection.
+
+#### **5.7.2 User Registration Sequence Diagram**
+
+![User Registration Sequence Diagram](diagrams/user-registration-sequence-diagram.png)
+
+This sequence diagram shows the interactions between the user, frontend components, and backend services during the registration process.
+
+### **5.8 Q&A Participation Diagrams**
+
+#### **5.8.1 Q&A Participation Activity Diagram**
+
+![Q&A Participation Activity Diagram](diagrams/qa-participation-activity-diagram.png)
+
+This diagram shows the flow of activities when users participate in the Q&A system, including asking questions and providing answers.
+
+#### **5.8.2 Q&A Participation Sequence Diagram**
+
+![Q&A Participation Sequence Diagram](diagrams/qa-participation-sequence-diagram.png)
+
+This sequence diagram illustrates the interactions between users and system components during Q&A activities.
+
+### **5.9 Module Management Diagrams**
+
+#### **5.9.1 Module Management Activity Diagram**
+
+![Module Management Activity Diagram](diagrams/module-management-activity-diagram.png)
+
+This diagram shows the flow of activities for teachers creating and managing educational modules.
+
+#### **5.9.2 Module Management Sequence Diagram**
+
+![Module Management Sequence Diagram](diagrams/module-management-sequence-diagram.png)
+
+This sequence diagram details the interactions during module creation and management.
+
+### **5.10 Enrollment Diagrams**
+
+#### **5.10.1 Enrollment Activity Diagram**
+
+![Enrollment Activity Diagram](diagrams/enrollment-activity-diagram.png)
+
+This diagram illustrates the process flow when students enroll in courses.
+
+#### **5.10.2 Enrollment Sequence Diagram**
+
+![Enrollment Sequence Diagram](diagrams/enrollment-sequence-diagram.png)
+
+This sequence diagram shows the interactions between students and the system during course enrollment.
+
 ---
 
 ## **6. Data Requirements**

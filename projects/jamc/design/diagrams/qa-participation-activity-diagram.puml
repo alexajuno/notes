@@ -2,28 +2,22 @@
 
 start
 :User accesses Q&A section;
-:Display list of questions and answers;
 
-if (Choose action?) then (Post Question)
-    :User enters question details;
-    :System validates question content;
-    :System posts question to Q&A section;
-    :Display success message to User;
-else if (Answer Question)
-    :User selects a question to answer;
-    :User enters answer details;
-    :System validates answer content;
-    :System posts answer to Q&A section;
-    :Display success message to User;
-else if (Upvote/Downvote)
-    :User chooses to upvote or downvote a question or answer;
-    :System updates vote count;
-    :Display updated vote count;
-else (Flag Content)
-    :User flags inappropriate content;
-    :System logs flag and alerts Admin for review;
-    :Display flag confirmation to User;
+if (Action type?) then (Ask Question)
+    :Enter question details;
+    :Add tags and context;
+    :Submit question;
+    :System notifies relevant users;
+else (Answer Question)
+    :View question details;
+    :Write answer;
+    :Submit answer;
+    if (Is teacher?) then (yes)
+        :Option to mark as best answer;
+    endif
 endif
 
+:Update reputation points;
 stop
+
 @enduml

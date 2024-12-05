@@ -1,29 +1,23 @@
 @startuml module-management-activity-diagram
 
 start
-:Teacher accesses module management page;
-:Display options for Create, Update, Delete, Monetize module;
+:Teacher accesses module management;
+:Create new module;
+:Add content (videos, PDFs, quizzes);
+:Set pricing (if monetized);
 
-if (Choose action?) then (Create Module)
-    :Teacher enters module details;
-    :System validates details;
-    :System creates module in database;
-    :Display success message to Teacher;
-else if (Update Module)
-    :Teacher modifies module details;
-    :System validates changes;
-    :System updates module in database;
-    :Display success message to Teacher;
-else if (Delete Module)
-    :Teacher selects module to delete;
-    :System confirms deletion;
-    :System deletes module from database;
-    :Display success message to Teacher;
-else (Monetize Module)
-    :Teacher selects monetization options;
-    :System updates module with monetization details;
-    :Display success message to Teacher;
+if (Content complete?) then (yes)
+    :Preview module;
+    if (Preview approved?) then (yes)
+        :Publish module;
+        :Notify enrolled students;
+    else (no)
+        :Make revisions;
+    endif
+else (no)
+    :Save as draft;
 endif
 
 stop
+
 @enduml

@@ -1,23 +1,23 @@
 @startuml enrollment-activity-diagram
 
 start
-:Student accesses enrollment page;
-:Display list of available classes;
+:Student browses courses;
+:Select course to enroll;
 
-if (Class selected?) then (Yes)
-    :Student selects a class to enroll;
-    :System validates enrollment request;
-
-    if (Validation successful?) then (Yes)
-        :System updates enrollment in database;
-        :Notify teacher of new enrollment;
-        :Display enrollment success message to Student;
-    else (No)
-        :Display validation error message to Student;
+if (Course type?) then (Free)
+    :Direct enrollment;
+else (Paid)
+    :Process payment;
+    if (Payment successful?) then (yes)
+        :Grant course access;
+    else (no)
+        :Show payment error;
+        stop
     endif
-else (No)
-    :Display "No class selected" message to Student;
 endif
 
+:Add to student's course list;
+:Send welcome notification;
 stop
+
 @enduml

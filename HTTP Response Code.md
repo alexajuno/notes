@@ -1,0 +1,2 @@
+[HTTP Response Code](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status#redirection_messages)
+It has a lot more to be known and the only thing here is knowing the categories. Beside, custom code in the response body is a good practice with detail documentation, but I haven't found a cheat sheet for that, so I guess it's org dependent
