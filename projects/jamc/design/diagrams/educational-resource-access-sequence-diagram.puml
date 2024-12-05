@@ -1,20 +1,42 @@
-@startuml
-actor Student
-participant "JAMC Platform" as Platform
-participant "Course Module" as Course
-participant "Q&A System" as QnA
+@startuml educational-resource-access-sequence-diagram
 
-Student -> Platform: Select Course
-Platform -> Course: Retrieve Scheduled Resources
-Course -> Platform: Return Resources List
-Student -> Platform: Select Resource
-Platform -> Course: Check Resource Availability
+actor Student
+participant "Course Page" as CoursePage
+participant "API Routes" as APIRoutes
+participant "Course Module" as CourseModule
+participant "Q&A Module" as QAModule
+participant "Database" as Database
+
+Student -> CoursePage: Access Course
+CoursePage -> APIRoutes: Get Scheduled Resources
+APIRoutes -> CourseModule: Fetch Scheduled Resources
+CourseModule -> Database: Retrieve Resources List
+Database --> CourseModule: Return Resources List
+CourseModule --> APIRoutes: Return Resources List
+APIRoutes --> CoursePage: Return Resources List
+CoursePage -> Student: Display Resources List
+
+Student -> CoursePage: Select Resource
+CoursePage -> APIRoutes: Check Resource Availability
+APIRoutes -> CourseModule: Verify Resource Availability
+CourseModule -> Database: Check Availability
+Database --> CourseModule: Return Availability Status
+CourseModule --> APIRoutes: Return Availability Status
+APIRoutes --> CoursePage: Return Availability Status
+
 alt Resource Available
-    Course -> Platform: Grant Access to Resource
-    Student -> Platform: Access Resource
-    Student -> QnA: Ask Question about Resource
-    QnA -> Platform: Link Question to Resource
+    CoursePage -> Student: Grant Access to Resource
+    Student -> CoursePage: Access Resource Content
+    Student -> CoursePage: Ask Question about Resource
+    CoursePage -> APIRoutes: Submit Question
+    APIRoutes -> QAModule: Process Question
+    QAModule -> Database: Store Question Linked to Resource
+    Database --> QAModule: Confirm Storage
+    QAModule --> APIRoutes: Confirm Question Stored
+    APIRoutes --> CoursePage: Confirm Question Stored
+    CoursePage -> Student: Display Confirmation
 else Resource Unavailable
-    Platform -> Student: Show Scheduled Release Date
+    CoursePage -> Student: Show Scheduled Release Date
 end
+
 @enduml

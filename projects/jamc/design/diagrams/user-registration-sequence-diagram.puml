@@ -1,28 +1,38 @@
-@startuml user-registration-sequence-diagram
+@startuml User Registration Sequence Diagram Updated
 
 actor User
-participant "Registration UI" as UI
-participant "Authentication Service" as AuthService
-participant "User Service" as UserService
-participant "Database" as DB
-participant "OAuth Provider" as OP
+participant "Registration Page" as RegPage
+participant "API Routes" as APIRoutes
+participant "Authentication Module" as AuthModule
+participant "User Module" as UserModule
+participant "Database" as Database
+participant "OAuth Provider" as OAuthProvider
 
-User -> UI: Access registration page
-UI -> User: Display registration form
-User -> UI: Enter registration details (OAuth or email)
+User -> RegPage: Access registration page
+RegPage -> User: Display registration form
+User -> RegPage: Enter registration details (OAuth or email)
 
 alt OAuth Registration
-    UI -> AuthService: Send OAuth token
-    AuthService -> OP: Verify token
-    OP --> AuthService: Return verification result
-    AuthService -> UserService: Create user record
+    RegPage -> APIRoutes: Submit OAuth token
+    APIRoutes -> AuthModule: Process OAuth token
+    AuthModule -> OAuthProvider: Verify token
+    OAuthProvider --> AuthModule: Return verification result
+    AuthModule -> UserModule: Create user record
+    UserModule -> Database: Store user information
+    Database --> UserModule: Confirm data storage
+    UserModule --> AuthModule: Confirm user creation
+    AuthModule --> APIRoutes: Return success response
 else Email Registration
-    UI -> AuthService: Send email and password details
-    AuthService -> UserService: Create user record
+    RegPage -> APIRoutes: Submit email and password
+    APIRoutes -> AuthModule: Validate and process credentials
+    AuthModule -> UserModule: Create user record
+    UserModule -> Database: Store user information
+    Database --> UserModule: Confirm data storage
+    UserModule --> AuthModule: Confirm user creation
+    AuthModule --> APIRoutes: Return success response
 end
 
-UserService -> DB: Store user information
-DB --> UserService: Confirm user data storage
-UserService --> UI: Return success response
-UI -> User: Display successful registration message
+APIRoutes --> RegPage: Return success response
+RegPage -> User: Display successful registration message
+
 @enduml

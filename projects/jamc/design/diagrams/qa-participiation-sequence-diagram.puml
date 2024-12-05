@@ -1,48 +1,59 @@
-@startuml qa-participation-sequence-diagram
+@startuml Q&A Participation Sequence Diagram Updated
 
 actor User
-participant "Q&A UI" as QandAUI
-participant "Q&A Service" as QandAService
-participant "Validation Service" as ValidationService
-participant "Database" as DB
-participant "Notification System" as NotificationService
+participant "Q&A Page" as QAPage
+participant "API Routes" as APIRoutes
+participant "Q&A Module" as QAModule
+participant "Notification Module" as NotificationModule
+participant "Database" as Database
 
-User -> QandAUI: Access Q&A section
-QandAUI -> QandAService: Request list of questions and answers
-QandAService -> DB: Retrieve questions and answers
-DB --> QandAService: Return questions and answers data
-QandAService --> QandAUI: Display list of questions and answers to User
+User -> QAPage: Access Q&A section
+QAPage -> APIRoutes: Request list of questions and answers
+APIRoutes -> QAModule: Fetch questions and answers
+QAModule -> Database: Retrieve questions and answers
+Database --> QAModule: Return questions and answers data
+QAModule --> APIRoutes: Return questions and answers data
+APIRoutes --> QAPage: Return questions and answers data
+QAPage -> User: Display list of questions and answers
 
 alt Post Question
-    User -> QandAUI: Enter question details
-    QandAUI -> ValidationService: Validate question content
-    ValidationService --> QandAUI: Return validation result
-    QandAUI -> QandAService: Send validated question for posting
-    QandAService -> DB: Store new question
-    DB --> QandAService: Confirm question creation
-    QandAService --> QandAUI: Return success message
+    User -> QAPage: Enter question details
+    QAPage -> APIRoutes: Submit question details
+    APIRoutes -> QAModule: Validate and process question
+    QAModule -> Database: Store new question
+    Database --> QAModule: Confirm question creation
+    QAModule --> APIRoutes: Return success message
+    APIRoutes --> QAPage: Return success message
+    QAPage -> User: Display success message
 else Answer Question
-    User -> QandAUI: Select question and enter answer details
-    QandAUI -> ValidationService: Validate answer content
-    ValidationService --> QandAUI: Return validation result
-    QandAUI -> QandAService: Send validated answer for posting
-    QandAService -> DB: Store new answer
-    DB --> QandAService: Confirm answer creation
-    QandAService --> QandAUI: Return success message
+    User -> QAPage: Select question and enter answer details
+    QAPage -> APIRoutes: Submit answer details
+    APIRoutes -> QAModule: Validate and process answer
+    QAModule -> Database: Store new answer
+    Database --> QAModule: Confirm answer creation
+    QAModule --> APIRoutes: Return success message
+    APIRoutes --> QAPage: Return success message
+    QAPage -> User: Display success message
 else Upvote/Downvote
-    User -> QandAUI: Choose upvote or downvote
-    QandAUI -> QandAService: Send vote update
-    QandAService -> DB: Update vote count
-    DB --> QandAService: Confirm vote update
-    QandAService --> QandAUI: Display updated vote count
+    User -> QAPage: Choose upvote or downvote
+    QAPage -> APIRoutes: Submit vote
+    APIRoutes -> QAModule: Process vote update
+    QAModule -> Database: Update vote count
+    Database --> QAModule: Confirm vote update
+    QAModule --> APIRoutes: Return updated vote count
+    APIRoutes --> QAPage: Return updated vote count
+    QAPage -> User: Display updated vote count
 else Flag Content
-    User -> QandAUI: Select flag option on content
-    QandAUI -> QandAService: Send flag request
-    QandAService -> DB: Log flag in database
-    QandAService -> NotificationService: Notify admin of flagged content
-    DB --> QandAService: Confirm flag storage
-    QandAService --> QandAUI: Return flag confirmation
+    User -> QAPage: Select flag option on content
+    QAPage -> APIRoutes: Submit flag request
+    APIRoutes -> QAModule: Log flag in database
+    QAModule -> Database: Store flag information
+    Database --> QAModule: Confirm flag storage
+    QAModule -> NotificationModule: Notify admin of flagged content
+    NotificationModule --> APIRoutes: Confirm notification sent
+    QAModule --> APIRoutes: Return flag confirmation
+    APIRoutes --> QAPage: Return flag confirmation
+    QAPage -> User: Display flag confirmation
 end
 
-QandAUI -> User: Display success or update message
 @enduml

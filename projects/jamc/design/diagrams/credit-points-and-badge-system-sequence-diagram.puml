@@ -1,20 +1,27 @@
 @startuml credit-points-and-badge-system-sequence-diagram
 
 actor Student
-participant "credit-system" as CreditSys
-participant "badge-service" as BadgeService
-participant "database" as DB
+participant "Activity Page" as ActivityPage
+participant "API Routes" as APIRoutes
+participant "Credit System Module" as CreditModule
+participant "Badge System Module" as BadgeModule
+participant "Database" as Database
 
-Student -> CreditSys: Complete activity (e.g., Q&A, assignment)
-CreditSys -> DB: Update credit points for activity
-DB --> CreditSys: Confirm points update
+Student -> ActivityPage: Complete activity (e.g., Q&A, assignment)
+ActivityPage -> APIRoutes: Submit activity completion
+APIRoutes -> CreditModule: Update credit points
+CreditModule -> Database: Update credit points for activity
+Database --> CreditModule: Confirm points update
+CreditModule --> APIRoutes: Return points update status
 
-alt Award Badge
-    CreditSys -> BadgeService: Check for badge milestone
-    BadgeService -> DB: Assign new badge
-    DB --> BadgeService: Confirm badge assignment
-    BadgeService --> CreditSys: Badge awarded
+alt Badge Milestone Achieved
+    CreditModule -> BadgeModule: Check for badge eligibility
+    BadgeModule -> Database: Assign new badge
+    Database --> BadgeModule: Confirm badge assignment
+    BadgeModule --> CreditModule: Badge awarded
 end
 
-CreditSys -> Student: Display updated points and badge notification
+APIRoutes --> ActivityPage: Return updated points and badge status
+ActivityPage -> Student: Display updated points and badge notification
+
 @enduml

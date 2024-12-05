@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/jamc/docs/srs/Software Requirements Specification (SRS) for JAMC Project.md",
+                "file": "2024-12-04.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Software Requirements Specification (SRS) for JAMC Project"
+              "title": "2024-12-04"
             }
           }
         ]
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "projects/jamc/docs/srs/Software Requirements Specification (SRS) for JAMC Project.md"
+                "file": "2024-12-04.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Software Requirements Specification (SRS) for JAMC Project"
+              "title": "Outline of 2024-12-04"
             }
           }
         ],
@@ -164,11 +164,13 @@
   },
   "active": "4de1a5752fd408d0",
   "lastOpenFiles": [
+    "2024-11-19.md",
+    "2024-12-04.md",
+    "book/The Code of The Extraordinary Mind.md",
     "projects/jamc/docs/srs/Software Requirements Specification (SRS) for JAMC Project.pdf",
     "projects/jamc/docs/srs/Software Requirements Specification (SRS) for JAMC Project_tmp.html",
     "projects/jamc/docs/srs/diagrams/use-case-diagram.png",
     "projects/jamc/docs/srs/Software Requirements Specification (SRS) for JAMC Project.md",
-    "book/The Code of The Extraordinary Mind.md",
     "book/The 4-Hour Workweek.md",
     "book/pdf/When Things Don't Go Your Way.pdf",
     "book/pdf/Understanding Human Nature.pdf",
@@ -178,7 +180,6 @@
     "book/pdf/The Six Pillars of Self-Esteem.pdf",
     "book/pdf/The Seven Habits of Highly Effective People.pdf",
     "book/pdf/The Rules of Love_ A Personal Code for Happier, More Fulfilling Relationships - PDF Room.pdf",
-    "book/pdf/The Psychology of Money.pdf",
     "projects/jamc/README.md",
     "projects/jamc/docs/srs/diagrams/admin-controls-activity-diagram.png"
   ]

@@ -1,35 +1,39 @@
 @startuml class-management-sequence-diagram
 
 actor Teacher
-participant "Class Management UI" as ClassUI
-participant "Class Service" as ClassService
-participant "Validation Service" as ValidationService
-participant "Database" as DB
+participant "Class Management Page" as ClassPage
+participant "API Routes" as APIRoutes
+participant "LMS Module" as LMSModule
+participant "Database" as Database
 
-Teacher -> ClassUI: Access class management page
-ClassUI -> Teacher: Display class management options
-Teacher -> ClassUI: Choose to create, update, or delete a class
+Teacher -> ClassPage: Access class management page
+ClassPage -> Teacher: Display class management options
+Teacher -> ClassPage: Choose to create, update, or delete a class
 
 alt Create Class
-    ClassUI -> ValidationService: Validate class details
-    ValidationService --> ClassUI: Return validation result
-    ClassUI -> ClassService: Send class creation request
-    ClassService -> DB: Insert new class record
-    DB --> ClassService: Confirm class creation
-    ClassService --> ClassUI: Return success response
+    ClassPage -> APIRoutes: Submit class details
+    APIRoutes -> LMSModule: Validate and process class creation
+    LMSModule -> Database: Insert new class record
+    Database --> LMSModule: Confirm class creation
+    LMSModule --> APIRoutes: Return success response
+    APIRoutes --> ClassPage: Return success response
+    ClassPage -> Teacher: Display success message
 else Update Class
-    ClassUI -> ValidationService: Validate updated class details
-    ValidationService --> ClassUI: Return validation result
-    ClassUI -> ClassService: Send class update request
-    ClassService -> DB: Update existing class record
-    DB --> ClassService: Confirm class update
-    ClassService --> ClassUI: Return success response
+    ClassPage -> APIRoutes: Submit updated class details
+    APIRoutes -> LMSModule: Validate and process class update
+    LMSModule -> Database: Update class record
+    Database --> LMSModule: Confirm class update
+    LMSModule --> APIRoutes: Return success response
+    APIRoutes --> ClassPage: Return success response
+    ClassPage -> Teacher: Display success message
 else Delete Class
-    ClassUI -> ClassService: Send class deletion request
-    ClassService -> DB: Delete class record
-    DB --> ClassService: Confirm class deletion
-    ClassService --> ClassUI: Return success response
+    ClassPage -> APIRoutes: Request class deletion
+    APIRoutes -> LMSModule: Process class deletion
+    LMSModule -> Database: Delete class record
+    Database --> LMSModule: Confirm class deletion
+    LMSModule --> APIRoutes: Return success response
+    APIRoutes --> ClassPage: Return success response
+    ClassPage -> Teacher: Display success message
 end
 
-ClassUI -> Teacher: Display success message
 @enduml

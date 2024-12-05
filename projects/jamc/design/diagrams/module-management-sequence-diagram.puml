@@ -1,41 +1,48 @@
-@startuml module-management-sequence-diagram
+@startuml Module Management Sequence Diagram Updated
 
 actor Teacher
-participant "Module Management UI" as ModuleUI
-participant "Module Service" as ModuleService
-participant "Validation Service" as ValidationService
-participant "Database" as DB
-participant "Payment Service" as PaymentService
+participant "Module Management Page" as ModulePage
+participant "API Routes" as APIRoutes
+participant "Module Management Module" as ModuleModule
+participant "Payment Module" as PaymentModule
+participant "Database" as Database
 
-Teacher -> ModuleUI: Access module management page
-ModuleUI -> Teacher: Display module management options
-Teacher -> ModuleUI: Choose to create, update, delete, or monetize a module
+Teacher -> ModulePage: Access module management page
+ModulePage -> Teacher: Display module management options
+Teacher -> ModulePage: Choose to create, update, delete, or monetize a module
 
 alt Create Module
-    ModuleUI -> ValidationService: Validate module details
-    ValidationService --> ModuleUI: Return validation result
-    ModuleUI -> ModuleService: Send module creation request
-    ModuleService -> DB: Insert new module record
-    DB --> ModuleService: Confirm module creation
-    ModuleService --> ModuleUI: Return success response
+    ModulePage -> APIRoutes: Submit module creation request
+    APIRoutes -> ModuleModule: Validate and process module creation
+    ModuleModule -> Database: Insert new module record
+    Database --> ModuleModule: Confirm module creation
+    ModuleModule --> APIRoutes: Return success response
+    APIRoutes --> ModulePage: Return success response
+    ModulePage -> Teacher: Display success message
 else Update Module
-    ModuleUI -> ValidationService: Validate updated module details
-    ValidationService --> ModuleUI: Return validation result
-    ModuleUI -> ModuleService: Send module update request
-    ModuleService -> DB: Update existing module record
-    DB --> ModuleService: Confirm module update
-    ModuleService --> ModuleUI: Return success response
+    ModulePage -> APIRoutes: Submit module update request
+    APIRoutes -> ModuleModule: Validate and process module update
+    ModuleModule -> Database: Update existing module record
+    Database --> ModuleModule: Confirm module update
+    ModuleModule --> APIRoutes: Return success response
+    APIRoutes --> ModulePage: Return success response
+    ModulePage -> Teacher: Display success message
 else Delete Module
-    ModuleUI -> ModuleService: Send module deletion request
-    ModuleService -> DB: Delete module record
-    DB --> ModuleService: Confirm module deletion
-    ModuleService --> ModuleUI: Return success response
+    ModulePage -> APIRoutes: Submit module deletion request
+    APIRoutes -> ModuleModule: Process module deletion
+    ModuleModule -> Database: Delete module record
+    Database --> ModuleModule: Confirm module deletion
+    ModuleModule --> APIRoutes: Return success response
+    APIRoutes --> ModulePage: Return success response
+    ModulePage -> Teacher: Display success message
 else Monetize Module
-    ModuleUI -> PaymentService: Set monetization options
-    PaymentService -> DB: Update module with monetization details
-    DB --> PaymentService: Confirm monetization setup
-    PaymentService --> ModuleUI: Return success response
+    ModulePage -> APIRoutes: Submit monetization options
+    APIRoutes -> PaymentModule: Validate and process monetization setup
+    PaymentModule -> Database: Update module with monetization details
+    Database --> PaymentModule: Confirm monetization setup
+    PaymentModule --> APIRoutes: Return success response
+    APIRoutes --> ModulePage: Return success response
+    ModulePage -> Teacher: Display success message
 end
 
-ModuleUI -> Teacher: Display success message
 @enduml

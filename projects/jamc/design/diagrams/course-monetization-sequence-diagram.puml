@@ -1,4 +1,4 @@
-@startuml
+@startuml course-monetization-sequence-diagram
 actor Teacher
 participant "JAMC System" as System
 participant "Payment Gateway" as Payment

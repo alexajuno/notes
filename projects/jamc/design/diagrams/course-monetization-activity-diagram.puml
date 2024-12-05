@@ -1,13 +1,15 @@
-@startuml
+@startuml course-monetization-activity-diagram
+
 start
-:Teacher Authenticated;
-:Select Class to Monetize;
-:Enter Course Price and Payment Details;
-if (Payment Setup Valid?) then (yes)
+:Teacher is Authenticated;
+:Teacher Selects Class to Monetize;
+:Teacher Enters Course Price and Payment Details;
+if (Is Payment Setup Valid?) then (Yes)
   :Publish Monetized Course;
-  :Available for Purchase;
-else (no)
-  :Display Payment Setup Error;
+  :Course Becomes Available for Purchase;
+else (No)
+  :Display Payment Setup Error Message;
 endif
 stop
+
 @enduml
