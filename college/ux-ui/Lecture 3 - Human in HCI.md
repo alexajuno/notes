@@ -1,13 +1,11 @@
-# Human in HCI
-
 ## Human factor
 
 - Quick intro: human parts like computer structure
-  - including memory, ram, cpu and emotion
+  - including memory, ram, CPU and emotion
 - Research about features of human and how they relate to the interaction with the system
 - It seems there are a lot of factors and features
   - But one thing I must confirm that people are diverse and lazy lol
-- The downnloaded slide is a bit different from the one in the lecture
+- The downloaded slide is a bit different from the one in the lecture
 
 ## Visual Perception
 
