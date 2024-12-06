@@ -47,10 +47,47 @@
 - **Tổ chức buổi tổng kết**: Nhìn lại những gì nhóm đã làm được, rút kinh nghiệm và học hỏi từ các sai lầm.
 - **Đánh giá cá nhân và nhóm**: Ghi nhận đóng góp của từng người và đưa ra nhận xét mang tính xây dựng.
 
----
+## Prep
 
-### **Lưu ý thêm**
-- Với tư cách là trưởng nhóm, bạn nên giữ thái độ công bằng và chuyên nghiệp, tránh để cảm xúc cá nhân ảnh hưởng đến quyết định.
-- Đôi khi bạn sẽ phải gánh vác một phần công việc lớn hơn nếu có thành viên không đủ năng lực, nhưng hãy coi đó là cơ hội học tập và phát triển kỹ năng lãnh đạo.
+### Requirements
 
-Nếu bạn cần giúp lập kế hoạch cụ thể hơn hoặc hỗ trợ về công cụ quản lý, mình sẵn sàng đồng hành! 😊
+#### Initial setup
+
+- [ ] Danh sách thành viên và nhiệm vụ: 
+  - [ ] Thêm danh sách thành viên, vai trò của từng người, và các use case vào tệp README.md.
+  - [ ] Chỉ định nhóm trưởng.
+- [ ] Quản lý nhánh (branch):
+  - [ ] Mỗi thành viên phải đẩy (push) công việc của mình lên một nhánh riêng được đặt tên theo tên của thành viên đó.
+  - [ ] Nhóm trưởng sẽ chịu trách nhiệm merge các nhánh vào nhánh chính (main branch).
+- [ ] Hướng dẫn chạy code: 
+  - [ ] Ghi rõ công nghệ mà nhóm sử dụng và cung cấp hướng dẫn cài đặt/chạy trong tệp README.md.
+
+- From the requirements, we can infer that it may not possible to avoid coding in the project.
+
+#### Deliverables
+
+- [ ] [SRS](https://husteduvn-my.sharepoint.com/:w:/g/personal/giao_lx210290_sis_hust_edu_vn/EYC6JE1raLFGidqRLcVOMLQBmwuvDSwAqpVPGrpxM831Pg?e=RMCWde)
+- [ ] [SDD](https://husteduvn-my.sharepoint.com/:w:/g/personal/giao_lx210290_sis_hust_edu_vn/EVWqz3E1245HriqZigXW26gBsGGzHoeS3E9nyLkniX88og?e=HwRJb2)
+- [ ] [Test plan - Unit test](https://husteduvn-my.sharepoint.com/:x:/g/personal/giao_lx210290_sis_hust_edu_vn/EW67oFDxYfROlJiQYRC4nQUBOVAThl4cPefSbYCPUdku3A?e=Sy77qr)
+- [ ] Codebase: https://github.com/giolynx104/TKXDPM.20241.25
+
+#### Resources
+
+- Timeline: 4 weeks
+- Team size: 5 members
+- [ ] Ability to contribute
+- [ ] Planning
+
+#### Architecture
+
+- Backend: Spring Boot
+- Database: PostgreSQL
+- Caching: internal solutions
+- Deployment: Render
+- Frontend: TBD
+
+#### Management
+
+- [ ] Select management tool
+- [ ] "peer review"?
+
