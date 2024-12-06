@@ -1,0 +1,1 @@
+- Including researches about sensors, networking, data processing and things related to those topics.

@@ -1,11 +1,15 @@
-# Lecture 2: Usability
-
 ## Problem statements
 
 - What is usability
 - to be noted...
 
 ## Usability
+
+- What is usability?
+  - The ease of use and learnability of a human-made object such as a tool or device.
+  - Comparing to usefulness?
+    - Usability is about how easy to use the product
+    - Usefulness is about how the product can be used to solve the problem
 
 ### History
 

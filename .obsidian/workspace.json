@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2024-12-05.md",
+                "file": "2024-12-06.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024-12-05"
+              "title": "2024-12-06"
             }
           }
         ]
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024-12-05.md"
+                "file": "2024-12-06.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 2024-12-05"
+              "title": "Outline of 2024-12-06"
             }
           }
         ],
@@ -164,8 +164,13 @@
   },
   "active": "572146eaaa1efc1f",
   "lastOpenFiles": [
-    "college/ux-ui/college-class/Lecture 11 - UX-UI & Product Design.md",
+    "college/image-1.png",
+    "college/image.png",
+    "college/2024-1-finals.md",
+    "room-finding.md",
     "2024-12-05.md",
+    "2024-12-06.md",
+    "college/ux-ui/college-class/Lecture 11 - UX-UI & Product Design.md",
     "college/ux-ui/college-class/Lecture 3.3 - Ergonomics.md",
     "college/ux-ui/college-class/Lecture 3 - Human in HCI.md",
     "HTTP Response Code.md",

@@ -1,15 +1,16 @@
-# Lecture 1: Introduction to HCI and UX/UI
-
 ## HCI
 
 - What is HCI? interdisciplinary
 - Why does HCI matter: affect business results
-- History of HCI: this is a new concept
+- History of HCI: this is a new concept and being researched recently
+- The 4 stages of HCI: intention, selection, execution, evaluation.
+  - Q: The selection stage is within a system (select button, menu, etc.) or might be about between many systems?
+- HCI Research Components: Task, People, Devices, Environment.
 - Có khá nhiều cách nói về việc một HCI Design như thế nào là tốt. Mình chỉ suy nghĩ đơn giản là thấy tốt thì tốt thui =)
 - History of HCI
   - Composed from many fields, relating to human mind, ergonomics and systems
 
-## Paradigms
+## Interaction Paradigms
 
 - Paradigms are the way of designing a product can be used for future
 - Some paradigms: real-time sharing, graphics display, personal computer, window systems, WIMP (Windows), direct manipulation (WYSIWYG)
@@ -17,7 +18,11 @@
 
 ## Interactive System
 
-## IS Components
+![Interactive System Development Lifecycle](image.png)
+
+- UX/UI introduction
+
+## Interactive System Components
 
 - Human
 - Env and context
