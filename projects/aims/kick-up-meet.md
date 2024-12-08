@@ -77,17 +77,33 @@
 - Team size: 5 members
 - [ ] Ability to contribute
 - [ ] Planning
+  - Function priotization
 
 #### Architecture
 
 - Backend: Spring Boot
-- Database: PostgreSQL
+- Database: H2 PostgreSQL
 - Caching: internal solutions
 - Deployment: Render
-- Frontend: TBD
+- Frontend: Angular
 
 #### Management
 
 - [ ] Select management tool
 - [ ] "peer review"?
+- [ ] Workflow
+  - Single repo for both frontend and backend
+  - Functional branches
+  - `main` -> `dev` ->`func-or-uc-name` ->  `collaborator-name\func-or-uc-name`
+
+
+## Notes
+
+- [ ] send problem statement to members
+- [ ] Ds tv
+- [ ] Use case
+- [ ] architecture
+- [ ] contribution 
+  - frontend: Giao
+  - be: Khánh
 
