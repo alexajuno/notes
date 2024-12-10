@@ -26,4 +26,26 @@
 
 ## 5.4 Data Flow Testing
 
+- Defined variable
+- Used variable
+  - p-use: used in a predicate
+  - c-use: used in a computation
+  - can be both used and re-defined. e.g. y += x;
+- Terminology
+  - Definition clear path: variable doesn't being redefined
+  - Complete path
+    - What is an initial and a exit node?
+  - Def use pair: (d, u) of v 
+- Data flow test Coverage Criteria
 
+### More dataflow terms and definitions
+
+- simple path: all edges are distinct.
+- loop-free path: all nodes are distinct.
+- all du-paths coverage
+
+![coverage relations](image.png)
+
+## Mutation Testing
+
+- Cool but I wonder if I'll ever use it in my life.

@@ -9,3 +9,4 @@
   - content will be exercises
 - Teacher requires active participation from students
 - Focus on testing black/white box
+- Thầy toàn bịp =)
