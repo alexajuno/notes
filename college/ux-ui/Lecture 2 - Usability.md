@@ -1,8 +1,3 @@
-## Problem statements
-
-- What is usability
-- to be noted...
-
 ## Usability
 
 - What is usability?
@@ -10,6 +5,7 @@
   - Comparing to usefulness?
     - Usability is about how easy to use the product
     - Usefulness is about how the product can be used to solve the problem
+- 4 UX levels: utility -> usability -> desirability -> ux
 
 ### History
 
@@ -18,7 +14,7 @@
 ### Definition
 
 - usability: Can it be used? How easy and friendly is that?
-- core principles and values: effectiveness, efficiency, satisfaction
+- Some principles, core factors and quality components, but I don't really understand if I don't have ChatGPT to ask for explaination
 - why does usability matter?
   - human are lazy. definitely lol. (I hate laziness though) -> ease of use is important
 - compare usability with ux
@@ -37,14 +33,25 @@
     - About custom UI
       - pros and cons
   - Robustness
+- I don't really understand this part. I mean of course Usability is a part of HCI, why do I have the feeling of they are making usability not a part of HCI but something co-existing with HCI?
+- Usability design principles given by Dix 1998
+  - Learnability
+  - Flexibility
+    - Q: Pros and cons of customizable UI?
+  - Robustness
 
 ## Usability in UI/UX design
 
+- I still don't get the way usability stand alone and being compare to UX/UI and HCI.
+- It's just too important to be mentioned why it's important for UX/UI.
 - I think the lecture is so abstract. Just designing a product is a must to apply the knowledge
 - Example of a coffee machine
 - Usability Engineering
   - The lifecycle is kinda similar to interaction system cycle
+  ![Usability Engineering Lifecycle](image-1.png)
+  - Each steps have detail implementation but I'm too lazy man.
 
 ## ISO of Usability
 
 - Why do we need ISO?
+- Some discussions in this part seems intriguing but I haven't had the time to learn. Low priority. So sorry.

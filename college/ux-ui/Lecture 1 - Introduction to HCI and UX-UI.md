@@ -14,13 +14,22 @@
 
 - Paradigms are the way of designing a product can be used for future
 - Some paradigms: real-time sharing, graphics display, personal computer, window systems, WIMP (Windows), direct manipulation (WYSIWYG)
+  - real-time sharing: multi-user product?
+  - video graphics display: sketchpad?
+  - personal computing: no distinguishing structure between personal computer and large(? - I mean I don't remember classes of computers) computer
+  - windowing systems and wimp interface
+  - language versus action???
+  - .Computer-supported cooperative work???
+  - Hypertext
+  - WWW
 - And many extremely modern paradigms like: AR/VR, eye-tracking tech, etc.
 
 ## Interactive System
 
 ![Interactive System Development Lifecycle](image.png)
 
-- UX/UI introduction
+- What is UX/UI?
+  - UI types: GUI, VUI, VR.
 
 ## Interactive System Components
 

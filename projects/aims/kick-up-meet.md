@@ -77,7 +77,7 @@
 - Team size: 5 members
 - [ ] Ability to contribute
 - [ ] Planning
-  - Function priotization
+  - Function prioritization
 
 #### Architecture
 
@@ -99,11 +99,11 @@
 
 ## Notes
 
-- [ ] send problem statement to members
-- [ ] Ds tv
-- [ ] Use case
-- [ ] architecture
-- [ ] contribution 
+- [x] send problem statement to members
+- [x] Ds tv
+- [x] Use case
+- [x] architecture
+- [x] contribution 
   - frontend: Giao
   - be: Khánh
 

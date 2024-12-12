@@ -3,7 +3,7 @@
 ### **Week 1: Foundation Setup (Low Complexity)**
 - **Goals**: Establish the project foundation, familiarize the team with technology, and implement basic system operations.
 - **Tasks**:
-  - [ ] 1. Setup project environment and version control (Git, CI/CD pipeline).
+  - [x] 1. Setup project environment and version control (Git, CI/CD pipeline).
   - [ ] 2. Implement user login and authentication module (includes "Login" and "Change Password").
   - [ ] 3. Develop the basic UI layout for Customer, Product Manager, and Administrator dashboards.
   - [ ] 4. Create a simple database schema for users, products, and orders.
@@ -45,3 +45,7 @@
      - [ ] Integration testing for VNPay workflows.
      - [ ] End-to-end testing for customer order flow.
   - [ ] 5. Prepare system documentation and deploy the project.
+
+## Notes
+
+- Deployment
