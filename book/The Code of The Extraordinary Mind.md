@@ -50,6 +50,21 @@
 - Some statements about beliefs and habits, quite obvious given the example of life in the Amazon jungle.
 
 - This book often takes the quotes, the examples from famous people to prove its points. I don't know. I mean this book's starting point is about extraordinary minds, so I guess it's the way this book work, but I don't really like that.
+### Chapter 4 - Rewrite your models of reality
+
+- Talking about the model of not having enough, leads to trying to prove (I don't know how to write this better. It's not just proving, but more.😭)
+- Some other model changes but I didn't focus to read that. Probably not interested.
+- The ideas of this part are mostly around we were affected by brules, by wrong models, esp. in childhood and how changing them will help. This, yes, uhm but I wonder if the changes can be that obvious. Everything takes time.
+
+ #### External Models of Reality
+ - The first idea about human intuition, I'm not totally agree with this because yep, intuition does a lot of work for us, but actually the result often not in the control of that intuition I think. The amount of luck, a.k.a. external factors just take too much contribution here. So intuition feels like unconscious heuristic algorithm that not really work. But I mean because of uncontrollable outcome, then whatever we choose, when looking back, somehow will lead to good results anyway.
+- mind-body healing: I don't know what this book is trying to work on. Too broad topics here. I mean there are tons and tons of models like this. Why does he choose the mind-body? I would say the only reason is making the book longer and the author can express himself further rather than something really useful.
+- happy at work: same above
+- spritual but not religious: same
+- Is this book some sort of promotion for his website and business? Links to the website are everywhere.
+I would say that I don't really like this book so far. Not too new ideas but not focused ideas either.
+### Chapter 5: Upgrade your systems for living
+ 
 
 
 

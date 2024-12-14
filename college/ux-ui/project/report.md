@@ -1,5 +1,3 @@
-# Report
-
 ## Notes from teacher
 
 - Gathering requirements

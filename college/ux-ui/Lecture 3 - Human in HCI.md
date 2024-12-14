@@ -1,3 +1,4 @@
+
 ## Human factor
 
 - Quick intro: human parts like computer structure
@@ -14,35 +15,30 @@
 - I can skim through some keywords
 
 - Optical interaction
-  - Perception theories: 2
-    - Constructivism
-    - Ecological approach
-  - About eyes and how they work
-    - Optical flow: simplification, affordance
-    - Color schemes: RGB, SHV, SHL
-  - Some interesting keywords to me: hue, saturation of colors, muller misperception
+- Perception theories
+	- Constructivism
+	- Ecological approach
+		- Q: Why are the lecture giving two one-sided theories instead of just giving a theory that best explain everything?
+		-  Optical flow: simplification, affordance
+		- Affordance: ám chỉ những đặc tính của một đối tượng hoặc môi trường mà người dùng có thể nhận ra và hiểu được cách sử dụng. Ví dụ: tay nắm cửa tròn ám chỉ nó có thể xoay. Kiểu vậy, nhớ mang máng có một phần minh họa rõ cho điều này, chỉ là cái này trừu tượng hóa cao hơn.
+	- About eyes and how they work
+- Color schemes: RGB, SHV, SHL
+- Some interesting keywords to me: hue, saturation of colors
 
 ## Other sensations/perceptions
 
 - Hearing
 - Touch
 - Movement
+- N: This part was mostly introduction and skipped by me lol.
 
-### Human memory
+##  Information Processing Theory
 
-- Information Processing Theory
-
-  - Types of memory: I feel that this part is relating to biology, I mean it's fun to know some but I wouldn't bother though, because to memorize these info, I need to dig deeper
-    - Sensory memory
-    - Working memory
-    - Long-term memory
-      - Two types of LTM: semantic, episodic
-      - activities
-        - Encryption
-        - Storage and forgotten
-        - Retrieval
-
-- How we forget things
+- Sensory memory
+- Working memory
+- Long-term memory
+	  - Two types of LTM: semantic, episodic
+- How we forget things: decay and inteference.
 
 ## Information processing - Retrieval
 
@@ -54,6 +50,11 @@
 - Some types of reasonings: logic, contradiction, induction
 - And many more theories that I don't bother to memorize
 
+### Cách thức giải quyết vấn đề (?)
+
+- Gestalt Psychology
+- Problem Space Theory: kinda like what are applied into very basic AI theories.
+
 ## Emotion
 
-- This is about psychology, about human errors, emotions, etc. that may relate to UX design but I don't bother either
+- This is about psychology, about human errors, emotions, etc. that may relate to UX design but I haven't read that carefully 😭
