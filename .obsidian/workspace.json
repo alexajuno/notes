@@ -4,67 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "ee094782d2d6db91",
+        "id": "b78c22b865f09fee",
         "type": "tabs",
         "children": [
           {
-            "id": "3d6f117b3da744b6",
+            "id": "e8dda98c7a1b0243",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring Boot.md",
+                "file": "Dating Activities List.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Spring Boot"
-            }
-          },
-          {
-            "id": "0287e0e5499856a7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Package Designing.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Package Designing"
-            }
-          },
-          {
-            "id": "6d6ab978d5eae142",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Domain Driven Development.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Domain Driven Development"
-            }
-          },
-          {
-            "id": "912b97c27895a6b6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Developing Your First Spring Boot Application.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Developing Your First Spring Boot Application"
+              "title": "Dating Activities List"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -182,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Domain Driven Development.md"
+                "file": "Dating Activities List.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Domain Driven Development"
+              "title": "Outline of Dating Activities List"
             }
           }
         ],
@@ -205,10 +162,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6d6ab978d5eae142",
+  "active": "e8dda98c7a1b0243",
   "lastOpenFiles": [
-    "Package Designing.md",
+    "2024-12-14.md",
+    "Dating Activities List.md",
     "Domain Driven Development.md",
+    "Package Designing.md",
     "Spring Boot.md",
     "Developing Your First Spring Boot Application.md",
     "book/The Code of The Extraordinary Mind.md",
@@ -235,8 +194,6 @@
     "HTTP Response Code.md",
     "GitLens.md",
     "college/ux-ui/college-class/lec0-intro.md",
-    "2024-12-04.md",
-    "2024-11-19.md",
     "projects/jamc/docs/srs/Software Requirements Specification (SRS) for JAMC Project.pdf",
     "projects/jamc/docs/srs/Software Requirements Specification (SRS) for JAMC Project_tmp.html",
     "projects/jamc/docs/srs/diagrams/use-case-diagram.png",
