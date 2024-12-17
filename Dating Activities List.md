@@ -16,3 +16,7 @@
 - [ ] Đi xem phim tình cảm lãng mạn
 - [ ] Chơi game cùng nhau
 - [ ] Xem phim kinh dị cùng nhau và những món ăn vặt
+
+## Gifts
+
+- [ ] 2024-12-15 ![A gift](image.png)

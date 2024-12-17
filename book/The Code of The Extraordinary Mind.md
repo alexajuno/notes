@@ -64,6 +64,9 @@
 - Is this book some sort of promotion for his website and business? Links to the website are everywhere.
 I would say that I don't really like this book so far. Not too new ideas but not focused ideas either.
 ### Chapter 5: Upgrade your systems for living
+
+- This book gives me a lot of doubts and counter-points to be made. It sounds too generic and too specific at the same point, and it's not even the bigger picture that I observe.
+	- For example, the writing speed. I mean it depends on so many factors of how long it takes to write a chapter , and there also the learning curve. As you progress further, you'll reach a point where the progress grow slower. I mean the idea of improving the frameworks is good but it's the sequential parts that make this book isn't that good in my pov. I guess I'll just skim  the rest instead of heavy reading. A bit disappointed.
  
 
 

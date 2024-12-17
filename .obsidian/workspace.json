@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b78c22b865f09fee",
+        "id": "bf84f88604ec55c1",
         "type": "tabs",
         "children": [
           {
-            "id": "e8dda98c7a1b0243",
+            "id": "d6825020611757d3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dating Activities List.md",
+                "file": "projects/jamc/design/Software Design Document.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dating Activities List"
+              "title": "Software Design Document"
             }
           }
         ]
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dating Activities List.md"
+                "file": "projects/jamc/design/Software Design Document.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Dating Activities List"
+              "title": "Outline of Software Design Document"
             }
           }
         ],
@@ -162,15 +162,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e8dda98c7a1b0243",
+  "active": "d6825020611757d3",
   "lastOpenFiles": [
-    "2024-12-14.md",
+    "projects/jamc/design/Software Design Document.md",
+    "book/The Code of The Extraordinary Mind.md",
+    "2024-12-16.md",
     "Dating Activities List.md",
+    "2024-12-14.md",
     "Domain Driven Development.md",
     "Package Designing.md",
     "Spring Boot.md",
     "Developing Your First Spring Boot Application.md",
-    "book/The Code of The Extraordinary Mind.md",
     "2024-12-13.md",
     "college/ux-ui/Quizzes.md",
     "college/ux-ui/Lecture 3 - Human in HCI.md",
@@ -192,8 +194,6 @@
     "college/ux-ui/college-class/Lecture 3.3 - Ergonomics.md",
     "college/ux-ui/college-class/Lecture 3 - Human in HCI.md",
     "HTTP Response Code.md",
-    "GitLens.md",
-    "college/ux-ui/college-class/lec0-intro.md",
     "projects/jamc/docs/srs/Software Requirements Specification (SRS) for JAMC Project.pdf",
     "projects/jamc/docs/srs/Software Requirements Specification (SRS) for JAMC Project_tmp.html",
     "projects/jamc/docs/srs/diagrams/use-case-diagram.png",
