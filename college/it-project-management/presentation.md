@@ -1,205 +1,34 @@
-# Presentation
-
-- Topic: Scrum
-- Time: 5min
-
-## **Presentation Outline**
-
-### **1. Introduction**
-
-- **What is Scrum?**
-  - A brief, clear definition: "Scrum is a lightweight Agile framework for managing complex projects, particularly software development. It emphasizes teamwork, flexibility, and delivering value in increments."
-- **Why Scrum is Important**
-  - Highlight its widespread use in various industries.
-  - Mention benefits like adaptability to change, faster time-to-market, increased collaboration, and improved product quality.
-- **Scrum vs. Traditional Project Management**
-  - A quick comparison table (Waterfall vs. Scrum) to illustrate the key differences in approach.
-
-### **2. Scrum Roles**
-
-- **Product Owner**
-  - Define their responsibilities: maximizing product value, creating and managing the product backlog.
-- **Scrum Master**
-  - Explain their role as a servant-leader: facilitating the process, removing impediments, and ensuring Scrum is understood and implemented correctly.
-- **Development Team**
-  - Highlight their self-organizing nature and cross-functional skills.
-
-### **3. Scrum Artifacts**
-
-- **Product Backlog**
-  - Explain it as a prioritized list of desired product features or user stories.
-- **Sprint Backlog**
-  - Define it as the set of items from the Product Backlog that the team commits to deliver in a sprint.
-- **Increment**
-  - Emphasize it as the potentially shippable product resulting from a sprint.
-
-### **4. Scrum Events (Ceremonies)**
-
-- **Sprint Planning**
-  - Briefly explain how the team selects items from the Product Backlog for the upcoming sprint.
-- **Daily Scrum**
-  - Describe the short, daily meeting where team members discuss progress and any obstacles.
-- **Sprint Review**
-  - Explain the meeting where the team demonstrates the completed work to stakeholders.
-- **Sprint Retrospective**
-  - Highlight the meeting where the team reflects on the sprint and identifies areas for improvement.
-
-### **5. Scrum Values and Principles**
-
-- **Values:**
-  - List the five core Scrum values: Commitment, Courage, Focus, Openness, and Respect.
-- **Principles:**
-  - Briefly touch on a few key principles like transparency, inspection, and adaptation.
-
-### **6. Benefits and Challenges of Scrum**
-
-- **Benefits:**
-  - Recap the advantages you mentioned earlier, perhaps adding customer satisfaction and improved team morale.
-- **Challenges:**
-  - Acknowledge potential challenges like resistance to change, the need for strong collaboration, and the importance of a skilled Scrum Master.
-
-### **7. Conclusion**
-
-- **Summarize** the key points about Scrum's framework and benefits.
-- **Emphasize** its adaptability and effectiveness for modern project management.
-
-## **Full Presentation**
-
-### **Title: Scrum Framework for Project Management**
-
----
-
-### **Introduction**
-
-Good [morning/afternoon], everyone. Today, I’ll be discussing **Scrum**, a powerful framework that has transformed the way teams manage and deliver complex projects, especially in software development. We’ll explore its core components, benefits, challenges, and how Scrum can improve project outcomes in various industries.
-
----
-
-### **What is Scrum?**
-
-Scrum is a **lightweight Agile framework** for managing complex projects. It emphasizes **teamwork**, **flexibility**, and delivering **value in increments**. In essence, Scrum is about breaking large projects into smaller, manageable parts, making it easier to adapt to changes and deliver value continuously.
-
----
-
-### **Why Scrum is Important**
-
-Scrum is widely used across industries because it offers several key benefits:
-
-- **Adaptability**: Scrum allows teams to quickly respond to changing requirements.
-- **Faster time-to-market**: By working in small increments, products can be delivered more quickly.
-- **Collaboration**: Scrum promotes teamwork, ensuring everyone is aligned with the project goals.
-- **Improved quality**: Continuous testing and feedback loops lead to better-quality products.
-
----
-
-### **Scrum vs. Traditional Project Management**
-
-Here’s a quick comparison of Scrum and traditional Waterfall project management:
-
-| **Aspect**          | **Waterfall**       | **Scrum**                      |
-| ------------------- | ------------------- | ------------------------------ |
-| **Process**         | Linear, sequential  | Iterative, incremental         |
-| **Change Handling** | Difficult, costly   | Flexible, adaptive             |
-| **Delivery**        | End of project      | Regular, incremental           |
-| **Team Structure**  | Command and control | Self-organizing, collaborative |
-
----
-
-### **Scrum Roles**
-
-#### **1. Product Owner**
-
-- The **Product Owner** is responsible for **maximizing product value**. They do this by creating and managing the **Product Backlog**, ensuring the team works on the most valuable features first.
-
-#### **2. Scrum Master**
-
-- The **Scrum Master** is a **servant-leader**, facilitating the Scrum process and ensuring the team follows Scrum practices. They remove any impediments blocking the team and help them stay focused.
-
-#### **3. Development Team**
-
-- The **Development Team** is **self-organizing** and **cross-functional**, meaning they have all the skills needed to deliver the product increment. They decide how to turn backlog items into increments of value.
-
----
-
-### **Scrum Artifacts**
-
-#### **1. Product Backlog**
-
-- The **Product Backlog** is a **prioritized list** of all the features, enhancements, and fixes needed in the product. It evolves as the project progresses.
-
-#### **2. Sprint Backlog**
-
-- The **Sprint Backlog** is the set of Product Backlog items selected for the current sprint. The team commits to delivering these items within the sprint’s timeframe.
-
-#### **3. Increment**
-
-- The **Increment** is the sum of all the completed Product Backlog items during a sprint. It is a **potentially shippable product** that adds value to the project.
-
----
-
-### **Scrum Events (Ceremonies)**
-
-#### **1. Sprint Planning**
-
-- The team and Product Owner meet to decide **what work** will be done in the upcoming sprint. They choose items from the Product Backlog and create a plan for achieving the sprint goal.
-
-#### **2. Daily Scrum**
-
-- Every day, the team holds a short meeting, usually 15 minutes, to discuss **progress, plans, and obstacles**. This keeps everyone on the same page.
-
-#### **3. Sprint Review**
-
-- At the end of the sprint, the team presents their **completed work** to stakeholders for feedback. This helps ensure the product is on the right track.
-
-#### **4. Sprint Retrospective**
-
-- After each sprint, the team holds a **retrospective** to reflect on what went well, what could be improved, and how to make the next sprint better.
-
----
-
-### **Scrum Values and Principles**
-
-#### **Scrum Values**
-
-- **Commitment**: Team members are dedicated to achieving the sprint goal.
-- **Courage**: The team has the courage to tackle tough challenges.
-- **Focus**: The team focuses on delivering the most valuable work.
-- **Openness**: Transparent communication is key.
-- **Respect**: Every team member’s contributions are valued.
-
-#### **Scrum Principles**
-
-- **Transparency**: Everyone has a clear understanding of what is happening.
-- **Inspection**: Regular checks to ensure progress is on track.
-- **Adaptation**: Adjustments are made as necessary to ensure project success.
-
----
-
-### **Benefits and Challenges of Scrum**
-
-#### **Benefits**
-
-- **Adaptability** to changing requirements.
-- **Faster time-to-market** with incremental delivery.
-- **Increased collaboration** through teamwork and communication.
-- **Improved quality** with regular feedback and testing.
-- **Customer satisfaction** as the product evolves based on their needs.
-- **Better team morale** due to clear goals and shared responsibility.
-
-#### **Challenges**
-
-- **Resistance to change**: Teams may struggle with the shift to an agile mindset.
-- **Collaboration**: Strong communication and teamwork are essential, which can be challenging.
-- **Skilled Scrum Master**: A good Scrum Master is critical for keeping the team focused and removing obstacles.
-
----
-
-### **Conclusion**
-
-In conclusion, Scrum is a **flexible** and **effective framework** that helps teams deliver value in complex projects. Its focus on **incremental delivery**, **collaboration**, and **adaptability** makes it ideal for modern project management. If you’re looking to streamline your processes and improve product quality, Scrum is a valuable tool to consider.
-
-Thank you for listening. I’m happy to take any questions you may have!
-
----
-
-That's your full presentation on Scrum! You can easily expand or modify sections based on the time available and audience engagement.
+**Chào mọi người,** hôm nay tôi xin chia sẻ về **Scrum**, một phương pháp quản lý dự án theo hướng Agile rất phổ biến, đặc biệt trong phát triển phần mềm. Tôi sẽ giải thích Scrum là gì, các thành phần chính, lợi ích, một số ý kiến trái chiều, và sẽ minh họa bằng một ví dụ thực tế.
+### 1. Scrum là gì? (khoảng 1 phút)  
+Scrum là một khung làm việc (framework) Agile, giúp chúng ta phát triển sản phẩm một cách linh hoạt, thích ứng nhanh với thay đổi. Thay vì lập một kế hoạch cố định ngay từ đầu rồi cứ thế triển khai, Scrum khuyến khích chia công việc thành các giai đoạn ngắn, gọi là **Sprint** (mỗi Sprint thường từ 1-4 tuần). Mỗi Sprint có mục tiêu rõ ràng và kết thúc bằng một phần sản phẩm hoàn chỉnh, có thể sử dụng được, dù nhỏ. Qua đó, đội nhóm thường xuyên kiểm tra, đánh giá, phản hồi và điều chỉnh hướng đi. Scrum không chỉ áp dụng trong phần mềm, mà còn có thể dùng trong nhiều lĩnh vực khác, miễn là chúng ta cần sự linh hoạt và phản ứng nhanh trước thay đổi.
+### 2. Các thành phần chính của Scrum (khoảng 2 phút)  
+Để nắm vững Scrum, chúng ta cần hiểu ba phần: **vai trò (roles)**, **sự kiện (ceremonies)** và **tạo phẩm (artefacts)**.
+**a. Vai trò trong Scrum:**  
+- **Product Owner**: Đây là người đại diện cho lợi ích của khách hàng hoặc người dùng cuối. Product Owner sẽ xây dựng và quản lý **Product Backlog** – tức danh sách các yêu cầu, tính năng cần phát triển, được sắp xếp theo mức độ ưu tiên. Mục tiêu của họ là đảm bảo đội nhóm luôn tập trung vào những việc quan trọng nhất, mang lại giá trị cao nhất cho sản phẩm.  
+- **Scrum Master**: Người này như một “huấn luyện viên” Scrum, giúp đội hiểu và tuân thủ quy trình Scrum, tháo gỡ những rào cản trong công việc. Scrum Master không quản lý đội theo kiểu truyền thống mà hỗ trợ, hướng dẫn đội trở nên tự quản và hiệu quả.  
+- **Development Team (Nhóm Phát Triển)**: Là những người thực thi trực tiếp công việc (lập trình viên, kiểm thử, thiết kế, v.v.). Họ là đội ngũ tự tổ chức, tự quản lý thời gian và công việc trong Sprint. Điểm quan trọng ở đây là đội có quyền tự quyết về cách thực hiện công việc, miễn là đạt được mục tiêu Sprint đã đề ra.
+**b. Sự kiện trong Scrum (Ceremonies):**  
+- **Sprint Planning** (Lập kế hoạch Sprint): Ở đầu mỗi Sprint, Product Owner và đội phát triển cùng nhau chọn những mục ưu tiên hàng đầu từ Product Backlog để đưa vào Sprint Backlog. Họ xác định mục tiêu Sprint – sản phẩm cần đạt được sau 1-4 tuần tới. Cuộc họp này đảm bảo rằng đội biết chính xác họ sẽ làm gì và tại sao.  
+- **Daily Scrum** (Họp hàng ngày): Mỗi ngày, đội có một cuộc họp ngắn (15 phút) để cập nhật tiến độ, nêu những trở ngại. Ví dụ: “Hôm qua tôi đã làm gì? Hôm nay tôi sẽ làm gì? Có vấn đề gì cản trở tôi không?” Cuộc họp này giúp giữ nhịp làm việc, tạo sự minh bạch và giải quyết vấn đề nhanh chóng.  
+- **Sprint Review** (Xem xét kết quả Sprint): Khi Sprint kết thúc, đội trình bày sản phẩm đã phát triển được cho Product Owner và các bên liên quan. Họ nhận phản hồi trực tiếp để biết sản phẩm đã đáp ứng nhu cầu chưa, cần điều chỉnh gì.  
+- **Sprint Retrospective** (Nhìn lại và cải tiến quy trình): Sau Sprint Review, đội họp riêng để nhìn lại chính cách họ làm việc. Họ đặt câu hỏi: “Chúng ta đã làm tốt điều gì? Điều gì có thể cải thiện?” Qua đó, chất lượng quy trình làm việc sẽ liên tục được nâng cao.
+**c. Các artefacts trong Scrum:**  
+- **Product Backlog**: Danh sách các yêu cầu tính năng, được Product Owner sắp xếp theo thứ tự ưu tiên.  
+- **Sprint Backlog**: Danh sách công việc đội phát triển cam kết sẽ hoàn thành trong Sprint, dựa trên mục tiêu Sprint đã đặt ra.  
+- **Increment** (Tạo phẩm tăng trưởng): Sản phẩm hoặc phần sản phẩm hoàn chỉnh, có thể sử dụng, được tạo ra sau mỗi Sprint. Mỗi Increment là một “bước tiến” của sản phẩm.
+### 3. Lợi ích của Scrum (khoảng 1 phút)  
+Scrum giúp chúng ta đối phó với sự thay đổi một cách linh hoạt. Thay vì chờ đến cuối dự án mới kiểm tra, mỗi Sprint cho phép chúng ta nhanh chóng nhận phản hồi và thích ứng. Scrum cũng thúc đẩy giao tiếp nhóm: thông qua Daily Scrum, mọi người đều nắm rõ ai đang làm gì, tiến độ ra sao. Nhờ lặp lại chu kỳ ngắn, rủi ro được giảm bớt: nếu có sai sót, ta phát hiện sớm và sửa ngay, thay vì để quá muộn. Quan trọng hơn, Scrum đề cao tinh thần tự quản và trách nhiệm chung của cả đội, giúp gia tăng động lực làm việc.
+### 4. Một số ý kiến trái chiều về Scrum (khoảng 30 giây - 1 phút)  
+Nhiều người cho rằng họp Daily Scrum hàng ngày là không cần thiết, gây phiền. Nhưng nếu thực hiện đúng – ngắn gọn, tập trung vào cập nhật tiến độ và vướng mắc – cuộc họp này giúp đội di chuyển nhanh hơn, không mắc kẹt quá lâu trong vấn đề.  
+Ngoài ra, Scrum không hợp cho mọi dự án. Với những dự án có yêu cầu ổn định, ít thay đổi, Waterfall hoặc những mô hình truyền thống có thể phù hợp hơn. Scrum đặc biệt hữu ích ở môi trường cần linh hoạt, thường xuyên thay đổi yêu cầu, hoặc cần sự tương tác chặt chẽ giữa các thành viên.
+### 5. Ví dụ thực tiễn (khoảng 1 phút)  
+Hãy tưởng tượng đội của bạn đang phát triển một ứng dụng bán hàng trực tuyến.  
+- Trong Product Backlog, Product Owner ưu tiên các tính năng như: đăng ký tài khoản, xem danh mục sản phẩm, đặt hàng, thanh toán.  
+- Ở Sprint Planning cho Sprint đầu tiên (2 tuần), đội chọn việc “Người dùng có thể đăng ký tài khoản” và “Xem danh mục sản phẩm” làm mục tiêu. Sprint Backlog sẽ có các công việc: thiết kế giao diện đăng ký, lập trình chức năng xác thực, hiển thị danh mục sản phẩm, v.v.  
+- Mỗi ngày, trong Daily Scrum, đội kiểm tra: lập trình viên A báo hôm qua đã hoàn thiện phần xác thực email, hôm nay sẽ kết nối với cơ sở dữ liệu; lập trình viên B đang tạo giao diện, sẽ cần hỗ trợ từ tester C để kiểm tra chức năng.  
+- Cuối Sprint, đội có một Increment: một ứng dụng đơn giản cho phép người dùng tạo tài khoản và duyệt danh mục sản phẩm. Trong Sprint Review, các bên liên quan thử dùng và nói: “Chức năng đăng ký ổn, nhưng trang danh mục cần hiển thị thêm bộ lọc.” Product Owner ghi nhận ý kiến này và thêm yêu cầu “thêm bộ lọc sản phẩm” vào Product Backlog.  
+- Trong Sprint Retrospective, đội thấy việc giao tiếp ổn, nhưng cần cải thiện quy trình kiểm thử sớm hơn thay vì chờ cuối Sprint.
+Bằng cách lặp lại nhiều Sprint như vậy, sản phẩm phát triển liên tục, đáp ứng sát nhu cầu, và cải tiến không ngừng cả về chất lượng lẫn quy trình.
+### 6. Kết luận (khoảng 30 giây)  
+Tóm lại, Scrum là một phương pháp giúp tăng tính linh hoạt, cải thiện chất lượng và hiệu suất làm việc nhóm trong môi trường dự án thường xuyên biến động. Không có “phép màu” nào phù hợp cho mọi tình huống, nhưng nếu hiểu Scrum và áp dụng đúng cách, chúng ta có thể nhanh chóng thích nghi, hướng đến việc tạo ra giá trị thực sự cho người dùng và khách hàng.
+**Cảm ơn mọi người đã lắng nghe!**
