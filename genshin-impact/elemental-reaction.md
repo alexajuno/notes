@@ -1,1 +1,0 @@
-[Elemental Reaction | Genshin Impact Wiki | Fandom](https://genshin-impact.fandom.com/wiki/Elemental_Reaction)

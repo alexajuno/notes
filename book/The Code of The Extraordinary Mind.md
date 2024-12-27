@@ -67,6 +67,42 @@ I would say that I don't really like this book so far. Not too new ideas but not
 
 - This book gives me a lot of doubts and counter-points to be made. It sounds too generic and too specific at the same point, and it's not even the bigger picture that I observe.
 	- For example, the writing speed. I mean it depends on so many factors of how long it takes to write a chapter , and there also the learning curve. As you progress further, you'll reach a point where the progress grow slower. I mean the idea of improving the frameworks is good but it's the sequential parts that make this book isn't that good in my pov. I guess I'll just skim  the rest instead of heavy reading. A bit disappointed.
+
+## Part III - Recording Yourself ⏺️
+
+### Chapter 6 - Bend Reality
+
+- The author leaning toward balancing between being happy in the moment and still having an exciting vision into the future.
+
+### Chapter 7 - Live in Blissipline
+
+- Discussing about daily happiness/bliss
+- Why happiness matter
+  - N: lol
+- How it happens? Three types of happiness
+  - special and unique experiences - short-term happiness
+  - growth and awakening
+  - meanings
+- Three systems of happiness
+  - Daily gratitude 🎉: he has some useful notes
+  - Forgiveness 🙏
+  - The practice of Giving 🤝
+
+### Chapter 8 - Create a vision for your future
+
+- N: Quite structured for this part eh?
+- The question that this part would answer is how should we set the vision for our future?
+- Means goals and end goals
+- A good practicing part to do. It takes a dedicated amount of concentration to do this.
+- The exercises themselves aren't new, but given the perspective and ideas from this book, it's a good time to doing them, again.
+- The book emphasizes internal experiences, growth and contribution.
+
+## Part IV - Becoming Extraordinary
+
+### Chapter 9: Be unfukcwithable
+
+### Chapter 10: 
+
  
 
 
