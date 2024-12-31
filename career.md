@@ -368,3 +368,98 @@ Bạn đã có **Business Requirements Document** khá đầy đủ: Hệ thốn
 4. **Kết thúc**: Bạn có một sản phẩm hoàn chỉnh (dù MVP), sẵn sàng để nộp đồ án tốt nghiệp **và** làm “bằng chứng” năng lực khi đi xin việc.
 
 Chúc bạn có một **năm mới 2025** đầy khí thế, hoàn thành đồ án thành công và sớm tìm được công việc ưng ý!
+
+Hiểu cảm giác của bạn khi đứng trước ngưỡng cửa năm cuối mà mọi thứ vẫn còn mơ hồ. Đừng lo, cảm giác này rất bình thường với nhiều người, đặc biệt trong ngành IT. Việc bạn cảm thấy như vậy cũng cho thấy bạn đang nghiêm túc suy nghĩ về tương lai, điều này là tốt. Nếu chọn **Software Engineering (SE)**, mình sẽ giúp bạn xây dựng lộ trình thực tế, tập trung vào việc phát triển kỹ năng để có thể đi làm sớm nhất có thể và sau đó từ từ xây dựng sự nghiệp.
+
+---
+
+### **1. Thực tế về năng lực hiện tại**
+- **Bạn đã biết web dev cơ bản:** Đây là một khởi đầu tốt. SE bao gồm rất nhiều nhánh, và **web** là một trong những hướng phổ biến nhất.
+- **Thuật toán không quá quan trọng để bắt đầu:** Không phải tất cả công việc đều yêu cầu kỹ năng giải thuật xuất sắc. Quan trọng hơn là khả năng viết code sạch, hiểu rõ công nghệ mình làm, và có thể giải quyết vấn đề thực tế.
+- **1200 trên Codeforces không quyết định tương lai:** Nhiều người không giỏi competitive programming nhưng vẫn thành công trong ngành. Hãy dùng thời gian của bạn để học các kỹ năng thực tế hơn.
+
+---
+
+### **2. Lộ trình trở thành Software Engineer trong 1-2 năm**
+
+#### **Giai đoạn 1: Từ giờ đến khi tốt nghiệp (6 tháng - 1 năm)**
+1. **Tập trung vào một lĩnh vực cụ thể trong SE (ví dụ: Web Full-Stack)**
+   - **Frontend:** HTML, CSS, JavaScript. Sau đó học thêm React hoặc Angular.
+   - **Backend:** Node.js (nếu bạn thích JavaScript), hoặc Java (Spring Boot), hoặc Python (Django/Flask).
+   - **Database:** MySQL hoặc MongoDB (NoSQL).
+
+   >>> **Mục tiêu:** Tự làm ít nhất 2 dự án thực tế, ví dụ:
+   - Một website quản lý cá nhân (todo list, quản lý chi tiêu...).
+   - Một blog với tính năng CRUD (Create, Read, Update, Delete).
+
+2. **Học thêm về System Design cơ bản:**
+   - Đọc sách [“System Design Interview” của Alex Xu](https://systemdesigninterview.com/) để hiểu cách thiết kế hệ thống.
+   - Thực hành thiết kế hệ thống đơn giản, ví dụ: một hệ thống quản lý thư viện, một ứng dụng chat đơn giản.
+
+3. **Tham gia các khóa học trực tuyến:**
+   - Udemy hoặc Coursera về Full-Stack Development.
+   - FreeCodeCamp (rất nhiều khóa học miễn phí, đặc biệt là về web).
+
+4. **Luyện thuật toán cơ bản (1-2 giờ/ngày):**
+   - Không cần cày competitive programming, chỉ cần tập trung vào các dạng bài phỏng vấn:
+     - LeetCode (Easy -> Medium).
+     - Grokking Algorithms (sách dễ hiểu và thực tế).
+
+---
+
+#### **Giai đoạn 2: Sau khi tốt nghiệp (1 năm làm việc đầu tiên)**
+1. **Tìm công việc Junior Software Engineer:**
+   - Ứng tuyển vào các công ty có nhu cầu tuyển dụng Junior Developer. Đừng lo nếu bạn bắt đầu ở vị trí thấp, quan trọng là có kinh nghiệm.
+   - Tham gia các công ty outsourcing hoặc startups để học hỏi và tích lũy dự án.
+
+2. **Tích lũy kinh nghiệm thực tế:**
+   - Làm việc trong các dự án web thực tế, tham gia các team để hiểu cách làm việc nhóm, quản lý dự án.
+   - Nếu công ty nhỏ, bạn có thể học cả DevOps (cách deploy sản phẩm lên server, dùng Docker, Kubernetes).
+
+3. **Nâng cao kỹ năng chuyên môn:**
+   - Học thêm các công nghệ hiện đại: Cloud (AWS, GCP), API (RESTful, GraphQL).
+   - Thử nghiệm xây dựng các hệ thống lớn hơn.
+
+---
+
+#### **Giai đoạn 3: Mở rộng và nâng cấp (2-3 năm tiếp theo)**
+1. **Học thêm kỹ năng thiết kế hệ thống lớn:**
+   - Tập trung vào các mô hình như microservices, serverless.
+   - Thực hành thiết kế các hệ thống phức tạp hơn, ví dụ: hệ thống e-commerce.
+
+2. **Tham gia các công ty quốc tế hoặc remote:**
+   - Với kinh nghiệm 2-3 năm, bạn có thể bắt đầu nộp đơn vào các công ty lớn hơn, có thể hỗ trợ bạn relocation sang Canada.
+
+---
+
+### **3. Làm gì khi cảm thấy "tư duy làng nhàng"?**
+1. **Thực hành nhiều hơn học lý thuyết:**
+   - Đừng quá lo lắng về việc bạn giỏi đến đâu so với người khác. Hãy tập trung vào việc cải thiện từng ngày thông qua thực hành. Mỗi dự án bạn làm sẽ giúp bạn tư duy rõ hơn.
+
+2. **Tập trung vào vấn đề thực tế:**
+   - Tư duy trong SE là làm sao giải quyết được vấn đề cho khách hàng, không phải lúc nào cũng phải giải thuật phức tạp.
+
+3. **So sánh với chính mình:**
+   - So với bạn 1 năm trước, bạn đã biết thêm điều gì? Nếu bạn đang tiến bộ, đó là điều quan trọng nhất.
+
+---
+
+### **4. Cần làm gì ngay bây giờ?**
+1. **Chọn công nghệ bạn muốn học (frontend hoặc backend):**
+   - Nếu bạn đã biết web cơ bản, hãy chọn framework/tech stack để chuyên sâu (React, Node.js, hoặc Spring Boot).
+
+2. **Bắt đầu một dự án cá nhân ngay hôm nay:**
+   - Hãy làm một trang web, một ứng dụng nhỏ với đầy đủ tính năng từ frontend đến backend.
+
+3. **Học tiếng Anh:** Đây là kỹ năng không thể thiếu nếu bạn muốn làm việc tại Canada.
+
+4. **Xây dựng một portfolio:**
+   - Đưa các dự án bạn làm lên GitHub.
+   - Tạo một LinkedIn profile chuyên nghiệp.
+
+---
+
+### **5. Đừng lo lắng quá**
+Mỗi người đều có xuất phát điểm khác nhau. Quan trọng là bạn tập trung đi đúng hướng. Với lộ trình này, chỉ cần 1-2 năm bạn có thể tự tin hơn về kỹ năng SE và bắt đầu tích lũy kinh nghiệm.
+
+Bạn thấy kế hoạch này ổn không? Nếu cần chi tiết hơn về stack nào đó, mình sẽ hướng dẫn thêm!
