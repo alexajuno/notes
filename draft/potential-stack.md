@@ -1,0 +1,2 @@
+Typescript, Nextjs, tanstack start, remix, tailwind css, shadcn ui, zustand, tanstack query, motion, Vitest, React test library, playwright, tanstack table, react hook form, Supabase, React native expo, story book, clerk.
+AI: Cursor code editor, builder io, bolt.
