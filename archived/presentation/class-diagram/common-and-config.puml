@@ -1,0 +1,73 @@
+@startuml
+!theme plain
+top to bottom direction
+skinparam linetype ortho
+
+class AimsBackendApplication {
+  + main(String[]): void
+}
+
+class ApplicationConfig {
+  + passwordEncoder(): PasswordEncoder
+  + authenticationProvider(): AuthenticationProvider
+  + authenticationManager(AuthenticationConfiguration): AuthenticationManager
+  ...
+}
+
+class SecurityConfig {
+  - jwtAuthFilter: JwtAuthenticationFilter
+  + securityFilterChain(HttpSecurity): SecurityFilterChain
+  + corsConfigurationSource(): CorsConfigurationSource
+}
+
+class JwtAuthenticationFilter {
+  - userDetailsService: UserDetailsService
+  - jwtService: JwtService
+  # doFilterInternal(...)
+}
+
+interface JwtService << interface >> {
+  + isTokenValid(String, UserDetails): boolean
+  + generateToken(User): String
+  + extractUsername(String): String
+}
+
+class JwtServiceImpl {
+  - secretKey: String
+  - jwtExpiration: long
+  + extractUsername(String): String
+  + generateToken(User): String
+  + isTokenValid(String, UserDetails): boolean
+  ...
+}
+
+class BaseEntity {
+  - id: Long
+  - createdAt: LocalDateTime
+  - updatedAt: LocalDateTime
+  ...
+}
+
+annotation ValidPhoneNumber << annotation >>
+
+' (You might include your 'Dimensions' or other utility classes here too)
+class Dimensions {
+  - height: Double
+  - width: Double
+  - length: Double
+  ...
+}
+
+' Relationships
+JwtAuthenticationFilter --> JwtService
+JwtServiceImpl -up-|> JwtService
+
+BaseEntity <|-- Cart
+BaseEntity <|-- CartItem
+BaseEntity <|-- Order
+BaseEntity <|-- OrderItem
+BaseEntity <|-- PaymentTransaction
+BaseEntity <|-- ProductManagerAction
+BaseEntity <|-- User
+
+@enduml

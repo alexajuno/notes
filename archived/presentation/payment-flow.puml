@@ -1,0 +1,28 @@
+@startuml
+actor User
+participant "UI (Frontend)" as UI
+participant "PaymentController" as PayC
+participant "VNPayService" as VNP
+participant "PaymentTransactionRepository" as PTR
+
+User -> UI: "Click Pay Now"
+UI -> PayC: createPayment(PaymentRequest)
+PayC -> VNP: createPayment(PaymentRequest)
+VNP -> PTR: save(PaymentTransaction)
+PTR --> VNP: PaymentTransaction saved
+VNP --> PayC: PaymentResponse (url, transactionId)
+PayC --> UI: PaymentResponse
+
+== External Payment Gateway ==
+
+User -> UI: "Payment done or callback"
+UI -> PayC: completePayment(transactionId)
+PayC -> VNP: completePayment(transactionId)
+VNP -> PTR: findByTransactionId(transactionId)
+PTR --> VNP: PaymentTransaction
+VNP -> VNP: update PaymentTransaction status
+VNP -> PTR: save(updated PaymentTransaction)
+PTR --> VNP: updated PaymentTransaction
+VNP --> PayC: PaymentTransaction
+PayC --> UI: PaymentTransaction
+@enduml

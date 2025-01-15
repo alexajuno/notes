@@ -1,0 +1,19 @@
+@startuml
+actor User
+participant "UI (Frontend)" as UI
+participant "OrderController" as OC
+participant "OrderService" as OS
+participant "CartService" as CS
+participant "OrderRepository" as OR
+
+User -> UI: "Click Checkout"
+UI -> OC: createOrder(CreateOrderRequest)
+OC -> OS: createOrder(User, CreateOrderRequest)
+OS -> CS: getOrCreateCart(sessionId) or findCartByUser
+CS --> OS: Cart
+OS -> OS: build new Order from Cart items
+OS -> OR: save(Order)
+OR --> OS: Order (with ID)
+OS --> OC: Order
+OC --> UI: OrderDTO
+@enduml

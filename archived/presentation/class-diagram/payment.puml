@@ -1,0 +1,114 @@
+@startuml
+!theme plain
+top to bottom direction
+skinparam linetype ortho
+
+' ======== CLASSES / INTERFACES ========
+
+class PaymentController {
+  - vnPayService: VNPayService
+  --
+  + createPayment(PaymentRequest): ResponseEntity<PaymentResponse>
+  + completePayment(String): ResponseEntity<PaymentTransaction>
+  + getTransactionStatus(String): ResponseEntity<PaymentTransaction>
+}
+
+interface VNPayService << interface >> {
+  + createPayment(PaymentRequest): PaymentResponse
+  + completePayment(String): PaymentTransaction
+  + processCallback(Map<String, String>): PaymentTransaction
+  + getTransactionStatus(String): PaymentTransaction
+}
+
+class VNPayServiceImpl {
+  - transactionRepository: PaymentTransactionRepository
+  - random: Random
+  --
+  + createPayment(PaymentRequest): PaymentResponse
+  + completePayment(String): PaymentTransaction
+  + processCallback(Map<String, String>): PaymentTransaction
+  + getTransactionStatus(String): PaymentTransaction
+}
+
+class PaymentRequest {
+  - amount: BigDecimal
+  - orderId: String
+  - description: String
+  - returnUrl: String
+  --
+  + getOrderId(): String
+  + getAmount(): BigDecimal
+  + getReturnUrl(): String
+  + getDescription(): String
+  + setOrderId(String): void
+  + setAmount(BigDecimal): void
+  ...
+}
+
+class PaymentResponse {
+  - paymentUrl: String
+  - message: String
+  - orderId: String
+  - status: String
+  - transactionId: String
+  --
+  + getPaymentUrl(): String
+  + getMessage(): String
+  + getOrderId(): String
+  + getStatus(): String
+  + getTransactionId(): String
+  + setMessage(String): void
+  + setStatus(String): void
+  ...
+}
+
+class PaymentTransaction {
+  - status: PaymentStatus
+  - responseMessage: String
+  - orderId: String
+  - paymentDate: LocalDateTime
+  - transactionId: String
+  - bankCode: String
+  - cardType: String
+  - responseCode: String
+  - amount: BigDecimal
+  --
+  + getStatus(): PaymentStatus
+  + setStatus(PaymentStatus): void
+  + getTransactionId(): String
+  + setTransactionId(String): void
+  ...
+}
+
+interface PaymentTransactionRepository << interface >> {
+  + findByTransactionId(String): Optional<PaymentTransaction>
+  + findByOrderId(String): Optional<PaymentTransaction>
+}
+
+enum PaymentStatus << enumeration >> {
+  PENDING,
+  SUCCESS,
+  FAILED,
+  CANCELLED
+}
+
+class BaseEntity {
+  - id: Long
+  - createdAt: LocalDateTime
+  - updatedAt: LocalDateTime
+  --
+  + getId(): Long
+  + getCreatedAt(): LocalDateTime
+  + getUpdatedAt(): LocalDateTime
+  ...
+}
+
+' ======== RELATIONSHIPS ========
+PaymentController --> VNPayService
+VNPayServiceImpl -up-|> VNPayService
+VNPayServiceImpl --> PaymentTransactionRepository
+
+PaymentTransaction -up-|> BaseEntity
+PaymentTransaction --> PaymentStatus
+PaymentTransactionRepository --> PaymentTransaction
+@enduml

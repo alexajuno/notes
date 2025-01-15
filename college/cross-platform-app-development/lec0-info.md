@@ -1,8 +1,0 @@
-- Roll call every lecture
-  - at period 2
-  - not affect the grade
-  - not eligible for the final exam if absent for more than 8 lectures
-  - [Notes by lecturer](https://docs.google.com/document/d/1pqeedEe1BftyXzBlMakWM0e8ZTMGs3cz36c0eskbMvM/edit?tab=t.0)
-- Assessment
-  - mid-term: assignment + project
-  - final-term: multi-choice test

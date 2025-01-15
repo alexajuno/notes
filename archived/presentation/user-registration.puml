@@ -1,0 +1,15 @@
+@startuml
+actor User
+boundary UI as "Frontend/UI"
+control AuthController
+control AuthService
+entity UserRepository
+
+User -> UI: "Click 'Sign Up' and fill RegisterRequest"
+UI -> AuthController: register(RegisterRequest)
+AuthController -> AuthService: register(RegisterRequest)
+AuthService -> UserRepository: save new User
+UserRepository --> AuthService: "User saved"
+AuthService --> AuthController: return UserDTO
+AuthController --> UI: return UserDTO
+@enduml

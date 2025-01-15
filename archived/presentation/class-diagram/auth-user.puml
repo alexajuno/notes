@@ -1,0 +1,156 @@
+@startuml
+!theme plain
+top to bottom direction
+skinparam linetype ortho
+
+' ==========
+' Classes
+' ==========
+class AuthController {
+  + getCurrentUser()
+  + login()
+  + register()
+  + logout()
+  ...
+}
+
+interface AuthService << interface >> {
+  + register(RegisterRequest)
+  + getCurrentUser()
+  + login(LoginRequest)
+  + logout()
+}
+
+class AuthServiceImpl {
+  - passwordEncoder: PasswordEncoder
+  - authenticationManager: AuthenticationManager
+  - jwtService: JwtService
+  - userRepository: UserRepository
+  + register(RegisterRequest)
+  + login(LoginRequest)
+  + logout()
+  + getCurrentUser()
+}
+
+class User {
+  - password: String
+  - roles: Set<UserRole>
+  - status: UserStatus
+  - address: String
+  - email: String
+  - name: String
+  - phoneNumber: String
+  ...
+}
+
+enum UserRole << enumeration >> {
+  CUSTOMER, PRODUCT_MANAGER, ADMIN
+}
+
+enum UserStatus << enumeration >> {
+  ACTIVE, BLOCKED
+}
+
+interface UserRepository << interface >> {
+  + findByEmail(String): Optional<User>
+  + existsByEmail(String): boolean
+  ...
+}
+
+interface UserService << interface >> {
+  + createUser(User): User
+  + blockUser(Long): User
+  + unblockUser(Long): User
+  + updateUser(Long, UpdateUserRequest): User
+  ...
+}
+
+class UserServiceImpl {
+  - userRepository: UserRepository
+  + createUser(User)
+  + blockUser(Long)
+  + unblockUser(Long)
+  + updateUser(Long, UpdateUserRequest)
+  ...
+}
+
+class UserController {
+  + getAllUsers()
+  + createUser(CreateUserRequest)
+  + blockUser(Long)
+  + unblockUser(Long)
+  + updateUser(Long, UpdateUserRequest)
+  ...
+}
+
+class UserDetailsAdapter {
+  - user: User
+  + getUsername()
+  + getPassword()
+  + getAuthorities()
+  ...
+}
+
+class UserDetailsServiceImpl {
+  - userRepository: UserRepository
+  + loadUserByUsername(String): UserDetails
+}
+
+class LoginRequest {
+  - email: String
+  - password: String
+  ...
+}
+
+class LoginResponse {
+  - token: String
+  - user: UserDTO
+  ...
+}
+
+class RegisterRequest {
+  - phoneNumber: String
+  - email: String
+  - password: String
+  - name: String
+  - address: String
+  ...
+}
+
+class UserDTO {
+  - id: Long
+  - email: String
+  - name: String
+  - phoneNumber: String
+  - address: String
+  - roles: Set<UserRole>
+  - status: UserStatus
+  ...
+}
+
+annotation ValidPhoneNumber << annotation >>
+
+' ==========
+' Relationships
+' ==========
+AuthController --> AuthService
+AuthServiceImpl -up-|> AuthService
+AuthServiceImpl --> JwtService
+AuthServiceImpl --> UserRepository
+
+UserController --> UserService
+UserServiceImpl -up-|> UserService
+UserServiceImpl --> UserRepository
+
+UserDetailsServiceImpl --> UserRepository
+UserDetailsAdapter --> User
+
+User --> UserRole
+User --> UserStatus
+
+LoginResponse --> UserDTO
+RegisterRequest --> User
+UserDTO --> UserRole
+UserDTO --> UserStatus
+
+@enduml

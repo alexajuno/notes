@@ -1,0 +1,43 @@
+@startuml qa-participation-activity-diagram
+
+start
+:User accesses Q&A section;
+
+if (Action type?) then (Ask Question)
+    :Enter question details;
+    :Add tags, context, and class (if applicable);
+    :Submit question;
+    :System validates input;
+    if (Validation successful?) then (Yes)
+        :Save question to database;
+        :Notify relevant users (e.g., classmates, teacher);
+    else (No)
+        :Show validation error to user;
+        :Return to question entry;
+    endif
+else (Answer Question)
+    :View question details;
+    :Write answer;
+    :Submit answer;
+    :System validates input;
+    if (Validation successful?) then (Yes)
+        :Save answer to database;
+        :Notify question poster and relevant users;
+    else (No)
+        :Show validation error to user;
+        :Return to answer entry;
+    endif
+    if (Is poster?) then (Yes)
+        :Option to mark as best answer;
+        if (Mark as best answer?) then (Yes)
+            :Highlight answer as best;
+            :Notify question poster;
+        endif
+    endif
+endif
+
+:Update user reputation points (poster, answerer);
+:Log activity for analytics;
+stop
+
+@enduml

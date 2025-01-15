@@ -1,0 +1,57 @@
+@startuml
+!theme plain
+top to bottom direction
+
+' Here we're just illustrating packages (or main modules) for a simpler overview.
+package "com.aims.api.controllers" {
+  [AuthController]
+  [CartController]
+  [DeliveryController]
+  [OrderController]
+  [PaymentController]
+  [ProductController]
+  [UserController]
+}
+
+package "com.aims.api.config" {
+  [ApplicationConfig]
+  [SecurityConfig]
+  [JwtAuthenticationFilter]
+}
+
+package "com.aims.core.domain" {
+  [User]
+  [Cart]
+  [Order]
+  [Media]
+  [Book]
+  [CD]
+  [DVD]
+  [LP]
+  ...
+}
+
+package "com.aims.ports.repositories" {
+  [UserRepository]
+  [CartRepository]
+  [OrderRepository]
+  [MediaRepository]
+  ...
+}
+
+package "com.aims.services" {
+  [AuthServiceImpl]
+  [CartServiceImpl]
+  [OrderServiceImpl]
+  [ProductServiceImpl]
+  [UserServiceImpl]
+  ...
+}
+
+' Just a few example arrows to show layer coupling:
+[AuthController] --> [AuthServiceImpl]
+[AuthServiceImpl] --> [UserRepository]
+[OrderController] --> [OrderServiceImpl]
+[OrderServiceImpl] --> [OrderRepository]
+
+@enduml

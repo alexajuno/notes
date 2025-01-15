@@ -1,0 +1,37 @@
+@startuml admin-controls-sequence-diagram
+
+actor Admin
+participant "Admin Page" as AdminPage
+participant "API Routes" as APIRoutes
+participant "Moderation Module" as ModModule
+participant "Database" as Database
+participant "Notification Module" as NotifModule
+
+Admin -> AdminPage: Access admin controls
+AdminPage -> APIRoutes: Perform action request
+
+APIRoutes -> ModModule: Handle admin action
+
+alt Moderate Content
+    ModModule -> Database: Update content status
+    Database --> ModModule: Confirm update
+    ModModule -> NotifModule: Notify user of moderation action
+    NotifModule -> Database: Log notification
+    NotifModule -> User: Send notification
+    ModModule --> APIRoutes: Send response
+    APIRoutes --> AdminPage: Display success message
+else Manage User Roles
+    ModModule -> Database: Update user roles
+    Database --> ModModule: Confirm role update
+    ModModule --> APIRoutes: Send response
+    APIRoutes --> AdminPage: Display success message
+else Review Reports
+    ModModule -> Database: Retrieve flagged content
+    Database --> ModModule: Return report details
+    ModModule --> APIRoutes: Send report details
+    APIRoutes --> AdminPage: Display report details
+end
+
+AdminPage -> Admin: Display result
+
+@enduml

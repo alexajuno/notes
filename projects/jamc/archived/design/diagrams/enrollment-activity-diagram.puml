@@ -1,0 +1,23 @@
+@startuml enrollment-activity-diagram
+
+start
+:Student browses courses;
+:Select course to enroll;
+
+if (Course type?) then (Free)
+    :Direct enrollment;
+else (Paid)
+    :Process payment;
+    if (Payment successful?) then (yes)
+        :Grant course access;
+    else (no)
+        :Show payment error;
+        stop
+    endif
+endif
+
+:Add to student's course list;
+:Send welcome notification;
+stop
+
+@enduml

@@ -1,0 +1,38 @@
+@startuml
+actor User
+participant "UI (Frontend)" as UI
+participant "ProductController" as PC
+participant "ProductService" as PS
+participant "BookRepository" as BR
+participant "CDRepository" as CDR
+participant "DVDRepository" as DDR
+participant "LPRepository" as LPR
+
+User -> UI: "Enter search keyword"
+UI -> PC: searchProducts(keyword, categories, pageable)
+PC -> PS: searchAllProducts(keyword, categories, pageable)
+
+alt categories contain "BOOK"
+  PS -> BR: search(keyword, pageable)
+  BR --> PS: Page<Book>
+end
+
+alt categories contain "CD"
+  PS -> CDR: search(keyword, pageable)
+  CDR --> PS: Page<CD>
+end
+
+alt categories contain "DVD"
+  PS -> DDR: search(keyword, pageable)
+  DDR --> PS: Page<DVD>
+end
+
+alt categories contain "LP"
+  PS -> LPR: search(keyword, pageable)
+  LPR --> PS: Page<LP>
+end
+
+PS -> PS: Combine results -> List<ProductResponse>
+PS --> PC: List<ProductResponse>
+PC --> UI: Page<ProductResponse>
+@enduml

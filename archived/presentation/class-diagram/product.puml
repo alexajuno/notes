@@ -1,0 +1,186 @@
+@startuml
+!theme plain
+top to bottom direction
+skinparam linetype ortho
+
+' ==========
+' Classes
+' ==========
+class Media {
+  - id: Long
+  - title: String
+  - basePrice: BigDecimal
+  - category: String
+  - barcode: String
+  - quantity: Integer
+  - weight: Double
+  ...
+  + isAvailable()
+  + getPriceWithVat()
+  + isEligibleForRushDelivery()
+}
+
+class Book {
+  - publisher: String
+  - isbn: String
+  - publicationDate: LocalDate
+  - coverType: CoverType
+  ...
+  # getRushDeliveryWeightThreshold(): double
+}
+
+class CD {
+  - artists: String
+  - recordLabel: String
+  - tracklist: String
+  ...
+  # getRushDeliveryWeightThreshold(): double
+}
+
+class DVD {
+  - studio: String
+  - duration: String
+  - discType: DiscType
+  ...
+  # getRushDeliveryWeightThreshold(): double
+}
+
+class LP {
+  - tracklist: String
+  - artist: String
+  - recordLabel: String
+  ...
+  # getRushDeliveryWeightThreshold(): double
+}
+
+enum CoverType {
+  HARDCOVER,
+  PAPERBACK
+}
+
+enum DiscType {
+  DVD,
+  BLURAY,
+  HD_DVD
+}
+
+class ProductController {
+  - productService: ProductService
+  + getBookById(Long)
+  + createBook(Book, User)
+  + searchBooks(String, Pageable)
+  + ...
+}
+
+interface ProductService << interface >> {
+  + findBookById(Long): Book
+  + saveBook(Book, User): Book
+  + searchBooks(String, Pageable): Page<Book>
+  + findCDById(Long): CD
+  + findDVDById(Long): DVD
+  + findLPById(Long): LP
+  + getRandomProducts(int): List<ProductResponse>
+  ...
+}
+
+class ProductServiceImpl {
+  - bookRepository: BookRepository
+  - cdRepository: CDRepository
+  - dvdRepository: DVDRepository
+  - lpRepository: LPRepository
+  - actionService: ProductManagerActionService
+  + findBookById(Long): Book
+  + saveBook(Book, User): Book
+  + deleteBook(Long, User): void
+  + searchBooks(String, Pageable): Page<Book>
+  + ...
+}
+
+class ProductManagerAction {
+  - user: User
+  - actionType: ActionType
+  - actionCount: int
+  - actionDate: LocalDate
+  ...
+  + canPerformAction(ActionType, int): boolean
+}
+
+enum ActionType {
+  CREATE_PRODUCT,
+  UPDATE_PRODUCT,
+  DELETE_PRODUCT
+}
+
+interface ProductManagerActionService << interface >> {
+  + recordAction(User, ActionType, int): void
+  + canPerformAction(User, ActionType, int): boolean
+}
+
+class ProductManagerActionServiceImpl {
+  - actionRepository: ProductManagerActionRepository
+  + recordAction(User, ActionType, int)
+  + canPerformAction(User, ActionType, int)
+}
+
+interface BookRepository << interface >> {
+  + search(String, Pageable): Page<Book>
+  + findByCategory(String, Pageable): Page<Book>
+  + existsByBarcode(String): boolean
+}
+
+interface CDRepository << interface >> {
+  + search(String, Pageable): Page<CD>
+  ...
+}
+
+interface DVDRepository << interface >> {
+  + search(String, Pageable): Page<DVD>
+  ...
+}
+
+interface LPRepository << interface >> {
+  + search(String, Pageable): Page<LP>
+  ...
+}
+
+class ProductResponse {
+  - id: Long
+  - title: String
+  - category: String
+  - basePrice: BigDecimal
+  - currentPrice: BigDecimal
+  - barcode: String
+  ...
+  + fromBook(Book)
+  + fromCD(CD)
+  + fromDVD(DVD)
+  + fromLP(LP)
+}
+
+' ==========
+' Relationships
+' ==========
+Book -up-|> Media
+CD   -up-|> Media
+DVD  -up-|> Media
+LP   -up-|> Media
+
+ProductController --> ProductService
+ProductServiceImpl -up-|> ProductService
+
+ProductServiceImpl --> BookRepository
+ProductServiceImpl --> CDRepository
+ProductServiceImpl --> DVDRepository
+ProductServiceImpl --> LPRepository
+ProductServiceImpl --> ProductManagerActionService
+
+ProductManagerActionServiceImpl -up-|> ProductManagerActionService
+ProductManagerActionServiceImpl --> ProductManagerActionRepository
+ProductManagerAction --> User
+
+ProductResponse --> Book
+ProductResponse --> CD
+ProductResponse --> DVD
+ProductResponse --> LP
+
+@enduml

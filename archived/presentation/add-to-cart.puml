@@ -1,0 +1,29 @@
+@startuml
+actor User
+participant "UI (Frontend)" as UI
+participant "CartController" as CartC
+participant "CartService" as CartS
+participant "MediaRepository" as MR
+participant "CartRepository" as CR
+participant "CartItemRepository" as CIR
+
+User -> UI: "Click Add to Cart"
+UI -> CartC: "addToCart(AddToCartRequest)"
+CartC -> MR: "findById(mediaId)"
+MR --> CartC: "Media (or null if not found)"
+CartC -> CartS: "addItem(sessionId, Media, qty)"
+CartS -> CR: "findOrCreateCart(sessionId)"
+CR --> CartS: "Cart"
+CartS -> CIR: "findByCartIdAndMediaId(cart.id, media.id)"
+CIR --> CartS: "Optional<CartItem>"
+
+alt "CartItem found"
+  CartS -> CartS: "Update quantity"
+else "CartItem not found"
+  CartS -> CIR: "save(new CartItem)"
+end
+
+CartS -> CR: "save(Cart)"
+CartS --> CartC: "updated Cart"
+CartC --> UI: "CartDTO"
+@enduml

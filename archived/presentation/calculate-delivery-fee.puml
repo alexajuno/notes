@@ -1,0 +1,17 @@
+@startuml
+actor User
+participant "UI (Frontend)" as UI
+participant "DeliveryController" as DC
+participant "DeliveryFeeService" as DFS
+
+User -> UI: "Wants shipping cost"
+UI -> DC: calculateDeliveryFee(DeliveryFeeRequest)
+DC -> DFS: calculateStandardDeliveryFee(...)
+DFS --> DC: BigDecimal standardFee
+DC -> DFS: isEligibleForFreeShipping(subtotal)
+DFS --> DC: boolean freeShip?
+DC -> DFS: isEligibleForRushDelivery(province)
+DFS --> DC: boolean rushEligible?
+DC -> DC: Build DeliveryFeeResponse
+DC --> UI: DeliveryFeeResponse
+@enduml

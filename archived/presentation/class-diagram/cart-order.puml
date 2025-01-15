@@ -1,0 +1,162 @@
+@startuml
+!theme plain
+top to bottom direction
+skinparam linetype ortho
+
+' ==========
+' Classes
+' ==========
+class Cart {
+  - user: User
+  - items: List<CartItem>
+  - shippingAddress: String
+  - rushDelivery: Boolean
+  ...
+  + addItem(CartItem)
+  + removeItem(CartItem)
+  + getSubtotal()
+  + getTotal()
+  ...
+}
+
+class CartItem {
+  - media: Media
+  - priceAtAdd: BigDecimal
+  - quantity: Integer
+  ...
+  + getSubtotal()
+  + getTotal()
+  + hasValidQuantity()
+}
+
+class CartController {
+  - cartService: CartService
+  + addToCart(AddToCartRequest)
+  + removeFromCart(Long)
+  + updateCartItem(...)
+  + getCart(...)
+  ...
+}
+
+interface CartService << interface >> {
+  + getOrCreateCart(String): Cart
+  + addItem(String, Media, int)
+  + removeItem(String, Long)
+  + isEligibleForRushDelivery(String): boolean
+  + calculateDeliveryFee(String, boolean): BigDecimal
+  ...
+}
+
+class CartServiceImpl {
+  - cartRepository: CartRepository
+  - cartItemRepository: CartItemRepository
+  + getOrCreateCart(String): Cart
+  + addItem(String, Media, int)
+  + removeItem(String, Long)
+  + calculateDeliveryFee(String, boolean): BigDecimal
+  ...
+}
+
+interface CartRepository << interface >>
+interface CartItemRepository << interface >>
+
+class Order {
+  - orderNumber: String
+  - user: User
+  - items: List<OrderItem>
+  - status: OrderStatus
+  - subtotal: BigDecimal
+  - total: BigDecimal
+  - rushDelivery: Boolean
+  ...
+  + addItem(OrderItem)
+  + removeItem(OrderItem)
+  + calculateTotals()
+  + updateStatus(OrderStatus)
+}
+
+class OrderItem {
+  - media: Media
+  - quantity: Integer
+  - priceAtOrder: BigDecimal
+  - subtotal: BigDecimal
+  ...
+  + calculateTotals()
+}
+
+enum OrderStatus {
+  PENDING, CONFIRMED, SHIPPING, DELIVERED, CANCELLED, REFUNDED, PROCESSING
+}
+
+class OrderController {
+  - orderService: OrderService
+  + createOrder(CreateOrderRequest)
+  + getUserOrders(...)
+  + cancelOrder(...)
+  + updateOrderStatus(...)
+  ...
+}
+
+interface OrderService << interface >> {
+  + createOrder(User, CreateOrderRequest): Order
+  + getOrderById(Long): Order
+  + cancelOrder(Long): Order
+  + updateOrderStatus(Long, OrderStatus): Order
+  ...
+}
+
+class OrderServiceImpl {
+  - orderRepository: OrderRepository
+  - cartService: CartService
+  - mediaRepository: MediaRepository
+  + createOrder(User, CreateOrderRequest): Order
+  + cancelOrder(Long): Order
+  + updateOrderStatus(Long, OrderStatus): Order
+  ...
+}
+
+interface OrderRepository << interface >>
+
+class CreateOrderRequest {
+  - shippingAddress: String
+  - rushDelivery: boolean
+  - items: List<OrderItemRequest>
+  - notes: String
+  ...
+}
+
+class OrderItemRequest {
+  - mediaId: Long
+  - quantity: Integer
+  ...
+}
+
+class AddToCartRequest {
+  - mediaId: Long
+  - quantity: Integer
+  ...
+}
+
+' ==========
+' Relationships
+' ==========
+Cart --> CartItem
+Cart --> User
+CartController --> CartService
+CartServiceImpl -up-|> CartService
+CartServiceImpl --> CartRepository
+CartServiceImpl --> CartItemRepository
+
+Order --> OrderItem
+Order --> User
+Order --> OrderStatus
+OrderController --> OrderService
+OrderServiceImpl -up-|> OrderService
+OrderServiceImpl --> OrderRepository
+OrderServiceImpl --> CartService
+OrderServiceImpl --> MediaRepository
+
+CreateOrderRequest --> OrderItemRequest
+AddToCartRequest --> CartItem
+
+@enduml
